@@ -182,7 +182,7 @@ def f19(main: list[dict], heldout: list[dict]) -> dict:
                  R_lazy=lazy[t]["mean"], gap=s["R"] - lazy[t]["mean"], gap_pass=s["R"] >= lazy[t]["mean"] + 0.3,
                  usage_pass=all(s["usage"][k] >= 0.10 for k in EXPERIMENTS) and s["usage"]["read_sensor"] >= 0.5)
         tiers[t] = s
-    linux = json.loads((ROOT / "results" / "oracle_cache_linux.json").read_text())
+    linux = json.loads((ROOT / "results" / "oracle_cache_linux.json").read_text())["records"]
     cross = [k for k, v in linux.items() if (k.split(":")[0], int(k.split(":")[1])) in first
              and first[(k.split(":")[0], int(k.split(":")[1]))][0] != v["calls_hash"]]
     return {"seeds": f"{F19_SEEDS.start}-{F19_SEEDS.stop - 1}", "tiers": tiers, "determinism_repeats": 3,

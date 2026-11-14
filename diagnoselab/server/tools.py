@@ -10,7 +10,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
-from diagnoselab.sim.experiments import COSTS, SPEED_RANGE, THETA_RANGE
+from diagnoselab.sim.experiments import BUDGET, COSTS, SPEED_RANGE, THETA_RANGE
 from diagnoselab.sim.model import PlantSpec
 
 
@@ -162,7 +162,7 @@ def public_topology(spec: PlantSpec) -> dict:
                     for s in spec.sensors],
         "branches": [{"id": b.id, "entry": b.entry, "links": list(b.links), "junctions": list(b.junctions)}
                      for b in spec.branches],
-        "budget": 40,
+        "budget": BUDGET,
         "costs": {"read_sensor": COSTS["read"]} | {k: COSTS[k] for k in EXPERIMENT_ARGS},
         "speed_range": list(SPEED_RANGE),
         "theta_range": list(THETA_RANGE),

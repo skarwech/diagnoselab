@@ -12,6 +12,7 @@ import argparse
 import json
 import sys
 
+from diagnoselab.config_hash import config_hash
 from diagnoselab.eval.run_oracle import TIERS, parse_seeds, run_many
 
 
@@ -31,7 +32,7 @@ def main() -> None:
     bad = [f"{r['tier']}:{r['seed']}" for r in results if r["error"]]
     if bad:
         sys.exit(f"oracle errors on {bad}")
-    json.dump(cache_records(results), sys.stdout, indent=0, sort_keys=False)
+    json.dump({"config_hash": config_hash(), "records": cache_records(results)}, sys.stdout, indent=0)
 
 
 if __name__ == "__main__":

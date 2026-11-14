@@ -6,3 +6,4 @@ harbor_task/environment/sim/docs/
 .pytest_cache/
 .ruff_cache/
 results/oracle_dev/
+tasks/

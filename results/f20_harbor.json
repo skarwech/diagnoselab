@@ -1,0 +1,158 @@
+{
+ "job": "2026-11-14__20-11-33",
+ "trials": 15,
+ "errored": 0,
+ "all_match": true,
+ "rows": [
+  {
+   "trial": "diagnoselab-easy-50__k4h8NAd",
+   "key": "easy:50",
+   "reward": 1.0,
+   "reward_raw": 0.895,
+   "cached": 0.895,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-51__HeacE5T",
+   "key": "easy:51",
+   "reward": 1.0,
+   "reward_raw": 0.9,
+   "cached": 0.9,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-52__BsQmSMK",
+   "key": "easy:52",
+   "reward": 1.0,
+   "reward_raw": 0.895,
+   "cached": 0.895,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-53__8BASG89",
+   "key": "easy:53",
+   "reward": 1.0,
+   "reward_raw": 0.89,
+   "cached": 0.89,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-54__yePbTHW",
+   "key": "easy:54",
+   "reward": 1.0,
+   "reward_raw": 0.905,
+   "cached": 0.905,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-50__Whk2rxZ",
+   "key": "hard:50",
+   "reward": 1.0,
+   "reward_raw": 0.875,
+   "cached": 0.875,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-51__ZxVX3sc",
+   "key": "hard:51",
+   "reward": 1.0,
+   "reward_raw": 0.875,
+   "cached": 0.875,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-52__S5EcBBU",
+   "key": "hard:52",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-53__fa7t4ZD",
+   "key": "hard:53",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-54__Byyxvpy",
+   "key": "hard:54",
+   "reward": 1.0,
+   "reward_raw": 0.885,
+   "cached": 0.885,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-50__ju4mDFJ",
+   "key": "medium:50",
+   "reward": 1.0,
+   "reward_raw": 0.89,
+   "cached": 0.89,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-51__yvP4AaY",
+   "key": "medium:51",
+   "reward": 1.0,
+   "reward_raw": 0.89,
+   "cached": 0.89,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-52__qVu2Aop",
+   "key": "medium:52",
+   "reward": 1.0,
+   "reward_raw": 0.885,
+   "cached": 0.885,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-53__26duLxC",
+   "key": "medium:53",
+   "reward": 1.0,
+   "reward_raw": 0.895,
+   "cached": 0.895,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-54__ZKnpRnq",
+   "key": "medium:54",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 174991544730991.0,
+   "match": true
+  }
+ ]
+}

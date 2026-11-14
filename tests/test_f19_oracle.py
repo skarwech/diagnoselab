@@ -18,6 +18,8 @@ from pathlib import Path
 
 import pytest
 
+from diagnoselab.config_hash import config_hash, config_id
+
 from diagnoselab.oracle.oracle import find_stuck, run_oracle
 from diagnoselab.scoring import reward as rw
 from diagnoselab.scoring.reward import NORM_FLOOR, normalization, oracle_scores, score_episode
@@ -118,14 +120,14 @@ def check_finalize_object(result: dict) -> None:
     """scoring_spec section 5 and section 4's finalize rules."""
     check_flat_finite(result)
     if result["normalized"] == 1:
-        assert set(result) == BASE_KEYS | {"reward_raw", "normalized"} | NORM_KEYS
+        assert set(result) == BASE_KEYS | {"reward_raw", "normalized", "config_id"} | NORM_KEYS
         assert result["r_oracle"] >= NORM_FLOOR
         assert result["ratio_uncapped"] == pytest.approx(result["reward_raw"] / result["r_oracle"], abs=1e-12)
         assert result["score_norm"] == min(result["ratio_uncapped"], 1.0)
         assert result["reward"] == result["score_norm"]
     else:
         assert result["normalized"] == 0
-        assert set(result) == BASE_KEYS | {"reward_raw", "normalized"}
+        assert set(result) == BASE_KEYS | {"reward_raw", "normalized", "config_id"}
         assert result["reward"] == result["reward_raw"]
 
 
@@ -296,7 +298,7 @@ def test_normalization_not_normalised(monkeypatch: pytest.MonkeyPatch, r_oracle:
     cache = {} if r_oracle is None else {"easy:7": r_oracle}
     monkeypatch.setattr(rw, "oracle_scores", lambda: cache)
     out = normalization(0.42, 7, "easy")
-    assert out == {"reward_raw": 0.42, "normalized": 0.0}
+    assert out == {"reward_raw": 0.42, "normalized": 0.0, "config_id": float(config_id())}
     check_flat_finite(out)
 
 
@@ -441,3 +443,16 @@ def test_pump_local_speed_steps_use_spec_speeds() -> None:
     local = [a for a in _experiments(18, "hard") if a["type"] == "speed_step" and "pump" in a["args"]]
     assert local, "precondition: hard:18 runs a pump-local speed step"
     assert all(a["args"]["s"] in (0.75, 1.2) for a in local), local
+
+
+def test_normalization_refuses_cache_from_other_code(monkeypatch: pytest.MonkeyPatch) -> None:
+    """scoring_spec 4: a cache built under another configuration hash is never used to normalise."""
+    monkeypatch.setattr(rw, "oracle_scores", lambda: {"hard:3": 0.8})
+    monkeypatch.setattr(rw, "cache_config_hash", lambda: "0" * 64)
+    out = normalization(0.6, 3, "hard")
+    assert out["normalized"] == 0.0 and "score_norm" not in out and out["config_id"] == float(config_id())
+
+
+def test_shipped_cache_matches_running_code() -> None:
+    """The installed oracle cache was generated under the code in this checkout."""
+    assert rw.cache_config_hash() == config_hash()

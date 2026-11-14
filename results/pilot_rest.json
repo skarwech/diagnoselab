@@ -1,0 +1,558 @@
+{
+ "job": "2026-11-14__21-05-54",
+ "trials": [
+  {
+   "trial": "diagnoselab-easy-51__up5g6oy",
+   "tier": "easy",
+   "seed": 51,
+   "reward": 0.9555555555555556,
+   "reward_raw": 0.8600000000000001,
+   "normalized": 1.0,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 28.0,
+   "submitted": 1.0,
+   "n_calls": 51,
+   "rejected": 0,
+   "codes": {
+    "ok": 51
+   },
+   "tools": {
+    "read_manual": 8,
+    "get_topology": 1,
+    "budget_status": 1,
+    "read_sensor": 12,
+    "simulate": 25,
+    "run_experiment": 3,
+    "submit": 1
+   },
+   "experiments": {
+    "valve_step": 1,
+    "speed_step": 1,
+    "pump_off_static": 1
+   },
+   "exception": null,
+   "input_tokens": 198961,
+   "output_tokens": 2835,
+   "cache_tokens": 181504,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-easy-52__8HxrM8B",
+   "tier": "easy",
+   "seed": 52,
+   "reward": 0.0,
+   "reward_raw": 0.0,
+   "normalized": 1.0,
+   "D": 0.0,
+   "S": 0.0,
+   "spent": 34.0,
+   "submitted": 1.0,
+   "n_calls": 90,
+   "rejected": 2,
+   "codes": {
+    "ok": 88,
+    "E_INVALID_ARGUMENT": 2
+   },
+   "tools": {
+    "read_manual": 7,
+    "get_topology": 1,
+    "simulate": 62,
+    "read_sensor": 14,
+    "run_experiment": 4,
+    "budget_status": 1,
+    "submit": 1
+   },
+   "experiments": {
+    "pump_off_static": 1,
+    "speed_step": 2,
+    "valve_step": 1
+   },
+   "exception": null,
+   "input_tokens": 1068296,
+   "output_tokens": 16970,
+   "cache_tokens": 1030976,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-easy-53__pLwqUyj",
+   "tier": "easy",
+   "seed": 53,
+   "reward": 1.0,
+   "reward_raw": 0.89,
+   "normalized": 1.0,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 22.0,
+   "submitted": 1.0,
+   "n_calls": 42,
+   "rejected": 0,
+   "codes": {
+    "ok": 42
+   },
+   "tools": {
+    "read_manual": 8,
+    "get_topology": 1,
+    "simulate": 20,
+    "read_sensor": 10,
+    "run_experiment": 2,
+    "submit": 1
+   },
+   "experiments": {
+    "speed_step": 1,
+    "pump_off_static": 1
+   },
+   "exception": null,
+   "input_tokens": 139888,
+   "output_tokens": 2103,
+   "cache_tokens": 125184,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-easy-54__TMFuUm7",
+   "tier": "easy",
+   "seed": 54,
+   "reward": 0.6574585635359116,
+   "reward_raw": 0.595,
+   "normalized": 1.0,
+   "D": 0.5,
+   "S": 1.0,
+   "spent": 28.0,
+   "submitted": 1.0,
+   "n_calls": 40,
+   "rejected": 0,
+   "codes": {
+    "ok": 40
+   },
+   "tools": {
+    "read_manual": 7,
+    "get_topology": 1,
+    "budget_status": 1,
+    "simulate": 15,
+    "read_sensor": 12,
+    "run_experiment": 3,
+    "submit": 1
+   },
+   "experiments": {
+    "speed_step": 1,
+    "pump_off_static": 1,
+    "valve_step": 1
+   },
+   "exception": null,
+   "input_tokens": 265677,
+   "output_tokens": 3783,
+   "cache_tokens": 242880,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-hard-50__MPy5pbN",
+   "tier": "hard",
+   "seed": 50,
+   "reward": 0.9542857142857144,
+   "reward_raw": 0.8350000000000001,
+   "normalized": 1.0,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 33.0,
+   "submitted": 1.0,
+   "n_calls": 83,
+   "rejected": 0,
+   "codes": {
+    "ok": 83
+   },
+   "tools": {
+    "read_manual": 5,
+    "get_topology": 1,
+    "simulate": 53,
+    "read_sensor": 21,
+    "run_experiment": 2,
+    "submit": 1
+   },
+   "experiments": {
+    "pump_off_static": 1,
+    "speed_step": 1
+   },
+   "exception": null,
+   "input_tokens": 350717,
+   "output_tokens": 6450,
+   "cache_tokens": 317056,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-hard-51__EY6j4x2",
+   "tier": "hard",
+   "seed": 51,
+   "reward": 0.8085714285714286,
+   "reward_raw": 0.7075,
+   "normalized": 1.0,
+   "D": 0.9,
+   "S": 0.85,
+   "spent": 39.0,
+   "submitted": 1.0,
+   "n_calls": 119,
+   "rejected": 1,
+   "codes": {
+    "ok": 118,
+    "E_INVALID_ARGUMENT": 1
+   },
+   "tools": {
+    "read_manual": 7,
+    "get_topology": 1,
+    "budget_status": 2,
+    "simulate": 79,
+    "run_experiment": 2,
+    "read_sensor": 27,
+    "submit": 1
+   },
+   "experiments": {
+    "pump_off_static": 1,
+    "speed_step": 1
+   },
+   "exception": null,
+   "input_tokens": 1699658,
+   "output_tokens": 14595,
+   "cache_tokens": 1644672,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-hard-52__gKyexMW",
+   "tier": "hard",
+   "seed": 52,
+   "reward": 0.9534883720930232,
+   "reward_raw": 0.8200000000000001,
+   "normalized": 1.0,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 36.0,
+   "submitted": 1.0,
+   "n_calls": 55,
+   "rejected": 0,
+   "codes": {
+    "ok": 55
+   },
+   "tools": {
+    "read_manual": 7,
+    "get_topology": 1,
+    "budget_status": 1,
+    "simulate": 22,
+    "read_sensor": 20,
+    "run_experiment": 3,
+    "submit": 1
+   },
+   "experiments": {
+    "pump_off_static": 1,
+    "speed_step": 2
+   },
+   "exception": null,
+   "input_tokens": 344642,
+   "output_tokens": 5614,
+   "cache_tokens": 325504,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-hard-53__nJu2wqK",
+   "tier": "hard",
+   "seed": 53,
+   "reward": 0.816860465116279,
+   "reward_raw": 0.7025,
+   "normalized": 1.0,
+   "D": 0.9,
+   "S": 0.85,
+   "spent": 40.0,
+   "submitted": 1.0,
+   "n_calls": 67,
+   "rejected": 1,
+   "codes": {
+    "ok": 66,
+    "E_INVALID_ARGUMENT": 1
+   },
+   "tools": {
+    "read_manual": 7,
+    "get_topology": 1,
+    "budget_status": 1,
+    "simulate": 27,
+    "read_sensor": 28,
+    "run_experiment": 2,
+    "submit": 1
+   },
+   "experiments": {
+    "pump_off_static": 1,
+    "speed_step": 1
+   },
+   "exception": null,
+   "input_tokens": 652837,
+   "output_tokens": 7068,
+   "cache_tokens": 618816,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-hard-54__2BK8iMf",
+   "tier": "hard",
+   "seed": 54,
+   "reward": 0.9774011299435028,
+   "reward_raw": 0.865,
+   "normalized": 1.0,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 27.0,
+   "submitted": 1.0,
+   "n_calls": 67,
+   "rejected": 0,
+   "codes": {
+    "ok": 67
+   },
+   "tools": {
+    "read_manual": 8,
+    "get_topology": 1,
+    "budget_status": 1,
+    "simulate": 42,
+    "run_experiment": 3,
+    "read_sensor": 11,
+    "submit": 1
+   },
+   "experiments": {
+    "pump_off_static": 1,
+    "speed_step": 2
+   },
+   "exception": null,
+   "input_tokens": 334782,
+   "output_tokens": 5352,
+   "cache_tokens": 308480,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-medium-50__iGnFnra",
+   "tier": "medium",
+   "seed": 50,
+   "reward": 0.9269662921348315,
+   "reward_raw": 0.8250000000000001,
+   "normalized": 1.0,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 35.0,
+   "submitted": 1.0,
+   "n_calls": 60,
+   "rejected": 0,
+   "codes": {
+    "ok": 60
+   },
+   "tools": {
+    "read_manual": 7,
+    "get_topology": 1,
+    "simulate": 25,
+    "read_sensor": 23,
+    "run_experiment": 2,
+    "budget_status": 1,
+    "submit": 1
+   },
+   "experiments": {
+    "pump_off_static": 1,
+    "speed_step": 1
+   },
+   "exception": null,
+   "input_tokens": 376730,
+   "output_tokens": 3925,
+   "cache_tokens": 355840,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-medium-51__5R3MiFp",
+   "tier": "medium",
+   "seed": 51,
+   "reward": 0.9382022471910113,
+   "reward_raw": 0.8350000000000001,
+   "normalized": 1.0,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 33.0,
+   "submitted": 1.0,
+   "n_calls": 71,
+   "rejected": 0,
+   "codes": {
+    "ok": 71
+   },
+   "tools": {
+    "read_manual": 8,
+    "get_topology": 1,
+    "simulate": 41,
+    "run_experiment": 3,
+    "read_sensor": 17,
+    "submit": 1
+   },
+   "experiments": {
+    "pump_off_static": 1,
+    "speed_step": 2
+   },
+   "exception": null,
+   "input_tokens": 653432,
+   "output_tokens": 5556,
+   "cache_tokens": 626944,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-medium-52__XDqkqw9",
+   "tier": "medium",
+   "seed": 52,
+   "reward": 0.9717514124293787,
+   "reward_raw": 0.8600000000000001,
+   "normalized": 1.0,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 28.0,
+   "submitted": 1.0,
+   "n_calls": 70,
+   "rejected": 0,
+   "codes": {
+    "ok": 70
+   },
+   "tools": {
+    "read_manual": 8,
+    "get_topology": 1,
+    "budget_status": 2,
+    "read_sensor": 16,
+    "simulate": 40,
+    "run_experiment": 2,
+    "submit": 1
+   },
+   "experiments": {
+    "pump_off_static": 1,
+    "speed_step": 1
+   },
+   "exception": null,
+   "input_tokens": 427847,
+   "output_tokens": 6110,
+   "cache_tokens": 403264,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-medium-53__ARDpSwv",
+   "tier": "medium",
+   "seed": 53,
+   "reward": 0.9720670391061452,
+   "reward_raw": 0.87,
+   "normalized": 1.0,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 26.0,
+   "submitted": 1.0,
+   "n_calls": 52,
+   "rejected": 0,
+   "codes": {
+    "ok": 52
+   },
+   "tools": {
+    "read_manual": 8,
+    "get_topology": 1,
+    "budget_status": 2,
+    "simulate": 33,
+    "run_experiment": 5,
+    "read_sensor": 2,
+    "submit": 1
+   },
+   "experiments": {
+    "pump_off_static": 1,
+    "speed_step": 2,
+    "valve_step": 2
+   },
+   "exception": null,
+   "input_tokens": 687969,
+   "output_tokens": 5052,
+   "cache_tokens": 663104,
+   "cost_usd": null
+  },
+  {
+   "trial": "diagnoselab-medium-54__5NsJ76K",
+   "tier": "medium",
+   "seed": 54,
+   "reward": 0.9534883720930232,
+   "reward_raw": 0.8200000000000001,
+   "normalized": 1.0,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 36.0,
+   "submitted": 1.0,
+   "n_calls": 50,
+   "rejected": 0,
+   "codes": {
+    "ok": 50
+   },
+   "tools": {
+    "read_manual": 7,
+    "get_topology": 1,
+    "simulate": 18,
+    "run_experiment": 3,
+    "read_sensor": 20,
+    "submit": 1
+   },
+   "experiments": {
+    "speed_step": 1,
+    "pump_off_static": 1,
+    "valve_step": 1
+   },
+   "exception": null,
+   "input_tokens": 236396,
+   "output_tokens": 3697,
+   "cache_tokens": 219392,
+   "cost_usd": null
+  }
+ ],
+ "summary": {
+  "easy": {
+   "n": 4,
+   "reward_norm": 0.6532535297728668,
+   "D": 0.625,
+   "S": 0.75,
+   "spent": 28.0,
+   "no_submission": 0,
+   "exceptions": 0,
+   "rejected_rate": 0.008968609865470852,
+   "invalid_submits": 0,
+   "experiment_use": {
+    "speed_step": 1.0,
+    "valve_step": 0.75,
+    "isolate_branch": 0.0,
+    "pump_off_static": 1.0
+   },
+   "input_tokens": 1672822,
+   "output_tokens": 25691
+  },
+  "medium": {
+   "n": 5,
+   "reward_norm": 0.952495072590878,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 31.6,
+   "no_submission": 0,
+   "exceptions": 0,
+   "rejected_rate": 0.0,
+   "invalid_submits": 0,
+   "experiment_use": {
+    "speed_step": 1.0,
+    "valve_step": 0.4,
+    "isolate_branch": 0.0,
+    "pump_off_static": 1.0
+   },
+   "input_tokens": 2382374,
+   "output_tokens": 24340
+  },
+  "hard": {
+   "n": 5,
+   "reward_norm": 0.9021214220019896,
+   "D": 0.96,
+   "S": 0.94,
+   "spent": 35.0,
+   "no_submission": 0,
+   "exceptions": 0,
+   "rejected_rate": 0.005115089514066497,
+   "invalid_submits": 0,
+   "experiment_use": {
+    "speed_step": 1.0,
+    "valve_step": 0.0,
+    "isolate_branch": 0.0,
+    "pump_off_static": 1.0
+   },
+   "input_tokens": 3382636,
+   "output_tokens": 39079
+  }
+ }
+}

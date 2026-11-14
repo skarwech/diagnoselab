@@ -12,11 +12,11 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any, Mapping, Sequence
 
+from diagnoselab.sim.experiments import BUDGET
 from diagnoselab.sim.faults import PHYSICAL_TYPES, apply_faults
 from diagnoselab.sim.model import Fault, Instance
 from diagnoselab.sim.solver import kpi, solve
 
-BUDGET = 40
 FP_PENALTY = 0.5
 UNNEEDED_PENALTY = 0.15
 BANDS = ((0.30, 1.0), (0.60, 0.5))  # relative magnitude error -> credit
@@ -103,6 +103,7 @@ def score_episode(instance: Instance, state: Mapping[str, Any]) -> dict[str, flo
 
 
 ORACLE_SCORES = Path(__file__).with_name("oracle_scores.json")  # {"tier:seed": R_oracle}, Linux-generated (F17)
+ORACLE_META = Path(__file__).with_name("oracle_scores.meta.json")  # {"config_hash": ...} the cache was built under
 NORM_FLOOR = 0.5  # F17: below this the oracle is no reference, so the seed is not normalised (decision open)
 
 
@@ -111,10 +112,20 @@ def oracle_scores() -> dict[str, float]:
     return json.loads(ORACLE_SCORES.read_text()) if ORACLE_SCORES.exists() else {}
 
 
+@lru_cache(maxsize=1)
+def cache_config_hash() -> str | None:
+    return json.loads(ORACLE_META.read_text()).get("config_hash") if ORACLE_META.exists() else None
+
+
 def normalization(reward: float, seed: int, tier: str) -> dict[str, float]:
     """score_norm = min(R / R_oracle, 1) when (tier, seed) is cached with R_oracle >= NORM_FLOOR (scoring_spec 4)."""
+    from diagnoselab.config_hash import config_hash, config_id
+
+    base = {"reward_raw": reward, "normalized": 0.0, "config_id": float(config_id())}
     r_oracle = oracle_scores().get(f"{tier}:{seed}")
+    if cache_config_hash() != config_hash():  # the cache was built under other dials or code: never normalise
+        return base
     if r_oracle is None or not math.isfinite(r_oracle) or r_oracle < NORM_FLOOR:
-        return {"reward_raw": reward, "normalized": 0.0}
-    return {"reward_raw": reward, "normalized": 1.0, "r_oracle": r_oracle, "ratio_uncapped": reward / r_oracle,
+        return base
+    return {**base, "normalized": 1.0, "r_oracle": r_oracle, "ratio_uncapped": reward / r_oracle,
             "score_norm": min(reward / r_oracle, 1.0)}

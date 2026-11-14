@@ -2,7 +2,16 @@ TASK := harbor_task
 SIM  := $(TASK)/environment/sim
 HARBOR := uv run harbor
 
-.PHONY: sync test lint skeleton view validate-sim hashes-linux isolation validate-server validate-scoring oracle-cache validate-oracle
+.PHONY: sync test lint skeleton view validate-sim hashes-linux isolation validate-server validate-scoring oracle-cache validate-oracle install-oracle-cache pilot
+
+PILOT_TASKS ?= tasks/pilot
+
+pilot:  ## Step 6: frontier agent (opencode + Kimi K3.1 Pro on Verda) on held-out pilot tasks
+	@test -n "$${VERDA_INFERENCE_API_KEY}" || (echo "VERDA_INFERENCE_API_KEY is not set in this shell"; exit 1)
+	uv run python -m diagnoselab.eval.make_tasks --out tasks/pilot --seeds 50-99 --per-tier 5
+	$(HARBOR) run -p $(PILOT_TASKS) -a opencode -m verda/kimi-k3-1-pro \
+	  --base-url https://inference.verda.com/v1 \
+	  --api-key-name VERDA_INFERENCE_API_KEY --api-format openai_chat_completions -k 1 -n 4 -o jobs
 
 sync:  ## copy the package into the sim build context (Harbor builds only inside environment/)
 	rsync -a --delete --exclude __pycache__ --exclude eval diagnoselab/ $(SIM)/diagnoselab/
@@ -50,3 +59,6 @@ oracle-cache:  ## F17: oracle scores per (tier, seed) from the Linux image -> di
 validate-oracle:  ## F19 (+F5, F17, F18 normalized) -> results/step5_validation.json -> docs/proof/step5_report.html
 	uv run python -m diagnoselab.eval.validate_oracle
 	uv run python -m diagnoselab.eval.report_oracle
+
+install-oracle-cache:  ## install results/oracle_cache_linux.json as the shipped normaliser (scores + config hash)
+	uv run python -m diagnoselab.eval.install_oracle_cache

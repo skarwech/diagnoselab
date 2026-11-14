@@ -16,7 +16,7 @@ You are the maintenance engineer for an industrial pump network. Some components
 
 ## Limits
 
-- **Budget:** 40 units. A call that would exceed it is rejected.
+- **Budget:** 26 units. A call that would exceed it is rejected.
 - **Calls:** at most 150 tool calls, not counting `simulate`, which has its own limit of 300.
 - **Time:** 30 minutes.
 - **What happens at a limit:** the episode ends with whatever you have submitted, which may be nothing.
@@ -39,7 +39,7 @@ You are the maintenance engineer for an industrial pump network. Some components
 Scoring is server-side, against the hidden truth and a simulated repair of the true plant:
 
 ```
-R = 0.45 * D + 0.35 * S + 0.20 * g(D) * (1 - spent / 40)
+R = 0.45 * D + 0.35 * S + 0.20 * g(D) * (1 - spent / 26)
 g(D) = clip((D - 0.4) / 0.3, 0, 1)
 ```
 

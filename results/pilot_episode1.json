@@ -1,0 +1,62 @@
+{
+ "job": "2026-11-14__21-00-32",
+ "trials": [
+  {
+   "trial": "diagnoselab-easy-50__EShkZNm",
+   "tier": "easy",
+   "seed": 50,
+   "reward": 0.9385474860335197,
+   "reward_raw": 0.8400000000000001,
+   "normalized": 1.0,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 32.0,
+   "submitted": 1.0,
+   "n_calls": 47,
+   "rejected": 0,
+   "codes": {
+    "ok": 47
+   },
+   "tools": {
+    "read_manual": 8,
+    "get_topology": 1,
+    "budget_status": 1,
+    "simulate": 17,
+    "read_sensor": 16,
+    "run_experiment": 3,
+    "submit": 1
+   },
+   "experiments": {
+    "valve_step": 1,
+    "speed_step": 1,
+    "pump_off_static": 1
+   },
+   "exception": null,
+   "input_tokens": 376157,
+   "output_tokens": 3268,
+   "cache_tokens": 349120,
+   "cost_usd": null
+  }
+ ],
+ "summary": {
+  "easy": {
+   "n": 1,
+   "reward_norm": 0.9385474860335197,
+   "D": 1.0,
+   "S": 1.0,
+   "spent": 32.0,
+   "no_submission": 0,
+   "exceptions": 0,
+   "rejected_rate": 0.0,
+   "invalid_submits": 0,
+   "experiment_use": {
+    "speed_step": 1.0,
+    "valve_step": 1.0,
+    "isolate_branch": 0.0,
+    "pump_off_static": 1.0
+   },
+   "input_tokens": 376157,
+   "output_tokens": 3268
+  }
+ }
+}

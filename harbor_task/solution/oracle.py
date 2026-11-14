@@ -23,7 +23,6 @@ TYPICAL = {"fouling": (0.3, 2.0), "stuck_valve": (0.2, 0.8), "pump_wear": (0.10,
 MID = {t: (lo + hi) / 2 for t, (lo, hi) in TYPICAL.items()}
 SIM_MAX = {"fouling": 10.0, "stuck_valve": 0.9, "pump_wear": 0.9, "leak": 0.3}
 REPAIR = {"fouling": "clean_pipe", "stuck_valve": "free_valve", "pump_wear": "replace_pump", "leak": "fix_leak"}
-BUDGET = 40
 NOMINAL: Key = ("nominal",)
 STATIC: Key = ("static",)
 
@@ -32,7 +31,7 @@ BROAD_SPEED = 1.2  # the all-pump speed step screened for every candidate
 LOCAL_SPEED = 0.75  # pump-local speed steps: all pumps on one-pump plants; per pump at 0.75 and 1.2 on two
 SCREENED: tuple = (NOMINAL, ("speed", BROAD_SPEED, ""), STATIC)  # operating points screened for every candidate
 THETA = 0.3  # valve_step command
-SPEND_CAP = 28  # 70% of B
+SPEND_FRACTION = 0.7  # never spend more than 70% of the budget get_topology reports
 JOIN, KEEP = 25.0, 9.0  # squared whitened residual drop to add a fault (5 sigma) and to keep it (3 sigma)
 SWAP_MARGIN = 25.0  # an alternative explanation closer than this (squared sigma) leaves an element unresolved
 REL_SD_MAX = 0.15  # an element whose relative sd exceeds this is unresolved (the credit band is 30%)
@@ -269,7 +268,10 @@ def find_stuck(obs: list[tuple[str, Key, float]]) -> list[str]:
 class Oracle:
     def __init__(self, call: Call):
         self.call = call
-        self.plant = Plant(call("get_topology", {}))
+        topo = call("get_topology", {})
+        self.plant = Plant(topo)
+        self.budget = int(topo["budget"])
+        self.spend_cap = int(SPEND_FRACTION * self.budget + 1e-9)
         self.twin = Twin(call)
         self.obs: list[tuple[str, Key, float]] = []
         self.spent = 0
@@ -653,7 +655,7 @@ class Oracle:
     def choose(self):
         """Bayesian D-optimal probe per budget unit (screening columns, prior variance PRIOR_INCLUSION * MID^2),
         plus a bonus for reads still needed for stuck detection. None when nothing is left to resolve."""
-        left = SPEND_CAP - self.spent
+        left = self.spend_cap - self.spent
         reads = {s: 0 for s in self.plant.sensors if s not in self.stuck}
         for s, _, _ in self.obs:
             if s in reads:
@@ -715,7 +717,7 @@ class Oracle:
             kind = sp.pop("experiment")
             res = self.call("run_experiment", {"type": kind, "args": sp})
             self.obs += [(s, probe[1], float(res["readings"][s])) for s in self.plant.sensors if s in res["readings"]]
-        self.spent = BUDGET - int(res["budget_left"])
+        self.spent = self.budget - int(res["budget_left"])
 
     def submission(self) -> dict:
         diagnosis = [{"component": c, "type": t, "magnitude": round(m, 6)} for (c, t), m in self.phys.items()]

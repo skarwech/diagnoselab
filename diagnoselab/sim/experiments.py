@@ -6,6 +6,7 @@ from typing import Any, Mapping
 
 from diagnoselab.sim.model import PlantSpec, Setpoint
 
+BUDGET = 26  # B: the one place the budget is set (episode, topology, reward and oracle read it)
 COSTS = {"read": 1, "speed_step": 4, "valve_step": 4, "isolate_branch": 6, "pump_off_static": 8}
 SPEED_RANGE = (0.7, 1.2)  # below 0.7 a healthy pump can deadhead against the static lift
 THETA_RANGE = (0.1, 1.0)

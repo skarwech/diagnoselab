@@ -16,7 +16,7 @@ from typing import Any, Callable
 
 from diagnoselab.server import tools as T
 from diagnoselab.server.tools import ToolRejected, bad
-from diagnoselab.sim.experiments import COSTS, experiment_sensors, experiment_setpoint
+from diagnoselab.sim.experiments import BUDGET, COSTS, experiment_sensors, experiment_setpoint
 from diagnoselab.sim.faults import apply_faults
 from diagnoselab.sim.model import Fault, Instance, Setpoint
 from diagnoselab.sim.sensors import observe, physical_readings
@@ -25,7 +25,6 @@ from diagnoselab.sim.solver import solve
 __all__ = ["Episode", "ToolRejected", "BUDGET", "CALL_CAP", "SIMULATE_CAP", "TIME_CAP_S", "MAX_STRIKES",
            "response_hash"]
 
-BUDGET = 40
 CALL_CAP = 150  # every call except simulate (server_spec section 8, default 1)
 SIMULATE_CAP = 300
 TIME_CAP_S = 30 * 60

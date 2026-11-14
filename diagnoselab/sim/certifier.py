@@ -12,13 +12,12 @@ from dataclasses import dataclass
 
 import numpy as np
 
-from diagnoselab.sim.experiments import COSTS, experiment_sensors, experiment_setpoint
+from diagnoselab.sim.experiments import BUDGET, COSTS, experiment_sensors, experiment_setpoint
 from diagnoselab.sim.faults import PHYSICAL_TYPES, apply_faults, physical_pairs
 from diagnoselab.sim.model import CertResult, Fault, PlantSpec, Setpoint
 from diagnoselab.sim.sensors import physical_readings
 from diagnoselab.sim.solver import solve
 
-BUDGET = 40
 CRB_MAX = 0.10
 COHERENCE_MAX = 0.95
 SEPARATION_MIN = 5.0  # option E (user decision): a cos > 0.95 pair passes if still >= 5 sigma apart

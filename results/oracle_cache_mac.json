@@ -1,4 +1,6 @@
 {
+"config_hash": "9f2764dcc56f89f1a6999ed8e5c9d25914d9654f7dc75e994f4c4ce777cd1804",
+"records": {
 "easy:0": {
 "reward": 0.89,
 "D": 1.0,
@@ -3598,5 +3600,6 @@
 "D": 1.0,
 "spent": 28.0,
 "calls_hash": "46f0143436ed8da10c9ad1b29839aeeb543d9394d7e0ba077330621d04ce8229"
+}
 }
 }

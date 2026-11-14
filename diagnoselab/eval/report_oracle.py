@@ -108,10 +108,12 @@ def rows(d: dict) -> list[tuple[str, str, str, str, str]]:
         ("F17", "Cached oracle scores equal recomputation",
          f"{d['F17']['cache_entries']} entries (Linux image) vs macOS recomputation: "
          f"{len(d['F17']['mismatch'])} differ", "identical", ok(d["F17"]["cache_equals_recompute"])),
-        ("F20", "The oracle as Harbor's solve.sh reproduces its cached score",
-         "medium:0 through Harbor: reward_raw 0.87 (cache 0.87), spend 26, normalised reward 1.0, 0 exceptions",
-         "equal", "PASS"),
     ]
+    f20 = d.get("f20")
+    if f20:
+        r.append(("F20", "The oracle as Harbor's solve.sh reproduces its cached score",
+                  f"{f20['trials']} Harbor trials (job {f20['job']}): raw reward equals the cache on "
+                  f"{sum(x['match'] for x in f20['rows'])}, {f20['errored']} errored", "all equal", ok(f20["all_match"])))
     f18 = d["F18_normalized"]["table"]
     for name, limit in LIMITS.items():
         worst = max(f18[name][t]["mean"] for t in TIERS)
@@ -179,6 +181,9 @@ def main() -> None:
     d = json.loads((ROOT / "results/step5_validation.json").read_text())
     findings = ROOT / "docs/proof/step5_findings.html"
     d["findings_html"] = findings.read_text() if findings.exists() else ""
+    f20 = ROOT / "results/f20_harbor.json"
+    if f20.exists():
+        d["f20"] = json.loads(f20.read_text())
     for name in ("audit", "tests"):
         p = ROOT / f"docs/proof/step5_{name}.json"
         if p.exists():
