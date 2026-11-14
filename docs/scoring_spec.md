@@ -84,19 +84,19 @@ score_norm = min(R / R_oracle(seed, tier), 1)
 
 The uncapped ratio is kept in the raw logs, and any seed where it exceeds 1 is flagged.
 
-- **No oracle before Step 5.** `R_oracle` comes from the cached oracle scores (`results/oracle_scores.json`, keyed `"tier:seed"`), which arrive at Step 5.
-- **Until then:**
-  - `score_norm` is left out.
-  - Baselines report raw R.
-  - The Harbor `reward` is raw R; F20 asks for normalized.
+- **Oracle cache (Step 5).** `R_oracle` comes from `diagnoselab/scoring/oracle_scores.json` (`{"tier:seed": R}`), generated in the Linux image by `make oracle-cache` for dev seeds 0–199 of every tier. A macOS run reproduces all 600 entries exactly (same call sequence and reward), and Harbor's sim container recomputes the same value (F20).
+- **Floor.** A seed is normalised only when its `R_oracle` ≥ 0.5 (F17's bound). Below it, the oracle is no reference (10 of 600 dev seeds) and `score_norm` is left out. Whether such seeds ship is an open decision.
+- **When normalised:** finalize sets `reward = score_norm` and adds `reward_raw`, `r_oracle`, `ratio_uncapped` and `normalized = 1`.
+- **Otherwise** (not cached, or below the floor): `reward` stays raw R, with `reward_raw = R` and `normalized = 0`.
+- Seeds 1000+ (test) are not cached yet; they are generated with the shipped task set.
 
 ## 5. Finalize output (`/var/lib/sim/out/score.json`, relayed as `reward.json`)
 
-A flat JSON object of finite numbers only:
+A flat JSON object of finite numbers only (`finalize` adds the normalisation keys to `score_episode`'s object):
 
 | Key | Meaning |
 |---|---|
-| `reward` | R (raw until Step 5) |
+| `reward` | `score_norm` when normalised (section 4), else raw R |
 | `D`, `S`, `efficiency` | the three reward terms |
 | `spent` | budget spent |
 | `submitted` | 1 if a submission exists, else 0 |
@@ -105,6 +105,9 @@ A flat JSON object of finite numbers only:
 | `false_positives` | FP count |
 | `unneeded_repairs` | unneeded-repair count |
 | `restoration` | restoration before the unneeded penalty and clipping |
+| `reward_raw` | raw R, always |
+| `normalized` | 1 if `reward` is `score_norm`, else 0 |
+| `r_oracle`, `ratio_uncapped`, `score_norm` | only when normalised: the cached R_oracle, R / R_oracle, and min(that, 1) |
 
 ## 6. Python API
 

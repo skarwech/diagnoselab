@@ -1,37 +1,33 @@
 #!/bin/bash
-# Placeholder reference run (the D-optimal oracle replaces it at plan Step 5).
-# Uses only the public MCP tools, exactly like the agent: static test -> flag biased pressure sensors.
+# Reference run (plan Step 5): the D-optimal oracle, using only the public MCP tools exactly like an agent.
+# oracle.py is a verbatim copy of diagnoselab/oracle/oracle.py (`make sync`); standard library only.
 set -euo pipefail
-python3 - <<'PY'
+HERE="$(cd "$(dirname "$0")" && pwd)"
+python3 - "$HERE" <<'PY'
+import json
+import sys
+
 import anyio
 from mcp import Client
 
+sys.path.insert(0, sys.argv[1])
+from oracle import run_oracle  # noqa: E402
+
 URL = "http://sim:8000/mcp"
 
-def data(r):
-    if r.is_error:
-        raise SystemExit(r.content[0].text)
-    return r.structured_content
 
-async def main():
-    async with Client(URL) as c:
-        data(await c.call_tool("read_manual", {"topic": "experiments"}))
-        topo = data(await c.call_tool("get_topology", {}))
-        heads = {s["id"]: s["head"] for s in topo["sources"]}
-        feed = {l["to"]: heads[l["frm"]] for l in topo["links"] if l["frm"] in heads}
-        static = {j["id"]: (feed.get(j["id"], topo["tank_head"]) if j["side"] == "suction" else topo["tank_head"]) - j["z"]
-                  for j in topo["junctions"]}
-        exp = data(await c.call_tool("run_experiment", {"type": "pump_off_static", "args": {}}))
-        sigma = {s["id"]: s["sigma"] for s in topo["sensors"]}
-        diagnosis, repairs = [], []
-        for sid, value in exp["readings"].items():
-            if sid.startswith("PT-"):
-                dev = (value - static[sid[3:]]) / sigma[sid]
-                if abs(dev) > 5:
-                    diagnosis.append({"component": sid, "type": "sensor_bias", "magnitude": abs(dev)})
-                    repairs.append({"action": "recalibrate_sensor", "target": sid})
-        print("budget:", data(await c.call_tool("budget_status", {}))["spent"], "flagged:", [d["component"] for d in diagnosis])
-        print("submit:", data(await c.call_tool("submit", {"diagnosis": diagnosis, "repairs": repairs})))
+async def main() -> None:
+    async with Client(URL) as client:
+        def call(tool: str, args: dict) -> dict:
+            result = anyio.from_thread.run(client.call_tool, tool, args)
+            if result.is_error:
+                raise RuntimeError(result.content[0].text)
+            return result.structured_content
+
+        out = await anyio.to_thread.run_sync(run_oracle, call)
+        print(json.dumps({"spent": out["spent"], "simulate_used": out["simulate_used"], "note": out["note"],
+                          "submission": out["submission"]}))
+
 
 anyio.run(main)
 PY

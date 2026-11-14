@@ -6,6 +6,10 @@ claims are never trusted beyond the validated submission.
 
 from __future__ import annotations
 
+import json
+import math
+from functools import lru_cache
+from pathlib import Path
 from typing import Any, Mapping, Sequence
 
 from diagnoselab.sim.faults import PHYSICAL_TYPES, apply_faults
@@ -96,3 +100,21 @@ def score_episode(instance: Instance, state: Mapping[str, Any]) -> dict[str, flo
             "efficiency": efficiency(d["D"], spent), "submitted": 1.0, "matched_credit": d["matched_credit"],
             "false_positives": d["false_positives"], "unneeded_repairs": s["unneeded_repairs"],
             "restoration": s["restoration"]}
+
+
+ORACLE_SCORES = Path(__file__).with_name("oracle_scores.json")  # {"tier:seed": R_oracle}, Linux-generated (F17)
+NORM_FLOOR = 0.5  # F17: below this the oracle is no reference, so the seed is not normalised (decision open)
+
+
+@lru_cache(maxsize=1)
+def oracle_scores() -> dict[str, float]:
+    return json.loads(ORACLE_SCORES.read_text()) if ORACLE_SCORES.exists() else {}
+
+
+def normalization(reward: float, seed: int, tier: str) -> dict[str, float]:
+    """score_norm = min(R / R_oracle, 1) when (tier, seed) is cached with R_oracle >= NORM_FLOOR (scoring_spec 4)."""
+    r_oracle = oracle_scores().get(f"{tier}:{seed}")
+    if r_oracle is None or not math.isfinite(r_oracle) or r_oracle < NORM_FLOOR:
+        return {"reward_raw": reward, "normalized": 0.0}
+    return {"reward_raw": reward, "normalized": 1.0, "r_oracle": r_oracle, "ratio_uncapped": reward / r_oracle,
+            "score_norm": min(reward / r_oracle, 1.0)}
