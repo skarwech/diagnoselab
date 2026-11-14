@@ -1,0 +1,41 @@
+schema_version = "1.4"
+
+# The score is produced inside the sim sidecar after the agent container is
+# stopped, travels sim -> host -> separate verifier image, and never passes
+# through the agent's container. See docs/harbor_facts.md.
+
+[[artifacts]]
+service = "sim"
+source = "/var/lib/sim/out/score.json"
+
+[[artifacts]]
+service = "sim"
+source = "/var/lib/sim/state/trace.jsonl"
+
+[verifier]
+environment_mode = "separate"
+timeout_sec = 120.0
+
+[[verifier.collect]]
+service = "sim"
+user = "root"
+timeout_sec = 60.0
+command = "rm -f /var/lib/sim/out/score.json && PYTHONPATH=/app python -m diagnoselab.server.finalize --state /var/lib/sim/state --out /var/lib/sim/out/score.json"
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+
+[environment.healthcheck]
+command = "exec 3<>/dev/tcp/sim/8000"
+interval_sec = 2.0
+start_period_sec = 30.0
+retries = 5
+
+[[environment.mcp_servers]]
+name = "diagnoselab"
+transport = "streamable-http"
+url = "http://sim:8000/mcp"

@@ -1,0 +1,462 @@
+{
+ "F15": {
+  "units": {
+   "perfect": {
+    "got": 1.0,
+    "want": 1.0,
+    "ok": true
+   },
+   "empty": {
+    "got": 0.0,
+    "want": 0.0,
+    "ok": true
+   },
+   "all_wrong": {
+    "got": 0.0,
+    "want": 0.0,
+    "ok": true
+   },
+   "boundary_0.30": {
+    "got": 1.0,
+    "want": 1.0,
+    "ok": true
+   },
+   "boundary_0.60": {
+    "got": 0.5,
+    "want": 0.5,
+    "ok": true
+   },
+   "beyond_0.30": {
+    "got": 0.5,
+    "want": 0.5,
+    "ok": true
+   },
+   "beyond_0.60": {
+    "got": 0.0,
+    "want": 0.0,
+    "ok": true
+   },
+   "stuck_no_magnitude": {
+    "got": 1.0,
+    "want": 1.0,
+    "ok": true
+   },
+   "wild_magnitude_is_match_not_fp": {
+    "got": 0.0,
+    "want": 0.0,
+    "ok": true
+   },
+   "duplicate_is_fp": {
+    "got": 1.0,
+    "want": 1.0,
+    "ok": true
+   }
+  },
+  "property_cases": 100000,
+  "property_violations": {
+   "range": 0,
+   "permutation": 0,
+   "add_correct": 0,
+   "add_correct_type_any_magnitude": 0,
+   "add_wrong": 0
+  }
+ },
+ "F16": {
+  "instances": 10000,
+  "exact_not_1": 0,
+  "none_not_0": 0,
+  "partial_violations": 105,
+  "worst_drop": 0.04883530586144702,
+  "min_gap": 0.050056806439898516,
+  "healthy_repair_wrong": 0,
+  "duplicate_wrong": 0,
+  "order_dependent": 0
+ },
+ "blanket_attack": {
+  "1": {
+   "mean_R": 0.011980124336360724,
+   "max_R": 0.35
+  },
+  "2": {
+   "mean_R": 0.010190425021267723,
+   "max_R": 0.2975
+  },
+  "3": {
+   "mean_R": 0.0074802818892619055,
+   "max_R": 0.27588784003626493
+  },
+  "4": {
+   "mean_R": 0.011210145083767597,
+   "max_R": 0.1925
+  },
+  "5": {
+   "mean_R": 0.008447390288401076,
+   "max_R": 0.13999999999999999
+  },
+  "6": {
+   "mean_R": 0.009196397208773677,
+   "max_R": 0.13999999999999999
+  },
+  "7": {
+   "mean_R": 0.003111111111111114,
+   "max_R": 0.03500000000000003
+  },
+  "8": {
+   "mean_R": 0.0006805555555555557,
+   "max_R": 0.0875
+  },
+  "9": {
+   "mean_R": 0.00038888888888888925,
+   "max_R": 0.03500000000000003
+  },
+  "10": {
+   "mean_R": 0.0,
+   "max_R": 0.0
+  }
+ },
+ "F17": {
+  "stop_early_efficiency": 0.0,
+  "efficiency_below_0.4": 0.0,
+  "lower_spend_strictly_higher": true,
+  "R_in_range": true
+ },
+ "F18": {
+  "seeds_per_tier": 50,
+  "table": {
+   "noop": {
+    "easy": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "max": 0.0,
+     "D": 0.0,
+     "S": 0.0,
+     "spent": 0.0
+    },
+    "medium": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "max": 0.0,
+     "D": 0.0,
+     "S": 0.0,
+     "spent": 0.0
+    },
+    "hard": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "max": 0.0,
+     "D": 0.0,
+     "S": 0.0,
+     "spent": 0.0
+    }
+   },
+   "stop_early": {
+    "easy": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "max": 0.0,
+     "D": 0.0,
+     "S": 0.0,
+     "spent": 0.0
+    },
+    "medium": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "max": 0.0,
+     "D": 0.0,
+     "S": 0.0,
+     "spent": 0.0
+    },
+    "hard": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "max": 0.0,
+     "D": 0.0,
+     "S": 0.0,
+     "spent": 0.0
+    }
+   },
+   "everything_faulty": {
+    "easy": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "max": 0.0,
+     "D": 0.0,
+     "S": 0.0,
+     "spent": 0.0
+    },
+    "medium": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "max": 0.0,
+     "D": 0.0,
+     "S": 0.0,
+     "spent": 0.0
+    },
+    "hard": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "max": 0.0,
+     "D": 0.0,
+     "S": 0.0,
+     "spent": 0.0
+    }
+   },
+   "blanket_repair": {
+    "easy": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "max": 0.0,
+     "D": 0.0,
+     "S": 0.0,
+     "spent": 0.0
+    },
+    "medium": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "max": 0.0,
+     "D": 0.0,
+     "S": 0.0,
+     "spent": 0.0
+    },
+    "hard": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "max": 0.0,
+     "D": 0.0,
+     "S": 0.0,
+     "spent": 0.0
+    }
+   },
+   "random_guess": {
+    "easy": {
+     "mean": 0.03693333333333333,
+     "sd": 0.12081165782600065,
+     "max": 0.5558333333333333,
+     "D": 0.02,
+     "S": 0.076,
+     "spent": 20.0
+    },
+    "medium": {
+     "mean": 0.016470113884411337,
+     "sd": 0.0603952702415535,
+     "max": 0.36328605981780926,
+     "D": 0.006666666666666666,
+     "S": 0.03848603966974668,
+     "spent": 20.0
+    },
+    "hard": {
+     "mean": 0.010907625386031773,
+     "sd": 0.038059320517669575,
+     "max": 0.17071172844540142,
+     "D": 0.004,
+     "S": 0.02602178681723364,
+     "spent": 20.0
+    }
+   },
+   "prior_guess": {
+    "easy": {
+     "mean": 0.06486666666666666,
+     "sd": 0.17965015075603655,
+     "max": 0.5891666666666666,
+     "D": 0.05,
+     "S": 0.102,
+     "spent": 0.0
+    },
+    "medium": {
+     "mean": 0.024878268777471242,
+     "sd": 0.06310424960524835,
+     "max": 0.24462129765460083,
+     "D": 0.013333333333333332,
+     "S": 0.053937910792774976,
+     "spent": 0.0
+    },
+    "hard": {
+     "mean": 0.00797801249220755,
+     "sd": 0.027631878540983437,
+     "max": 0.16157221708110098,
+     "D": 0.008,
+     "S": 0.012508607120593002,
+     "spent": 0.0
+    }
+   },
+   "lazy_heuristic": {
+    "easy": {
+     "mean": 0.8195,
+     "sd": 0.28315312896813355,
+     "max": 0.9500000000000001,
+     "D": 0.87,
+     "S": 0.9,
+     "spent": 13.72
+    },
+    "medium": {
+     "mean": 0.5073672555449361,
+     "sd": 0.2743625196258585,
+     "max": 0.915,
+     "D": 0.45999999999999996,
+     "S": 0.7264461269537857,
+     "spent": 18.6
+    },
+    "hard": {
+     "mean": 0.39685710544088704,
+     "sd": 0.27188988516663987,
+     "max": 0.8049999999999999,
+     "D": 0.368,
+     "S": 0.5891155393549153,
+     "spent": 22.86
+    }
+   }
+  }
+ },
+ "mcp_crosscheck": {
+  "rows": [
+   {
+    "tier": "easy",
+    "seed": 0,
+    "policy": "lazy_heuristic",
+    "mcp": 0.92,
+    "inprocess": 0.92,
+    "identical": true
+   },
+   {
+    "tier": "easy",
+    "seed": 0,
+    "policy": "random_guess",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "easy",
+    "seed": 0,
+    "policy": "everything_faulty",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "easy",
+    "seed": 1,
+    "policy": "lazy_heuristic",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "easy",
+    "seed": 1,
+    "policy": "random_guess",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "easy",
+    "seed": 1,
+    "policy": "everything_faulty",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "medium",
+    "seed": 0,
+    "policy": "lazy_heuristic",
+    "mcp": 0.3409929069878818,
+    "inprocess": 0.3409929069878818,
+    "identical": true
+   },
+   {
+    "tier": "medium",
+    "seed": 0,
+    "policy": "random_guess",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "medium",
+    "seed": 0,
+    "policy": "everything_faulty",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "medium",
+    "seed": 1,
+    "policy": "lazy_heuristic",
+    "mcp": 0.7611111111111111,
+    "inprocess": 0.7611111111111111,
+    "identical": true
+   },
+   {
+    "tier": "medium",
+    "seed": 1,
+    "policy": "random_guess",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "medium",
+    "seed": 1,
+    "policy": "everything_faulty",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "hard",
+    "seed": 0,
+    "policy": "lazy_heuristic",
+    "mcp": 0.3217010156604315,
+    "inprocess": 0.3217010156604315,
+    "identical": true
+   },
+   {
+    "tier": "hard",
+    "seed": 0,
+    "policy": "random_guess",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "hard",
+    "seed": 0,
+    "policy": "everything_faulty",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "hard",
+    "seed": 1,
+    "policy": "lazy_heuristic",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "hard",
+    "seed": 1,
+    "policy": "random_guess",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   },
+   {
+    "tier": "hard",
+    "seed": 1,
+    "policy": "everything_faulty",
+    "mcp": 0.0,
+    "inprocess": 0.0,
+    "identical": true
+   }
+  ],
+  "all_identical": true
+ },
+ "static_imports": {
+  "forbidden_imports": []
+ }
+}

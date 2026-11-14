@@ -1,0 +1,78 @@
+<li><b>Consequence for Step 5 (stated now): F19 cannot pass on easy as configured.</b> F19 requires R_oracle at least
+R_lazy + 0.3. With the lazy heuristic at 0.82 raw on easy, that needs 1.12, above the maximum reward of 1.0, so gate G4
+fails on easy whatever the oracle does. Medium needs 0.81 and hard 0.70: possible, but demanding. The plan's G4 fallback
+("add sensor coverage") pushes the wrong way here, and the open "every fault at least 5%" choice makes every fault large,
+which helps the lazy heuristic. Recommended: keep the plan's order and build the oracle in Step 5. Its code does not
+depend on these dials, and it is the instrument Step 6 needs. Recalibrating in Step 6 then means rerunning the Step 2-4
+validations.</li>
+<li><b>Headline: the task is too easy at the nominal operating point (F18 lazy heuristic).</b> The plan expects the lazy
+heuristic at 0.25-0.35 normalized and warns that a score above the band means the task is too easy. It scores 0.82 /
+0.51 / 0.40 raw (easy / medium / hard); a normalized score is never lower.
+<ul>
+<li>It reads every sensor once at nominal (about 14 of 40 units on easy) and fits single faults with linearised
+<code>simulate</code> sensitivities.</li>
+<li>Most physical faults are already visible at nominal with this sensor density, so on easy it finds the fault 85% of
+the time.</li>
+<li>Where the plan's confounds exist, it fails as intended: it misses every stuck sensor, about half the leaks and some
+biases, which is why medium and hard drop.</li>
+</ul>
+This is the gap risk the plan names. The Step 6 dials are sensor density, the lower bounds of the fault magnitudes, fault
+counts (especially easy, which has one physical fault and no sensor faults), noise and budget. Calibration belongs to
+Step 6, using the oracle from Step 5, so nothing has been retuned here.</li>
+<li><b>Decision needed: tie repairs to the diagnosis (reward attack).</b> Two independent attackers worked from the code
+and the manual only (truth read only after scoring).
+<ul>
+<li><b>Nothing without evidence beats the plan's 0.10 bar (raw scores; the bar is normalized).</b> Best-k blanket repair (k = 1 to 10), everything-faulty
+with fewer entries, informed top-n guessing from the topology and the manual's 5% rule, magnitude hedging, duplicate
+repairs and recalibration spam all stay at or below 0.079 raw. Extra repairs never raised J, order never mattered, and
+band edges and rounding behaved.</li>
+<li><b>Confirmed small gap.</b> S never looks at the diagnosis, and an unneeded repair costs only 0.15, so blindly
+repairing a couple of likely components without naming them pays off when the evidence is weak (+0.03 raw, 3.2
+standard errors pooled).</li>
+<li><b>Combined with the static test.</b> One 8-unit static test legitimately finds about 70% of sensor faults. That
+alone reaches 0.10 / 0.12 raw on medium / hard, already at or above the plan's 0.10 attack bar; with 2 blind repairs on
+top it reaches 0.14 / 0.15. Either the sweep counts as honest partial play, or F23 fails on it. That belongs with this
+decision.</li>
+</ul>
+Measured fix: count a repair only if its target is in the diagnosis. It changes no baseline's score (every
+difference is exactly 0.0 over 60 episodes each), so honest play is unaffected. If adopted, the spec, manual,
+instruction and code change together. That stops the hedge, and with the attack adapted
+(naming the blind targets) it reaches at most 0.07. A secondary option is to weight sensor faults at 0.5 in D. Raising
+the unneeded-repair penalty to 0.5 also stops the hedge, but it lowers honest scores on medium and hard.</li>
+<li><b>Decision needed: repairs can interact (F16).</b> On certified dev instances, which are what ships, 3 of 300 are
+affected (found by the independent test). On uncertified draws, 105 partial repairs, out of every subset in 10,000
+instances, lowered J (worst drop 0.049). Exact repairs always give S = 1. Two mechanisms, both physical:
+<ul>
+<li>Repairing a worn pump while a valve is stuck pumps harder against it: energy per m3 rises faster than unmet demand
+falls.</li>
+<li>Freeing one of two stuck valves sends flow to an outlet that already had enough, so the per-outlet shortfall
+sum rises.</li>
+</ul>
+The plan's F16 condition ("never lowers J") assumes no such interaction. Options:
+<ul>
+<li>keep J and document it (the manual now does);</li>
+<li>weight unmet demand more heavily;</li>
+<li>measure restoration per fault (each repair's own contribution).</li>
+</ul>
+Only partial repairs are affected, and an agent that repairs every fault it finds is never hurt.</li>
+<li><b>Choice to confirm: what counts as a false positive.</b> Plan section 5.2 counts a correct component and type with a
+magnitude off by more than 60% as a match with credit 0. The plan's Appendix A sketch counts it as a false positive
+(-0.5). Only 5.2 satisfies F15's own rule that adding a correct fault never lowers D (checked over 100,000 cases), so the
+reward follows 5.2. Extra entries for an already-matched fault are false positives.</li>
+<li><b>Other rules made explicit (spec, code and manual agree):</b>
+<ul>
+<li>magnitude errors are rounded to 1e-6, so exactly 0.30 or 0.60 is in band;</li>
+<li><code>sensor_bias</code> magnitudes are unsigned;</li>
+<li>a repeated repair of the same target costs 0.15 like any unneeded repair;</li>
+<li>recalibrating a truly faulty sensor costs nothing but moves no KPI.</li>
+</ul></li>
+<li><b>No oracle yet.</b> Raw R is reported, and the Harbor <code>reward</code> is raw R until Step 5 supplies the per-seed
+normalizer (F20 asks for normalized). Rows that need the normalizer are marked. Through Harbor with the real reward:
+the no-op agent scores 0.0, and the placeholder oracle scores 0.15. It found the biased sensor (D = 1/3), but a sensor
+repair moves no KPI (S = 0), and efficiency pays nothing below D = 0.4.</li>
+<li><b>Still open from earlier steps:</b>
+<ul>
+<li>where judged runs execute, and the model key (G0);</li>
+<li>whether to disclose fault counts, since the topology reveals the tier;</li>
+<li>the stuck-sensor, eligibility and cap defaults.</li>
+</ul></li>

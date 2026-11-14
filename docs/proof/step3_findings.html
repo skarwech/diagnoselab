@@ -1,0 +1,77 @@
+<li><b>Independent attack review: six exploits found and fixed.</b> Three attackers worked from the code alone, each with
+one goal: read without paying, break a cap, and find anything hidden-dependent outside costed readings. Each fix has a
+regression check.
+<ul>
+<li><b>No-op steps.</b> <code>speed_step(s = 1)</code> reproduced the nominal setpoint and returned 6-21 nominal readings
+for 4 units (0.31 per reading). Experiments now reject <code>abs(s - 1) &lt; 0.05</code> and <code>theta &gt; 0.95</code>.</li>
+<li><b>Huge integers.</b> <code>magnitude: 10**400</code> raised an uncaught error: the call went untraced, the
+strike rule was skipped and raw text reached the agent. It is now a field-level rejection, and any unexpected error
+becomes a traced <code>E_INTERNAL</code>.</li>
+<li><b>Reserved marker keys.</b> Agent-sent <code>{"__too_large__": 1}</code> dodged the call cap and strikes. The
+oversize verdict is now decided from the real arguments and recorded in the trace, and every call counts toward the
+cap.</li>
+<li><b>Oversized tool names.</b> A 3.5 MB tool name was logged verbatim. Names are now truncated to 40
+characters.</li>
+<li><b>Timing.</b> <code>run_experiment</code> latency revealed the true plant's solver iterations (p = 5e-4 over real MCP).
+Costed calls are now padded to a constant 50 ms (no detectable difference after the fix: p of about 0.3), and stuck sensors always draw their noise.</li>
+</ul>
+Held under attack: concurrency (66 simultaneous calls over 2 sessions spent exactly 40), double submit, the
+<code>simulate</code> cap, the time cap, and every free tool and error message (byte-identical across hidden fault sets
+over 3,017 calls).</li>
+<li><b>Decision needed: the topology reveals the tier, and so the exact fault counts.</b> From the free
+<code>get_topology</code>, junction count, pump count and loop count identify the tier in about 94% of plants. Each
+tier has fixed fault counts (easy 1, medium 2+1, hard 3+2), so the agent can infer how many faults to look for. That
+contradicts the "no counts disclosed" default. Options: state the counts per tier openly in the manual (simple and
+honest); or draw fault counts independently of plant size.</li>
+<li><b>F10 discrimination, measured over the full fault ranges (for Step 6 calibration).</b> Hypothesis magnitudes are drawn
+uniformly from each fault type's range:
+<ul>
+<li>Stuck valve vs fouling and pump wear vs system resistance always separate, by 8 to 64 sigma.</li>
+<li>Sensor bias vs fouling separates by exactly the bias, so the plan's 4-10 sigma bias range puts about a sixth of
+biases below the 5 sigma single-reading criterion. That is a plan inconsistency, not a physics problem.</li>
+<li>Leak vs flow-meter bias is the weak pair: about 3 sigma on the best single sensor, 65% at 5 sigma when every returned
+sensor is combined.</li>
+<li>Static-test pressure sag, worst over every leak position, is 0.09 / 0.56 / 1.42 sigma at leak 0.02 / 0.05 / 0.08,
+against the plan's 0.5 sigma.</li>
+</ul>
+These are dials (bias and leak ranges, flow-meter noise) for the Step 6 calibration, not decisions now. The manual
+documents all of it, including that leak vs meter bias needs combined or repeated evidence.</li>
+<li><b>Decision needed: where judged runs execute (F14).</b>
+<ul>
+<li>Every container-isolation probe passes: no truth, state, trace, simulator code or seed is visible from the agent's
+container; a full 1-65535 port scan finds only the MCP port; no admin or score route exists; the agent image's 65 MB of
+layers contain no simulator strings.</li>
+<li>With Harbor's public network, the agent can reach the internet, and so could fetch the public repository and
+regenerate plants.</li>
+<li>Harbor's no-network and allowlist modes need nftables support that Docker Desktop's kernel lacks, so this Mac cannot
+block egress.</li>
+<li>A Linux Docker host with a static allowlist (model API only, plus npm unless OpenCode is baked into the agent image)
+is the candidate. It is untested; OpenCode's <code>disable_web_search</code> is a partial extra guard.</li>
+</ul></li>
+<li><b>Decision needed: two disclosures in the manual.</b>
+<ul>
+<li>The manual tells the agent that every physical fault alone degrades the KPI by at least 5%. That is tied to the open
+eligibility choice from Step 2, and it lets an agent rule out small faults.</li>
+<li>The plan's confound row "high power at normal flow: wear vs fouling" does not hold here: wear lowered the pump's power
+in 55 of 55 cases. The manual says "low pump flow, changed pump power" instead; the separating experiment (a speed sweep)
+is unchanged.</li>
+</ul></li>
+<li><b>Defaults to confirm:</b>
+<ul>
+<li>the 150-call cap excludes <code>simulate</code>, which has its own cap of 300;</li>
+<li>the fourth invalid <code>submit</code> finalizes the episode with an empty submission;</li>
+<li>stuck sensors read an exact constant (open since Step 2);</li>
+<li>tier and fault counts are not disclosed.</li>
+</ul></li>
+<li><b>Architecture.</b> mcp 2.3 silently ignores unknown arguments and runs sync tools in worker threads, so a thin
+<code>MCPServer</code> subclass passes raw arguments to one locked episode core. Every call, valid or not, is validated,
+traced and counted the same way; 60 concurrent reads at budget 40 accept exactly 40 units.</li>
+<li><b>Limits of these checks.</b>
+<ul>
+<li>The malformed-HTTP fuzz only reached the transport: every reply was 400, before any tool code ran. The 10,000-call
+fuzz exercises the tool code directly.</li>
+<li>The placeholder reward stands in until Step 4, and the placeholder oracle until Step 5.</li>
+<li>G0 still needs the OpenCode run, which needs a model API key.</li>
+<li>The blind human audit (F7) needs two people who did not write the manual.</li>
+<li>The Step 1 skeleton tests were deleted; the F6-F13 suite replaces them.</li>
+</ul></li>

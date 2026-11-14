@@ -1,0 +1,200 @@
+{
+ "F7_checklist": {
+  "pytest_exit": 0,
+  "summary": "8 passed in 0.01s"
+ },
+ "F6": {
+  "fuzz_calls": 10000,
+  "rejected": 8320,
+  "crashes": 0,
+  "state_changes_after_rejection": 0,
+  "differential_mismatches": 0,
+  "cross_session_identical": true,
+  "http": {
+   "raw_requests": 600,
+   "status_5xx": 0,
+   "status_codes": [
+    400
+   ],
+   "server_alive": true,
+   "p95_ms": {
+    "get_topology": 2.8144163465185557,
+    "read_manual": 2.3951920033141505,
+    "budget_status": 2.214299994375324,
+    "simulate": 2.957678848906653,
+    "read_sensor": 54.1070501509239,
+    "run_experiment": 53.75055000040447
+   }
+  }
+ },
+ "F6_timing": {
+  "calls_per_arm": 150,
+  "p_unpadded": 1.9663640555962246e-50,
+  "p_padded": 0.3388655786397482,
+  "median_ms": {
+   "A": 52.06714599989937,
+   "B": 52.06802099928609,
+   "A_unpadded": 0.31929150281939656,
+   "B_unpadded": 0.594500499573769
+  }
+ },
+ "F7_F8": {
+  "instances": 30,
+  "topology_identical": 1.0,
+  "manual_identical": 1.0,
+  "empty_simulate_identical": 1.0,
+  "fidelity_max_abs": 0.0,
+  "call_301_rejected": true,
+  "simulate_spent": 0
+ },
+ "F9_F11_F12_F13": {
+  "sequences": 100000,
+  "sequence_seconds": 103.97627975000069,
+  "ledger_exact": 1.0,
+  "property_violations": {
+   "over_budget": 0,
+   "rejected_changed_state": 0,
+   "free_tool_cost": 0
+  },
+  "call_151_finalizes": true,
+  "time_cap_finalizes": true,
+  "strike_codes": [
+   "E_INVALID_SUBMISSION: ",
+   "E_INVALID_SUBMISSION: ",
+   "E_INVALID_SUBMISSION: ",
+   "E_EPISODE_OVER: too ma"
+  ],
+  "finalized_after_4th_invalid": true,
+  "ack": {
+   "status": "submitted"
+  },
+  "second_submit": "E_EPISODE_OVER",
+  "post_submit": "E_EPISODE_OVER",
+  "episodes_with_score_text": 0,
+  "replay_traces": 50,
+  "replay_mismatched": 0
+ },
+ "F10": {
+  "bias_vs_fouling": {
+   "cases": 53,
+   "separated_5sigma": 0.7547169811320755,
+   "median_sigma": 6.553053984429861,
+   "min_sigma": 4.07822459235207,
+   "separated_5sigma_whitened": 0.7547169811320755,
+   "median_sigma_whitened": 6.553053984429861
+  },
+  "stuck_vs_fouling": {
+   "cases": 37,
+   "separated_5sigma": 1.0,
+   "median_sigma": 29.564760455857634,
+   "min_sigma": 8.256584303604864,
+   "separated_5sigma_whitened": 1.0,
+   "median_sigma_whitened": 37.4197637882299
+  },
+  "leak_vs_meter_bias": {
+   "cases": 60,
+   "separated_5sigma": 0.15,
+   "median_sigma": 3.1739742293170856,
+   "min_sigma": 1.4768898850494452,
+   "separated_5sigma_whitened": 0.65,
+   "median_sigma_whitened": 6.456359728836832
+  },
+  "wear_vs_fouling": {
+   "cases": 33,
+   "separated_5sigma": 1.0,
+   "median_sigma": 53.300868463251405,
+   "min_sigma": 29.734900221376535,
+   "separated_5sigma_whitened": 1.0,
+   "median_sigma_whitened": 64.31254675175238
+  },
+  "static_leak_sag_sigma_max": {
+   "0.02": 0.09001316098145178,
+   "0.05": 0.5588909015598631,
+   "0.08": 1.4182641113293926
+  },
+  "revert_identical": true,
+  "costs": {
+   "speed_step": 4,
+   "valve_step": 4,
+   "isolate_branch": 6,
+   "pump_off_static": 8
+  },
+  "out_of_range_rejected": true
+ },
+ "F14": {
+  "image_layer_scan": {
+   "bytes_scanned": 65035776,
+   "hits": [],
+   "status": "PASS"
+  },
+  "public": {
+   "probes": [
+    {
+     "name": "env",
+     "status": "PASS",
+     "detail": "no seed/tier variables"
+    },
+    {
+     "name": "filesystem",
+     "status": "PASS",
+     "detail": "no truth/state/simulator files"
+    },
+    {
+     "name": "grep_source",
+     "status": "PASS",
+     "detail": "no simulator source strings"
+    },
+    {
+     "name": "import",
+     "status": "PASS",
+     "detail": "diagnoselab not importable"
+    },
+    {
+     "name": "ports",
+     "status": "PASS",
+     "detail": "full scan 1-65535: only 8000 open on sim"
+    },
+    {
+     "name": "routes",
+     "status": "PASS",
+     "detail": "all candidate routes 404"
+    },
+    {
+     "name": "egress",
+     "status": "FAIL",
+     "detail": "internet reachable"
+    },
+    {
+     "name": "mcp",
+     "status": "PASS",
+     "detail": "MCP reachable at sim:8000"
+    }
+   ],
+   "harbor_exit": 0,
+   "raw_tail": "",
+   "unsupported_here": null
+  },
+  "no-network": {
+   "probes": [],
+   "harbor_exit": 1,
+   "raw_tail": "",
+   "unsupported_here": "Harbor enforces this mode with nftables (CONFIG_NFT_FIB_INET); Docker Desktop's VM kernel lacks it, so Harbor rejects the task. Expected to work on a Linux Docker host, but not verified here."
+  },
+  "allowlist": {
+   "probes": [],
+   "harbor_exit": 1,
+   "raw_tail": "",
+   "unsupported_here": "Harbor enforces this mode with nftables (CONFIG_NFT_FIB_INET); Docker Desktop's VM kernel lacks it, so Harbor rejects the task. Expected to work on a Linux Docker host, but not verified here."
+  },
+  "crash": {
+   "reward": {
+    "reward": 0.0,
+    "matched": 0.0,
+    "false_positives": 0.0,
+    "spent": 8.0,
+    "submitted": 0.0
+   },
+   "agent_log_tail": "agent crashed\n"
+  }
+ }
+}

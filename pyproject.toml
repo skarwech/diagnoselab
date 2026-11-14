@@ -1,0 +1,13 @@
+[project]
+name = "diagnoselab"
+version = "0.1.0"
+description = "DiagnoseLab: hidden-fault diagnosis under a probe budget (RL environment)"
+requires-python = ">=3.12,<3.14"
+dependencies = ["mcp==2.3.0", "numpy==2.5.4"]
+
+[dependency-groups]
+dev = ["pytest==9.2.0", "harbor==0.25.0", "scipy==1.18.1", "matplotlib==3.11.2"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

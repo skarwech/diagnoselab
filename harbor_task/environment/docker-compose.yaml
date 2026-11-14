@@ -1,0 +1,13 @@
+# The sim sidecar holds the hidden instance and the episode state.
+# Do NOT add: host ports, volumes shared with main, networks/network_mode, or depends_on: main.
+services:
+  sim:
+    build: ./sim
+    expose: ["8000"]
+    environment:
+      DL_SEED: "0"      # dev seed; test seeds (1000-1059) are generated per task by `make tasks`
+      DL_TIER: "medium"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; socket.create_connection(('127.0.0.1', 8000), 1).close()"]
+      interval: 2s
+      retries: 60
