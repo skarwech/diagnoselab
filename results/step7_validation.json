@@ -1,0 +1,7538 @@
+{
+ "F21": {
+  "easy": {
+   "agent_mean": 0.9591344670261391,
+   "ci": [
+    0.03367641786354521,
+    0.047506384513467996
+   ],
+   "gap": 0.04086553297386082,
+   "n": 20,
+   "per_repeat_gap": [
+    0.04068834739514231,
+    0.03706332953565926,
+    0.04484492199078095
+   ],
+   "run_sd": 0.0038938209167065046
+  },
+  "hard": {
+   "agent_mean": 0.8081164472687907,
+   "ci": [
+    0.14236773147228887,
+    0.24309740344980152
+   ],
+   "gap": 0.19188355273120933,
+   "n": 20,
+   "per_repeat_gap": [
+    0.23095017020578226,
+    0.18472826479756088,
+    0.15997222319028478
+   ],
+   "run_sd": 0.03602590525849077
+  },
+  "medium": {
+   "agent_mean": 0.8070551750799754,
+   "ci": [
+    0.10061708472945421,
+    0.302635627892102
+   ],
+   "gap": 0.1929448249200246,
+   "n": 20,
+   "per_repeat_gap": [
+    0.11313527610400671,
+    0.1814723348564398,
+    0.2842268637996273
+   ],
+   "run_sd": 0.0861208242311135
+  },
+  "overall": {
+   "agent_mean": 0.8581020297916351,
+   "ci": [
+    0.1034036069964483,
+    0.18824765251918318
+   ],
+   "gap": 0.14189797020836492,
+   "n": 60,
+   "per_repeat_gap": [
+    0.12825793123497709,
+    0.13442130972988664,
+    0.163014669660231
+   ],
+   "run_sd": 0.018545432198339564
+  },
+  "pass": false,
+  "repeats": 3,
+  "seeds": 60,
+  "valid": {
+   "ci_excludes_0": true,
+   "each_repeat_ge_015": false,
+   "gap_ge_025": false,
+   "sd_lt_half_gap": true
+  }
+ },
+ "distinct_hypotheses": {
+  "easy": 4.466666666666667,
+  "hard": 13.733333333333333,
+  "medium": 9.066666666666666
+ },
+ "episodes": 180,
+ "experiment_use": {
+  "isolate_branch": {
+   "easy": 0.06666666666666667,
+   "hard": 0.26666666666666666,
+   "medium": 0.11666666666666667
+  },
+  "pump_off_static": {
+   "easy": 1.0,
+   "hard": 1.0,
+   "medium": 1.0
+  },
+  "speed_step": {
+   "easy": 0.9833333333333333,
+   "hard": 0.9666666666666667,
+   "medium": 0.9833333333333333
+  },
+  "valve_step": {
+   "easy": 0.26666666666666666,
+   "hard": 0.5333333333333333,
+   "medium": 0.43333333333333335
+  }
+ },
+ "flags": {
+  "anchoring": {
+   "easy": 0.0,
+   "hard": 0.0,
+   "medium": 0.016666666666666666
+  },
+  "budget_myopia": {
+   "easy": 0.9,
+   "hard": 0.4166666666666667,
+   "medium": 0.6166666666666667
+  },
+  "no_disambiguate": {
+   "easy": 0.0,
+   "hard": 0.0,
+   "medium": 0.0
+  },
+  "trusts_liar": {
+   "easy": 0.0,
+   "hard": 0.03333333333333333,
+   "medium": 0.06666666666666667
+  }
+ },
+ "friction": {
+  "calls": 11303,
+  "exceptions": [
+   "NonZeroAgentExitCodeError",
+   "NonZeroAgentExitCodeError"
+  ],
+  "no_submission": 2,
+  "rejected": 47
+ },
+ "job": "2026-11-15__04-47-53",
+ "reads_before_first_experiment": {
+  "easy": 12.083333333333334,
+  "hard": 8.833333333333334,
+  "medium": 11.2
+ },
+ "sensor_fault_miss": {
+  "easy": [
+   0,
+   0
+  ],
+  "hard": [
+   2,
+   120
+  ],
+  "medium": [
+   4,
+   60
+  ]
+ },
+ "tokens": {
+  "in": 99317460,
+  "out": 1166243
+ },
+ "trials": [
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00010000000000000018,
+    "distinct_hypotheses": 2,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 16,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 45,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9171270718232045,
+   "reward_raw": 0.8300000000000001,
+   "seed": 1000,
+   "spent": 34.0,
+   "started": "2026-11-15T04:33:12.997598Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 228354,
+   "tokens_out": 2974,
+   "trial": "diagnoselab-easy-1000__9PP3t3s"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 3,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 14,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 13,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 40,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9392265193370166,
+   "reward_raw": 0.8500000000000001,
+   "seed": 1000,
+   "spent": 30.0,
+   "started": "2026-11-15T03:40:19.732384Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 291007,
+   "tokens_out": 3751,
+   "trial": "diagnoselab-easy-1000__WMMAAVe"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00010000000000000018,
+    "distinct_hypotheses": 2,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 20,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 48,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9392265193370166,
+   "reward_raw": 0.8500000000000001,
+   "seed": 1000,
+   "spent": 30.0,
+   "started": "2026-11-15T02:47:59.044202Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 358267,
+   "tokens_out": 5093,
+   "trial": "diagnoselab-easy-1000__hwWPEbv"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 3,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 19,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 47,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9662921348314608,
+   "reward_raw": 0.8600000000000001,
+   "seed": 1001,
+   "spent": 28.0,
+   "started": "2026-11-15T04:33:55.930905Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 238767,
+   "tokens_out": 2699,
+   "trial": "diagnoselab-easy-1001__HJJugQZ"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 2,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 18,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 47,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9662921348314608,
+   "reward_raw": 0.8600000000000001,
+   "seed": 1001,
+   "spent": 28.0,
+   "started": "2026-11-15T03:40:39.563148Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 305241,
+   "tokens_out": 2984,
+   "trial": "diagnoselab-easy-1001__Mom26yX"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0025000000000000044,
+    "distinct_hypotheses": 8,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 39,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 68,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.9438202247191012,
+   "reward_raw": 0.8400000000000001,
+   "seed": 1001,
+   "spent": 32.0,
+   "started": "2026-11-15T02:47:59.157050Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 567948,
+   "tokens_out": 8431,
+   "trial": "diagnoselab-easy-1001__NXMsJj8"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 2,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 9,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": false,
+     "valve_step": true
+    }
+   },
+   "n_calls": 36,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9664804469273742,
+   "reward_raw": 0.865,
+   "seed": 1002,
+   "spent": 27.0,
+   "started": "2026-11-15T04:34:27.049281Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 176622,
+   "tokens_out": 1889,
+   "trial": "diagnoselab-easy-1002__BzzKgQi"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 5,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 21,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 49,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9441340782122906,
+   "reward_raw": 0.8450000000000001,
+   "seed": 1002,
+   "spent": 31.0,
+   "started": "2026-11-15T03:42:09.137753Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 458863,
+   "tokens_out": 6106,
+   "trial": "diagnoselab-easy-1002__XDSTVyT"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 1,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 15,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 9,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 38,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9441340782122906,
+   "reward_raw": 0.8450000000000001,
+   "seed": 1002,
+   "spent": 31.0,
+   "started": "2026-11-15T02:47:59.174707Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 249848,
+   "tokens_out": 2539,
+   "trial": "diagnoselab-easy-1002__eVtNARy"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": "NonZeroAgentExitCodeError",
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 8,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 11,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 27,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 54,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 1.0,
+   "reward_raw": 0.865,
+   "seed": 1003,
+   "spent": 27.0,
+   "started": "2026-11-15T03:42:34.039313Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 341363,
+   "tokens_out": 7557,
+   "trial": "diagnoselab-easy-1003__BLrJfKN"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 7,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 11,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 26,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 51,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 1.0,
+   "reward_raw": 0.865,
+   "seed": 1003,
+   "spent": 27.0,
+   "started": "2026-11-15T02:47:59.191831Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 301609,
+   "tokens_out": 3559,
+   "trial": "diagnoselab-easy-1003__cq48EbW"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 2,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 11,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 22,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 46,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9941860465116279,
+   "reward_raw": 0.8550000000000001,
+   "seed": 1003,
+   "spent": 29.0,
+   "started": "2026-11-15T04:34:40.943163Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 279234,
+   "tokens_out": 3396,
+   "trial": "diagnoselab-easy-1003__kNPQgqC"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 1,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 12,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 8,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 31,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9832402234636872,
+   "reward_raw": 0.8800000000000001,
+   "seed": 1004,
+   "spent": 24.0,
+   "started": "2026-11-15T02:47:59.211965Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 248784,
+   "tokens_out": 2324,
+   "trial": "diagnoselab-easy-1004__65Nrspj"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.001600000000000003,
+    "distinct_hypotheses": 1,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 12,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 11,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 39,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9832402234636872,
+   "reward_raw": 0.8800000000000001,
+   "seed": 1004,
+   "spent": 24.0,
+   "started": "2026-11-15T03:43:30.684638Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 153245,
+   "tokens_out": 1895,
+   "trial": "diagnoselab-easy-1004__dTSvXgK"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 1,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 12,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 10,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 33,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9832402234636872,
+   "reward_raw": 0.8800000000000001,
+   "seed": 1004,
+   "spent": 24.0,
+   "started": "2026-11-15T04:34:44.738512Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 281575,
+   "tokens_out": 2297,
+   "trial": "diagnoselab-easy-1004__qXpzuzv"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 2,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 14,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 15,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 41,
+   "normalized": 1.0,
+   "rejected": 2,
+   "reward": 0.9666666666666667,
+   "reward_raw": 0.87,
+   "seed": 1005,
+   "spent": 26.0,
+   "started": "2026-11-15T04:35:54.795527Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 228400,
+   "tokens_out": 3536,
+   "trial": "diagnoselab-easy-1005__L5p9cku"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 6,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 14,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 19,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 45,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9111111111111112,
+   "reward_raw": 0.8200000000000001,
+   "seed": 1005,
+   "spent": 36.0,
+   "started": "2026-11-15T02:47:59.231683Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 265993,
+   "tokens_out": 3104,
+   "trial": "diagnoselab-easy-1005__VtUG5ia"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 1,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 14,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 13,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 40,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9666666666666667,
+   "reward_raw": 0.87,
+   "seed": 1005,
+   "spent": 26.0,
+   "started": "2026-11-15T03:44:02.805726Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 192588,
+   "tokens_out": 2111,
+   "trial": "diagnoselab-easy-1005__aETbFEM"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 3,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 15,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 10,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 37,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.961111111111111,
+   "reward_raw": 0.865,
+   "seed": 1006,
+   "spent": 27.0,
+   "started": "2026-11-15T02:50:55.981616Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 158272,
+   "tokens_out": 1808,
+   "trial": "diagnoselab-easy-1006__QMdFqWx"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 3,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 15,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 20,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 51,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9333333333333333,
+   "reward_raw": 0.8400000000000001,
+   "seed": 1006,
+   "spent": 32.0,
+   "started": "2026-11-15T04:36:03.248918Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 207691,
+   "tokens_out": 2745,
+   "trial": "diagnoselab-easy-1006__tuTBo6i"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 3,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 7,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 34,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.961111111111111,
+   "reward_raw": 0.865,
+   "seed": 1006,
+   "spent": 27.0,
+   "started": "2026-11-15T03:44:39.228044Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 214409,
+   "tokens_out": 2868,
+   "trial": "diagnoselab-easy-1006__ve8aLqe"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 1,
+    "distinct_points": 6,
+    "experiments": 5,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 10,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 19,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 46,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9222222222222223,
+   "reward_raw": 0.8300000000000001,
+   "seed": 1007,
+   "spent": 34.0,
+   "started": "2026-11-15T03:45:39.669396Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 333417,
+   "tokens_out": 3283,
+   "trial": "diagnoselab-easy-1007__i4Hig3S"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 4,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 10,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 17,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 41,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9666666666666667,
+   "reward_raw": 0.87,
+   "seed": 1007,
+   "spent": 26.0,
+   "started": "2026-11-15T02:51:00.528029Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 297918,
+   "tokens_out": 2984,
+   "trial": "diagnoselab-easy-1007__nRZPCf4"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 1,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 10,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 16,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 41,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9444444444444445,
+   "reward_raw": 0.8500000000000001,
+   "seed": 1007,
+   "spent": 30.0,
+   "started": "2026-11-15T04:36:36.680506Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 241962,
+   "tokens_out": 2428,
+   "trial": "diagnoselab-easy-1007__tJ5rmKa"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0025000000000000044,
+    "distinct_hypotheses": 7,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 17,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 38,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 68,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9542857142857144,
+   "reward_raw": 0.8350000000000001,
+   "seed": 1008,
+   "spent": 33.0,
+   "started": "2026-11-15T02:51:27.628113Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 336206,
+   "tokens_out": 4283,
+   "trial": "diagnoselab-easy-1008__DgmB7u5"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 2,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 17,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 26,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 56,
+   "normalized": 1.0,
+   "rejected": 4,
+   "reward": 0.942857142857143,
+   "reward_raw": 0.8250000000000001,
+   "seed": 1008,
+   "spent": 35.0,
+   "started": "2026-11-15T03:46:37.729726Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 369483,
+   "tokens_out": 3266,
+   "trial": "diagnoselab-easy-1008__GSRcPt7"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.006399999999999993,
+    "distinct_hypotheses": 11,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 17,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 63,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 95,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.942857142857143,
+   "reward_raw": 0.8250000000000001,
+   "seed": 1008,
+   "spent": 35.0,
+   "started": "2026-11-15T04:36:54.662135Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 694938,
+   "tokens_out": 6703,
+   "trial": "diagnoselab-easy-1008__s5mxGHY"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 1,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 14,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 7,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 33,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9720670391061452,
+   "reward_raw": 0.87,
+   "seed": 1009,
+   "spent": 26.0,
+   "started": "2026-11-15T03:46:40.723510Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 203765,
+   "tokens_out": 2808,
+   "trial": "diagnoselab-easy-1009__5tif3jL"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.001600000000000003,
+    "distinct_hypotheses": 2,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 14,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 11,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 37,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9720670391061452,
+   "reward_raw": 0.87,
+   "seed": 1009,
+   "spent": 26.0,
+   "started": "2026-11-15T02:51:38.766546Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 240932,
+   "tokens_out": 3319,
+   "trial": "diagnoselab-easy-1009__YVFPv3D"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 5,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 14,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 28,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 57,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9385474860335197,
+   "reward_raw": 0.8400000000000001,
+   "seed": 1009,
+   "spent": 32.0,
+   "started": "2026-11-15T04:37:11.083043Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 602307,
+   "tokens_out": 5273,
+   "trial": "diagnoselab-easy-1009__ayTNXWN"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 3,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 18,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 44,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9831460674157303,
+   "reward_raw": 0.875,
+   "seed": 1010,
+   "spent": 25.0,
+   "started": "2026-11-15T03:47:34.708561Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 257704,
+   "tokens_out": 4262,
+   "trial": "diagnoselab-easy-1010__A3V8Gsf"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 4,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 31,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 57,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.9382022471910113,
+   "reward_raw": 0.8350000000000001,
+   "seed": 1010,
+   "spent": 33.0,
+   "started": "2026-11-15T02:52:01.125886Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 266894,
+   "tokens_out": 3701,
+   "trial": "diagnoselab-easy-1010__HUrHkXN"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 8,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 30,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 55,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9831460674157303,
+   "reward_raw": 0.875,
+   "seed": 1010,
+   "spent": 25.0,
+   "started": "2026-11-15T04:38:01.794986Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 273449,
+   "tokens_out": 5953,
+   "trial": "diagnoselab-easy-1010__ZgkXqwn"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00010000000000000018,
+    "distinct_hypotheses": 8,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 15,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 40,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9668508287292817,
+   "reward_raw": 0.875,
+   "seed": 1011,
+   "spent": 25.0,
+   "started": "2026-11-15T03:47:40.979058Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 154286,
+   "tokens_out": 2058,
+   "trial": "diagnoselab-easy-1011__QCsHrBG"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 7,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 22,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 51,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.9392265193370166,
+   "reward_raw": 0.8500000000000001,
+   "seed": 1011,
+   "spent": 30.0,
+   "started": "2026-11-15T02:54:23.984060Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 326096,
+   "tokens_out": 7060,
+   "trial": "diagnoselab-easy-1011__U4ZQnwq"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 11,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 34,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 59,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9447513812154696,
+   "reward_raw": 0.8550000000000001,
+   "seed": 1011,
+   "spent": 29.0,
+   "started": "2026-11-15T04:38:46.026043Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 345402,
+   "tokens_out": 6274,
+   "trial": "diagnoselab-easy-1011__z8euqsB"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 6,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 23,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 50,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9608938547486034,
+   "reward_raw": 0.8600000000000001,
+   "seed": 1012,
+   "spent": 28.0,
+   "started": "2026-11-15T02:54:30.090099Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 161470,
+   "tokens_out": 3168,
+   "trial": "diagnoselab-easy-1012__fLc88PK"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00010000000000000018,
+    "distinct_hypotheses": 3,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 16,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 46,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9385474860335197,
+   "reward_raw": 0.8400000000000001,
+   "seed": 1012,
+   "spent": 32.0,
+   "started": "2026-11-15T04:38:48.450295Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 289423,
+   "tokens_out": 3000,
+   "trial": "diagnoselab-easy-1012__mnSsgL3"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 7,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 16,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 42,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9608938547486034,
+   "reward_raw": 0.8600000000000001,
+   "seed": 1012,
+   "spent": 28.0,
+   "started": "2026-11-15T03:48:08.043569Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 136143,
+   "tokens_out": 2346,
+   "trial": "diagnoselab-easy-1012__ybHEXHY"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00010000000000000018,
+    "distinct_hypotheses": 2,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 14,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 16,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 44,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9171270718232045,
+   "reward_raw": 0.8300000000000001,
+   "seed": 1013,
+   "spent": 34.0,
+   "started": "2026-11-15T04:39:49.342010Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 177884,
+   "tokens_out": 3456,
+   "trial": "diagnoselab-easy-1013__8MLQu2M"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00010000000000000018,
+    "distinct_hypotheses": 1,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 14,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 17,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 45,
+   "normalized": 1.0,
+   "rejected": 3,
+   "reward": 0.9392265193370166,
+   "reward_raw": 0.8500000000000001,
+   "seed": 1013,
+   "spent": 30.0,
+   "started": "2026-11-15T02:55:06.708927Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 364998,
+   "tokens_out": 2982,
+   "trial": "diagnoselab-easy-1013__xigMeoP"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 2,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 14,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 19,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 47,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9392265193370166,
+   "reward_raw": 0.8500000000000001,
+   "seed": 1013,
+   "spent": 30.0,
+   "started": "2026-11-15T03:49:09.020613Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 290169,
+   "tokens_out": 3477,
+   "trial": "diagnoselab-easy-1013__zj7HTbN"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 2,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 13,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 37,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9777777777777779,
+   "reward_raw": 0.8800000000000001,
+   "seed": 1014,
+   "spent": 24.0,
+   "started": "2026-11-15T02:55:50.722311Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 224867,
+   "tokens_out": 2404,
+   "trial": "diagnoselab-easy-1014__4RMatXM"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0036000000000000064,
+    "distinct_hypotheses": 7,
+    "distinct_points": 4,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 12,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 23,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 51,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9333333333333333,
+   "reward_raw": 0.8400000000000001,
+   "seed": 1014,
+   "spent": 32.0,
+   "started": "2026-11-15T04:41:40.182361Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 444852,
+   "tokens_out": 8276,
+   "trial": "diagnoselab-easy-1014__ZriRgtP"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 3,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 12,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 11,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 36,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9555555555555556,
+   "reward_raw": 0.8600000000000001,
+   "seed": 1014,
+   "spent": 28.0,
+   "started": "2026-11-15T03:49:18.027777Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 253805,
+   "tokens_out": 2632,
+   "trial": "diagnoselab-easy-1014__uG5amCy"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0025000000000000044,
+    "distinct_hypotheses": 15,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 27,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 53,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9500000000000001,
+   "reward_raw": 0.8550000000000001,
+   "seed": 1015,
+   "spent": 29.0,
+   "started": "2026-11-15T02:55:50.926312Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 190533,
+   "tokens_out": 3073,
+   "trial": "diagnoselab-easy-1015__j5kfr2J"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 5,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 17,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 42,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9722222222222222,
+   "reward_raw": 0.875,
+   "seed": 1015,
+   "spent": 25.0,
+   "started": "2026-11-15T03:50:16.359347Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 188289,
+   "tokens_out": 2190,
+   "trial": "diagnoselab-easy-1015__jw4ejM9"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0025000000000000044,
+    "distinct_hypotheses": 8,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 22,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 47,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9500000000000001,
+   "reward_raw": 0.8550000000000001,
+   "seed": 1015,
+   "spent": 29.0,
+   "started": "2026-11-15T04:41:45.341364Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 274534,
+   "tokens_out": 4888,
+   "trial": "diagnoselab-easy-1015__xYdxm6u"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 5,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 11,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 36,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9722222222222222,
+   "reward_raw": 0.875,
+   "seed": 1016,
+   "spent": 25.0,
+   "started": "2026-11-15T03:50:27.725126Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 126452,
+   "tokens_out": 1744,
+   "trial": "diagnoselab-easy-1016__VVVJyek"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 17,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 30,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 55,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9722222222222222,
+   "reward_raw": 0.875,
+   "seed": 1016,
+   "spent": 25.0,
+   "started": "2026-11-15T02:56:08.067091Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 406409,
+   "tokens_out": 6394,
+   "trial": "diagnoselab-easy-1016__dMqWRHt"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 8,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 20,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 45,
+   "normalized": 1.0,
+   "rejected": 2,
+   "reward": 0.9722222222222222,
+   "reward_raw": 0.875,
+   "seed": 1016,
+   "spent": 25.0,
+   "started": "2026-11-15T04:42:10.755051Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 262442,
+   "tokens_out": 2880,
+   "trial": "diagnoselab-easy-1016__pPLQiAG"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 3,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 11,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 15,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 38,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9833333333333333,
+   "reward_raw": 0.885,
+   "seed": 1017,
+   "spent": 23.0,
+   "started": "2026-11-15T04:42:15.380728Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 217766,
+   "tokens_out": 3189,
+   "trial": "diagnoselab-easy-1017__4C63Aki"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 5,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 11,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 10,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 33,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9833333333333333,
+   "reward_raw": 0.885,
+   "seed": 1017,
+   "spent": 23.0,
+   "started": "2026-11-15T02:57:50.599296Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 137201,
+   "tokens_out": 1630,
+   "trial": "diagnoselab-easy-1017__CPbkwsS"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 7,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 11,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 27,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 52,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.961111111111111,
+   "reward_raw": 0.865,
+   "seed": 1017,
+   "spent": 27.0,
+   "started": "2026-11-15T03:50:57.400887Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 370099,
+   "tokens_out": 3277,
+   "trial": "diagnoselab-easy-1017__EX8dyFg"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 1,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 15,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 11,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 39,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.9719101123595505,
+   "reward_raw": 0.865,
+   "seed": 1018,
+   "spent": 27.0,
+   "started": "2026-11-15T04:42:27.941914Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 191795,
+   "tokens_out": 2679,
+   "trial": "diagnoselab-easy-1018__48bWMjn"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00010000000000000018,
+    "distinct_hypotheses": 1,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 15,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 8,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 36,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9719101123595505,
+   "reward_raw": 0.865,
+   "seed": 1018,
+   "spent": 27.0,
+   "started": "2026-11-15T02:58:10.950330Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 357556,
+   "tokens_out": 4984,
+   "trial": "diagnoselab-easy-1018__GiBcTqt"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00010000000000000018,
+    "distinct_hypotheses": 1,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 15,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 18,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 47,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9719101123595505,
+   "reward_raw": 0.865,
+   "seed": 1018,
+   "spent": 27.0,
+   "started": "2026-11-15T03:50:57.582580Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 202215,
+   "tokens_out": 2812,
+   "trial": "diagnoselab-easy-1018__bqnwzPZ"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 14,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 12,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 25,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 49,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9777777777777779,
+   "reward_raw": 0.8800000000000001,
+   "seed": 1019,
+   "spent": 24.0,
+   "started": "2026-11-15T02:58:43.728350Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 209513,
+   "tokens_out": 2930,
+   "trial": "diagnoselab-easy-1019__2SV8fjs"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004000000000000007,
+    "distinct_hypotheses": 1,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 12,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 7,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 30,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9555555555555556,
+   "reward_raw": 0.8600000000000001,
+   "seed": 1019,
+   "spent": 28.0,
+   "started": "2026-11-15T04:43:36.016157Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 220241,
+   "tokens_out": 2019,
+   "trial": "diagnoselab-easy-1019__WjpQWSw"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009000000000000016,
+    "distinct_hypotheses": 3,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 12,
+    "sensor_faults": 0,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 13,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 38,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9777777777777779,
+   "reward_raw": 0.8800000000000001,
+   "seed": 1019,
+   "spent": 24.0,
+   "started": "2026-11-15T03:51:52.289816Z",
+   "submitted": 1.0,
+   "tier": "easy",
+   "tokens_in": 239669,
+   "tokens_out": 2508,
+   "trial": "diagnoselab-easy-1019__mAu5bx5"
+  },
+  {
+   "D": 0.5,
+   "S": 0.3902685315759342,
+   "exception": null,
+   "metrics": {
+    "brier": 0.14511999999999997,
+    "distinct_hypotheses": 25,
+    "distinct_points": 7,
+    "experiments": 6,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 96,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 122,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.42045812331578714,
+   "reward_raw": 0.361593986051577,
+   "seed": 1000,
+   "spent": 40.0,
+   "started": "2026-11-15T02:59:10.736578Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 1004571,
+   "tokens_out": 10626,
+   "trial": "diagnoselab-hard-1000__GKTtiDX"
+  },
+  {
+   "D": 0.6,
+   "S": 0.42720324408279947,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 16,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 82,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 120,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.4878152737546277,
+   "reward_raw": 0.41952113542897984,
+   "seed": 1000,
+   "spent": 40.0,
+   "started": "2026-11-15T04:45:06.946995Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 1355968,
+   "tokens_out": 14692,
+   "trial": "diagnoselab-hard-1000__NJpyMkh"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 12,
+    "distinct_points": 6,
+    "experiments": 6,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 74,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 95,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9767441860465116,
+   "reward_raw": 0.8400000000000001,
+   "seed": 1000,
+   "spent": 32.0,
+   "started": "2026-11-15T03:51:52.463098Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 1360166,
+   "tokens_out": 9338,
+   "trial": "diagnoselab-hard-1000__xkB5D9R"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 18,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 60,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 93,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9418604651162791,
+   "reward_raw": 0.81,
+   "seed": 1001,
+   "spent": 38.0,
+   "started": "2026-11-15T04:45:17.892160Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 683301,
+   "tokens_out": 8047,
+   "trial": "diagnoselab-hard-1001__bNphb4x"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0003600000000000006,
+    "distinct_hypotheses": 17,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 20,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 44,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 79,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9534883720930232,
+   "reward_raw": 0.8200000000000001,
+   "seed": 1001,
+   "spent": 36.0,
+   "started": "2026-11-15T03:52:37.623601Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 789974,
+   "tokens_out": 10426,
+   "trial": "diagnoselab-hard-1001__i5NAyj7"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 15,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 30,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 66,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1001,
+   "spent": 40.0,
+   "started": "2026-11-15T02:59:30.327410Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 759257,
+   "tokens_out": 12340,
+   "trial": "diagnoselab-hard-1001__iHmbKvd"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 8,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 20,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 31,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 67,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1002,
+   "spent": 40.0,
+   "started": "2026-11-15T02:59:56.743919Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 2731916,
+   "tokens_out": 14013,
+   "trial": "diagnoselab-hard-1002__hs3mUMw"
+  },
+  {
+   "D": 0.9,
+   "S": 0.85,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 15,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 36,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 71,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.816860465116279,
+   "reward_raw": 0.7025,
+   "seed": 1002,
+   "spent": 40.0,
+   "started": "2026-11-15T04:45:37.439094Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 2338632,
+   "tokens_out": 16799,
+   "trial": "diagnoselab-hard-1002__kdS7eYR"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 18,
+    "distinct_points": 6,
+    "experiments": 5,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 65,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 94,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1002,
+   "spent": 40.0,
+   "started": "2026-11-15T03:52:37.778710Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 984388,
+   "tokens_out": 8076,
+   "trial": "diagnoselab-hard-1002__yNcpMSW"
+  },
+  {
+   "D": 0.9,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00020000000000000036,
+    "distinct_hypotheses": 18,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 71,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 107,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.8628571428571429,
+   "reward_raw": 0.755,
+   "seed": 1003,
+   "spent": 40.0,
+   "started": "2026-11-15T04:45:41.765576Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 973153,
+   "tokens_out": 13393,
+   "trial": "diagnoselab-hard-1003__G4gxue6"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.001180000000000002,
+    "distinct_hypotheses": 9,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 17,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 28,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 56,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9771428571428572,
+   "reward_raw": 0.8550000000000001,
+   "seed": 1003,
+   "spent": 29.0,
+   "started": "2026-11-15T03:00:18.648967Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 254961,
+   "tokens_out": 3768,
+   "trial": "diagnoselab-hard-1003__bRoaQih"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 8,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 17,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 37,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 69,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.92,
+   "reward_raw": 0.805,
+   "seed": 1003,
+   "spent": 39.0,
+   "started": "2026-11-15T03:54:04.371647Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 708285,
+   "tokens_out": 11279,
+   "trial": "diagnoselab-hard-1003__mcdwgL4"
+  },
+  {
+   "D": 0.7,
+   "S": 0.4989241729506394,
+   "exception": null,
+   "metrics": {
+    "brier": 0.19391999999999998,
+    "distinct_hypotheses": 5,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 30,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 48,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.6507249541078182,
+   "reward_raw": 0.5596234605327237,
+   "seed": 1004,
+   "spent": 26.0,
+   "started": "2026-11-15T04:46:07.428123Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 314249,
+   "tokens_out": 4758,
+   "trial": "diagnoselab-hard-1004__3i7Qr79"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0023599999999999997,
+    "distinct_hypotheses": 21,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 51,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 85,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1004,
+   "spent": 40.0,
+   "started": "2026-11-15T03:01:38.626060Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 779063,
+   "tokens_out": 12335,
+   "trial": "diagnoselab-hard-1004__nxvScPK"
+  },
+  {
+   "D": 0.5,
+   "S": 0.19892417295063947,
+   "exception": null,
+   "metrics": {
+    "brier": 0.3715857142857143,
+    "distinct_hypotheses": 11,
+    "distinct_points": 6,
+    "experiments": 5,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 7,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 73,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 99,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.35033735720859355,
+   "reward_raw": 0.30129012719939047,
+   "seed": 1004,
+   "spent": 36.0,
+   "started": "2026-11-15T03:54:35.792368Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 789232,
+   "tokens_out": 13071,
+   "trial": "diagnoselab-hard-1004__q4K4H8i"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.000560000000000001,
+    "distinct_hypotheses": 23,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 22,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 75,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 112,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1005,
+   "spent": 40.0,
+   "started": "2026-11-15T04:47:36.695198Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 955698,
+   "tokens_out": 10147,
+   "trial": "diagnoselab-hard-1005__HanfNmm"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 6,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 22,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 27,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 62,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1005,
+   "spent": 40.0,
+   "started": "2026-11-15T03:55:18.320128Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 322083,
+   "tokens_out": 6667,
+   "trial": "diagnoselab-hard-1005__NdeHX8t"
+  },
+  {
+   "D": 0.6,
+   "S": 0.2621209587704712,
+   "exception": null,
+   "metrics": {
+    "brier": 0.30795,
+    "distinct_hypotheses": 11,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 6,
+    "reads_before_first_experiment": 22,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 59,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 96,
+   "normalized": 1.0,
+   "rejected": 6,
+   "reward": 0.4206306227554243,
+   "reward_raw": 0.36174233556966495,
+   "seed": 1005,
+   "spent": 40.0,
+   "started": "2026-11-15T03:01:48.019532Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 697209,
+   "tokens_out": 12245,
+   "trial": "diagnoselab-hard-1005__UhTYbhQ"
+  },
+  {
+   "D": 0.6,
+   "S": 0.3988093700132375,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 12,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 49,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 84,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.48227963161452087,
+   "reward_raw": 0.41958327950463314,
+   "seed": 1006,
+   "spent": 37.0,
+   "started": "2026-11-15T04:50:58.510896Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 833452,
+   "tokens_out": 10480,
+   "trial": "diagnoselab-hard-1006__62ekhFx"
+  },
+  {
+   "D": 0.6,
+   "S": 0.3988093700132375,
+   "exception": null,
+   "metrics": {
+    "brier": 0.31708333333333333,
+    "distinct_hypotheses": 14,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 6,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 46,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 75,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.5129309726106894,
+   "reward_raw": 0.4462499461712998,
+   "seed": 1006,
+   "spent": 29.0,
+   "started": "2026-11-15T03:59:25.978165Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 366558,
+   "tokens_out": 5581,
+   "trial": "diagnoselab-hard-1006__6US79hQ"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00032000000000000057,
+    "distinct_hypotheses": 17,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 44,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 78,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9252873563218391,
+   "reward_raw": 0.805,
+   "seed": 1006,
+   "spent": 39.0,
+   "started": "2026-11-15T03:05:09.342879Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 1834452,
+   "tokens_out": 17018,
+   "trial": "diagnoselab-hard-1006__eZpqBTy"
+  },
+  {
+   "D": 0.7,
+   "S": 0.7064192816646235,
+   "exception": null,
+   "metrics": {
+    "brier": 0.18444,
+    "distinct_hypotheses": 11,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 29,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 66,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.6595892425379282,
+   "reward_raw": 0.5672467485826183,
+   "seed": 1007,
+   "spent": 39.0,
+   "started": "2026-11-15T03:07:10.333640Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 490280,
+   "tokens_out": 5890,
+   "trial": "diagnoselab-hard-1007__USWj8on"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009400000000000016,
+    "distinct_hypotheses": 16,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 43,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 73,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9593023255813953,
+   "reward_raw": 0.8250000000000001,
+   "seed": 1007,
+   "spent": 35.0,
+   "started": "2026-11-15T04:51:59.443335Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 608916,
+   "tokens_out": 9070,
+   "trial": "diagnoselab-hard-1007__ZkGHEMt"
+  },
+  {
+   "D": 0.7,
+   "S": 0.7064192816646235,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 15,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 37,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 58,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.7584264518402537,
+   "reward_raw": 0.6522467485826182,
+   "seed": 1007,
+   "spent": 22.0,
+   "started": "2026-11-15T04:00:28.919413Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 925745,
+   "tokens_out": 11123,
+   "trial": "diagnoselab-hard-1007__kv4zKbx"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 5,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 35,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 64,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9653179190751446,
+   "reward_raw": 0.8350000000000001,
+   "seed": 1008,
+   "spent": 33.0,
+   "started": "2026-11-15T04:53:11.526476Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 403919,
+   "tokens_out": 6864,
+   "trial": "diagnoselab-hard-1008__B4X2Cet"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00020000000000000036,
+    "distinct_hypotheses": 5,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 23,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 33,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 71,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9248554913294799,
+   "reward_raw": 0.8,
+   "seed": 1008,
+   "spent": 40.0,
+   "started": "2026-11-15T03:08:19.860024Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 358828,
+   "tokens_out": 4752,
+   "trial": "diagnoselab-hard-1008__NoGWxx4"
+  },
+  {
+   "D": 0.5,
+   "S": 0.24992199967607343,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 13,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 23,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 27,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 66,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.3631668977494709,
+   "reward_raw": 0.31413936655329233,
+   "seed": 1008,
+   "spent": 39.0,
+   "started": "2026-11-15T04:00:32.442144Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 404435,
+   "tokens_out": 4872,
+   "trial": "diagnoselab-hard-1008__z3CrzjH"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 18,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 19,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 46,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 81,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.893854748603352,
+   "reward_raw": 0.8,
+   "seed": 1009,
+   "spent": 40.0,
+   "started": "2026-11-15T04:02:16.963995Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 942001,
+   "tokens_out": 14711,
+   "trial": "diagnoselab-hard-1009__8gU3UxF"
+  },
+  {
+   "D": 0.8,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 18,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": true
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 19,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 1,
+    "simulate_calls": 53,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": false,
+     "valve_step": true
+    }
+   },
+   "n_calls": 87,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.8100558659217877,
+   "reward_raw": 0.725,
+   "seed": 1009,
+   "spent": 37.0,
+   "started": "2026-11-15T03:09:35.534163Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 489519,
+   "tokens_out": 6045,
+   "trial": "diagnoselab-hard-1009__wi7uXkg"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00012000000000000023,
+    "distinct_hypotheses": 5,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 19,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 24,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 59,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.8994413407821229,
+   "reward_raw": 0.805,
+   "seed": 1009,
+   "spent": 39.0,
+   "started": "2026-11-15T04:55:39.726810Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 681118,
+   "tokens_out": 5552,
+   "trial": "diagnoselab-hard-1009__z5H8v29"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00012000000000000023,
+    "distinct_hypotheses": 11,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 31,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 70,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.903954802259887,
+   "reward_raw": 0.8,
+   "seed": 1010,
+   "spent": 40.0,
+   "started": "2026-11-15T03:09:41.156867Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 800650,
+   "tokens_out": 5982,
+   "trial": "diagnoselab-hard-1010__PhGg9qs"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 11,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 49,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 72,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9887005649717514,
+   "reward_raw": 0.875,
+   "seed": 1010,
+   "spent": 25.0,
+   "started": "2026-11-15T04:57:21.374332Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 822080,
+   "tokens_out": 7565,
+   "trial": "diagnoselab-hard-1010__Uy3fUeM"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0010000000000000018,
+    "distinct_hypotheses": 15,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 27,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 50,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 90,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.903954802259887,
+   "reward_raw": 0.8,
+   "seed": 1010,
+   "spent": 40.0,
+   "started": "2026-11-15T04:02:47.108250Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 820959,
+   "tokens_out": 7533,
+   "trial": "diagnoselab-hard-1010__mTLrFwF"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.000600000000000001,
+    "distinct_hypotheses": 5,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 29,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 46,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 1.0,
+   "reward_raw": 0.895,
+   "seed": 1011,
+   "spent": 21.0,
+   "started": "2026-11-15T04:04:37.719320Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 349949,
+   "tokens_out": 4828,
+   "trial": "diagnoselab-hard-1011__JRkFN96"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0007600000000000013,
+    "distinct_hypotheses": 10,
+    "distinct_points": 6,
+    "experiments": 5,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 48,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 70,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9602272727272727,
+   "reward_raw": 0.8450000000000001,
+   "seed": 1011,
+   "spent": 31.0,
+   "started": "2026-11-15T04:57:53.492373Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 726692,
+   "tokens_out": 7706,
+   "trial": "diagnoselab-hard-1011__aMS9GMe"
+  },
+  {
+   "D": 0.8,
+   "S": 0.85,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 18,
+    "distinct_points": 8,
+    "experiments": 7,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 77,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 104,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.7471590909090908,
+   "reward_raw": 0.6575,
+   "seed": 1011,
+   "spent": 40.0,
+   "started": "2026-11-15T03:09:59.609962Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 1665411,
+   "tokens_out": 13389,
+   "trial": "diagnoselab-hard-1011__zqN7b4G"
+  },
+  {
+   "D": 0.6,
+   "S": 0.4638607531877194,
+   "exception": null,
+   "metrics": {
+    "brier": 0.30765,
+    "distinct_hypotheses": 10,
+    "distinct_points": 7,
+    "experiments": 6,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 6,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 66,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 93,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.48853250126068,
+   "reward_raw": 0.4323512636157018,
+   "seed": 1012,
+   "spent": 40.0,
+   "started": "2026-11-15T04:05:24.352468Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 1050647,
+   "tokens_out": 9907,
+   "trial": "diagnoselab-hard-1012__7krXVd8"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0008200000000000015,
+    "distinct_hypotheses": 7,
+    "distinct_points": 4,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 32,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 59,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9265536723163842,
+   "reward_raw": 0.8200000000000001,
+   "seed": 1012,
+   "spent": 36.0,
+   "started": "2026-11-15T04:58:16.181119Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 423533,
+   "tokens_out": 5550,
+   "trial": "diagnoselab-hard-1012__SshzfXG"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 4,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 29,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 45,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 1.0,
+   "reward_raw": 0.905,
+   "seed": 1012,
+   "spent": 19.0,
+   "started": "2026-11-15T03:12:05.701494Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 555354,
+   "tokens_out": 4928,
+   "trial": "diagnoselab-hard-1012__g6fqX7c"
+  },
+  {
+   "D": 0.9,
+   "S": 0.85,
+   "exception": null,
+   "metrics": {
+    "brier": 0.15066666666666667,
+    "distinct_hypotheses": 7,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 6,
+    "reads_before_first_experiment": 24,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 18,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 56,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.7982954545454545,
+   "reward_raw": 0.7025,
+   "seed": 1013,
+   "spent": 40.0,
+   "started": "2026-11-15T04:05:54.675907Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 542714,
+   "tokens_out": 6281,
+   "trial": "diagnoselab-hard-1013__QSm9GyM"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00016000000000000028,
+    "distinct_hypotheses": 4,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 24,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 56,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9375,
+   "reward_raw": 0.8250000000000001,
+   "seed": 1013,
+   "spent": 35.0,
+   "started": "2026-11-15T03:12:49.560088Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 330920,
+   "tokens_out": 4406,
+   "trial": "diagnoselab-hard-1013__VJANQiW"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00010000000000000018,
+    "distinct_hypotheses": 14,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 80,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 102,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9943181818181817,
+   "reward_raw": 0.875,
+   "seed": 1013,
+   "spent": 25.0,
+   "started": "2026-11-15T04:58:36.662890Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 1321495,
+   "tokens_out": 11895,
+   "trial": "diagnoselab-hard-1013__WfAz6cN"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 19,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 46,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 67,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 1.0,
+   "reward_raw": 0.89,
+   "seed": 1014,
+   "spent": 22.0,
+   "started": "2026-11-15T04:59:52.650642Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 1629323,
+   "tokens_out": 14770,
+   "trial": "diagnoselab-hard-1014__H4vCHtp"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0030800000000000007,
+    "distinct_hypotheses": 19,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 23,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 66,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 104,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1014,
+   "spent": 40.0,
+   "started": "2026-11-15T04:06:08.149709Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 2712826,
+   "tokens_out": 24204,
+   "trial": "diagnoselab-hard-1014__uxhmgJB"
+  },
+  {
+   "D": 0.2,
+   "S": 0.14650008739532128,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 13,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": true
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 1,
+    "simulate_calls": 44,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 78,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.16427329138181676,
+   "reward_raw": 0.14127503058836244,
+   "seed": 1014,
+   "spent": 40.0,
+   "started": "2026-11-15T03:14:52.230727Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 3557713,
+   "tokens_out": 19159,
+   "trial": "diagnoselab-hard-1014__vpuT2tL"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 18,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 91,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 128,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1016,
+   "spent": 40.0,
+   "started": "2026-11-15T04:09:19.387288Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 1050694,
+   "tokens_out": 11600,
+   "trial": "diagnoselab-hard-1016__3nutqS7"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.000600000000000001,
+    "distinct_hypotheses": 27,
+    "distinct_points": 6,
+    "experiments": 5,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 106,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 134,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9534883720930232,
+   "reward_raw": 0.8200000000000001,
+   "seed": 1016,
+   "spent": 36.0,
+   "started": "2026-11-15T05:00:46.517394Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 1558466,
+   "tokens_out": 20466,
+   "trial": "diagnoselab-hard-1016__MVoExbv"
+  },
+  {
+   "D": 0.0,
+   "S": 0.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.36,
+    "distinct_hypotheses": 10,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 1,
+    "reads_before_first_experiment": 23,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 91,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 128,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.0,
+   "reward_raw": 0.0,
+   "seed": 1016,
+   "spent": 40.0,
+   "started": "2026-11-15T03:15:30.547911Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 1420385,
+   "tokens_out": 13624,
+   "trial": "diagnoselab-hard-1016__hd6Ywzj"
+  },
+  {
+   "D": 0.9,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0007000000000000012,
+    "distinct_hypotheses": 22,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 41,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 73,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.8749999999999999,
+   "reward_raw": 0.77,
+   "seed": 1017,
+   "spent": 37.0,
+   "started": "2026-11-15T05:03:11.326867Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 258027,
+   "tokens_out": 5222,
+   "trial": "diagnoselab-hard-1017__YNGiELu"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 22,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 48,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 84,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9261363636363635,
+   "reward_raw": 0.8150000000000001,
+   "seed": 1017,
+   "spent": 37.0,
+   "started": "2026-11-15T03:16:14.860925Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 535441,
+   "tokens_out": 5381,
+   "trial": "diagnoselab-hard-1017__qBNkjJi"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 15,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 54,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 88,
+   "normalized": 1.0,
+   "rejected": 6,
+   "reward": 0.9147727272727272,
+   "reward_raw": 0.805,
+   "seed": 1017,
+   "spent": 39.0,
+   "started": "2026-11-15T04:09:30.949502Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 577402,
+   "tokens_out": 6147,
+   "trial": "diagnoselab-hard-1017__zGU6KnN"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0003400000000000006,
+    "distinct_hypotheses": 14,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 51,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 86,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1018,
+   "spent": 40.0,
+   "started": "2026-11-15T04:09:35.115516Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 714342,
+   "tokens_out": 10161,
+   "trial": "diagnoselab-hard-1018__2TpnfH6"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 30,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 73,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 106,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.936046511627907,
+   "reward_raw": 0.805,
+   "seed": 1018,
+   "spent": 39.0,
+   "started": "2026-11-15T03:16:48.758369Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 1375503,
+   "tokens_out": 16609,
+   "trial": "diagnoselab-hard-1018__6bCMg7h"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 15,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 56,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": false,
+     "valve_step": true
+    }
+   },
+   "n_calls": 91,
+   "normalized": 1.0,
+   "rejected": 2,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1018,
+   "spent": 40.0,
+   "started": "2026-11-15T05:05:10.102586Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 502369,
+   "tokens_out": 6872,
+   "trial": "diagnoselab-hard-1018__NdVvUSC"
+  },
+  {
+   "D": 0.9,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0008000000000000014,
+    "distinct_hypotheses": 10,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 22,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 26,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 59,
+   "normalized": 1.0,
+   "rejected": 4,
+   "reward": 0.8895348837209301,
+   "reward_raw": 0.765,
+   "seed": 1020,
+   "spent": 38.0,
+   "started": "2026-11-15T04:11:22.977154Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 319191,
+   "tokens_out": 3604,
+   "trial": "diagnoselab-hard-1020__3PrBpDz"
+  },
+  {
+   "D": 0.4,
+   "S": 0.08798525904465804,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 20,
+    "distinct_points": 6,
+    "experiments": 5,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 53,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 77,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.2451102798437562,
+   "reward_raw": 0.21079484066563034,
+   "seed": 1020,
+   "spent": 33.0,
+   "started": "2026-11-15T05:05:28.088785Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 635518,
+   "tokens_out": 7486,
+   "trial": "diagnoselab-hard-1020__edbWS7F"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 20,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 43,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 79,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.9418604651162791,
+   "reward_raw": 0.81,
+   "seed": 1020,
+   "spent": 38.0,
+   "started": "2026-11-15T03:17:22.633460Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 324916,
+   "tokens_out": 5564,
+   "trial": "diagnoselab-hard-1020__zm9yfLT"
+  },
+  {
+   "D": 0.9,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0014400000000000025,
+    "distinct_hypotheses": 6,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 35,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 69,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.8953488372093023,
+   "reward_raw": 0.77,
+   "seed": 1021,
+   "spent": 37.0,
+   "started": "2026-11-15T03:21:57.986033Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 570852,
+   "tokens_out": 9774,
+   "trial": "diagnoselab-hard-1021__MV3Aj2g"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 16,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 33,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 71,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1021,
+   "spent": 40.0,
+   "started": "2026-11-15T04:13:42.428271Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 441045,
+   "tokens_out": 4658,
+   "trial": "diagnoselab-hard-1021__XLU5YnW"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.001080000000000002,
+    "distinct_hypotheses": 7,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 2,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 51,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 90,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1021,
+   "spent": 40.0,
+   "started": "2026-11-15T05:07:36.151383Z",
+   "submitted": 1.0,
+   "tier": "hard",
+   "tokens_in": 873723,
+   "tokens_out": 13021,
+   "trial": "diagnoselab-hard-1021__hrdTUwN"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0005666666666666677,
+    "distinct_hypotheses": 8,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 25,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 41,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 1.0,
+   "reward_raw": 0.9,
+   "seed": 1000,
+   "spent": 20.0,
+   "started": "2026-11-15T04:15:38.998058Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 273546,
+   "tokens_out": 3055,
+   "trial": "diagnoselab-medium-1000__2NZvDCN"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0003666666666666673,
+    "distinct_hypotheses": 7,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 32,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 68,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9195402298850576,
+   "reward_raw": 0.8,
+   "seed": 1000,
+   "spent": 40.0,
+   "started": "2026-11-15T03:22:41.258678Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 812621,
+   "tokens_out": 10663,
+   "trial": "diagnoselab-medium-1000__V2xbwHS"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0005666666666666677,
+    "distinct_hypotheses": 4,
+    "distinct_points": 4,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 20,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 34,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 1.0,
+   "reward_raw": 0.9,
+   "seed": 1000,
+   "spent": 20.0,
+   "started": "2026-11-15T05:08:39.276769Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 287285,
+   "tokens_out": 3318,
+   "trial": "diagnoselab-medium-1000__rzNnLDw"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0024666666666666656,
+    "distinct_hypotheses": 17,
+    "distinct_points": 6,
+    "experiments": 5,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 50,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 71,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9494382022471911,
+   "reward_raw": 0.8450000000000001,
+   "seed": 1001,
+   "spent": 31.0,
+   "started": "2026-11-15T04:16:28.703599Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 657129,
+   "tokens_out": 7918,
+   "trial": "diagnoselab-medium-1001__BYdmZQw"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 8,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 22,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 55,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9101123595505618,
+   "reward_raw": 0.81,
+   "seed": 1001,
+   "spent": 38.0,
+   "started": "2026-11-15T03:22:49.508597Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 204338,
+   "tokens_out": 3417,
+   "trial": "diagnoselab-medium-1001__EGfLzjG"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.000600000000000001,
+    "distinct_hypotheses": 10,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 18,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 30,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 60,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.955056179775281,
+   "reward_raw": 0.8500000000000001,
+   "seed": 1001,
+   "spent": 30.0,
+   "started": "2026-11-15T05:09:57.890570Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 584212,
+   "tokens_out": 7489,
+   "trial": "diagnoselab-medium-1001__edf8PGE"
+  },
+  {
+   "D": 0.0,
+   "S": 0.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 0,
+    "distinct_points": 2,
+    "experiments": 1,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": true
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 1,
+    "simulate_calls": 3,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": false,
+     "valve_step": false
+    }
+   },
+   "n_calls": 34,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.0,
+   "reward_raw": 0.0,
+   "seed": 1002,
+   "spent": 30.0,
+   "started": "2026-11-15T04:16:50.317085Z",
+   "submitted": 0.0,
+   "tier": "medium",
+   "tokens_in": 68270,
+   "tokens_out": 1349,
+   "trial": "diagnoselab-medium-1002__KSFbMfP"
+  },
+  {
+   "D": 0.0,
+   "S": 0.3455083155806136,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 14,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": true
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 22,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 1,
+    "simulate_calls": 34,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 73,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.14061384936420318,
+   "reward_raw": 0.12092791045321476,
+   "seed": 1002,
+   "spent": 40.0,
+   "started": "2026-11-15T05:10:51.156834Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 309381,
+   "tokens_out": 6418,
+   "trial": "diagnoselab-medium-1002__dSR5eks"
+  },
+  {
+   "D": 0.0,
+   "S": 0.3455083155806136,
+   "exception": "NonZeroAgentExitCodeError",
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 21,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": true
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 22,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 1,
+    "simulate_calls": 50,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 86,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.14061384936420318,
+   "reward_raw": 0.12092791045321476,
+   "seed": 1002,
+   "spent": 36.0,
+   "started": "2026-11-15T03:25:22.448053Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 647435,
+   "tokens_out": 13180,
+   "trial": "diagnoselab-medium-1002__fKksVxe"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.001366666666666669,
+    "distinct_hypotheses": 8,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 29,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 59,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9606741573033709,
+   "reward_raw": 0.8550000000000001,
+   "seed": 1003,
+   "spent": 29.0,
+   "started": "2026-11-15T05:11:57.244978Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 380070,
+   "tokens_out": 3966,
+   "trial": "diagnoselab-medium-1003__ddwgw5V"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 11,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 18,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 37,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 68,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.8988764044943821,
+   "reward_raw": 0.8,
+   "seed": 1003,
+   "spent": 40.0,
+   "started": "2026-11-15T04:18:43.560429Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 243243,
+   "tokens_out": 4470,
+   "trial": "diagnoselab-medium-1003__qW2RooX"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 22,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 18,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 35,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 65,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.955056179775281,
+   "reward_raw": 0.8500000000000001,
+   "seed": 1003,
+   "spent": 30.0,
+   "started": "2026-11-15T03:26:12.353752Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 426730,
+   "tokens_out": 11222,
+   "trial": "diagnoselab-medium-1003__zHNxiqm"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 9,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 18,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 33,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 67,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.893854748603352,
+   "reward_raw": 0.8,
+   "seed": 1004,
+   "spent": 40.0,
+   "started": "2026-11-15T03:27:36.877697Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 815738,
+   "tokens_out": 11000,
+   "trial": "diagnoselab-medium-1004__55jq8wN"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0017333333333333365,
+    "distinct_hypotheses": 3,
+    "distinct_points": 6,
+    "experiments": 5,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 34,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 57,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9441340782122906,
+   "reward_raw": 0.8450000000000001,
+   "seed": 1004,
+   "spent": 31.0,
+   "started": "2026-11-15T04:18:56.877814Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 331544,
+   "tokens_out": 4553,
+   "trial": "diagnoselab-medium-1004__puPKmhZ"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 12,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 18,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 27,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 60,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9050279329608939,
+   "reward_raw": 0.81,
+   "seed": 1004,
+   "spent": 38.0,
+   "started": "2026-11-15T05:12:25.473119Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 406714,
+   "tokens_out": 4165,
+   "trial": "diagnoselab-medium-1004__s6mCxPj"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 3,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 20,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 20,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 52,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9371428571428572,
+   "reward_raw": 0.8200000000000001,
+   "seed": 1005,
+   "spent": 36.0,
+   "started": "2026-11-15T03:28:34.783173Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 256136,
+   "tokens_out": 3220,
+   "trial": "diagnoselab-medium-1005__5LhzDKj"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 21,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 20,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 52,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 88,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.9142857142857144,
+   "reward_raw": 0.8,
+   "seed": 1005,
+   "spent": 40.0,
+   "started": "2026-11-15T04:19:15.301790Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 604561,
+   "tokens_out": 7725,
+   "trial": "diagnoselab-medium-1005__RPtPsU8"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00046666666666666753,
+    "distinct_hypotheses": 3,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 18,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 52,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9371428571428572,
+   "reward_raw": 0.8200000000000001,
+   "seed": 1005,
+   "spent": 36.0,
+   "started": "2026-11-15T05:12:29.379447Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 356220,
+   "tokens_out": 4131,
+   "trial": "diagnoselab-medium-1005__uhon7DE"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 15,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 22,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 50,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "seed": 1006,
+   "spent": 28.0,
+   "started": "2026-11-15T03:29:34.355448Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 744108,
+   "tokens_out": 8373,
+   "trial": "diagnoselab-medium-1006__6Se32qZ"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 16,
+    "distinct_points": 4,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 36,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 67,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1006,
+   "spent": 40.0,
+   "started": "2026-11-15T04:20:00.249781Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 695241,
+   "tokens_out": 10610,
+   "trial": "diagnoselab-medium-1006__9czNFbb"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 15,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 42,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 75,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1006,
+   "spent": 40.0,
+   "started": "2026-11-15T05:14:59.251801Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 1328643,
+   "tokens_out": 10616,
+   "trial": "diagnoselab-medium-1006__zTxZFdj"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 4,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 19,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 20,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 58,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.888888888888889,
+   "reward_raw": 0.8,
+   "seed": 1007,
+   "spent": 40.0,
+   "started": "2026-11-15T04:22:09.726174Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 284584,
+   "tokens_out": 3336,
+   "trial": "diagnoselab-medium-1007__d785MN2"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.000600000000000001,
+    "distinct_hypotheses": 5,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 19,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 16,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 47,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.938888888888889,
+   "reward_raw": 0.8450000000000001,
+   "seed": 1007,
+   "spent": 31.0,
+   "started": "2026-11-15T03:30:02.014526Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 291280,
+   "tokens_out": 4070,
+   "trial": "diagnoselab-medium-1007__dYJmuEG"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 6.666666666666679e-05,
+    "distinct_hypotheses": 4,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 19,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 6,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 36,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.938888888888889,
+   "reward_raw": 0.8450000000000001,
+   "seed": 1007,
+   "spent": 31.0,
+   "started": "2026-11-15T05:15:42.227953Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 151253,
+   "tokens_out": 1947,
+   "trial": "diagnoselab-medium-1007__xY8F3bW"
+  },
+  {
+   "D": 0.5,
+   "S": 0.5768569743845023,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 10,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 36,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 63,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.5098466755186696,
+   "reward_raw": 0.4435666077012425,
+   "seed": 1008,
+   "spent": 30.0,
+   "started": "2026-11-15T04:23:16.572030Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 370367,
+   "tokens_out": 7214,
+   "trial": "diagnoselab-medium-1008__2BPFcKH"
+  },
+  {
+   "D": 0.5,
+   "S": 0.5768569743845023,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0006500000000000012,
+    "distinct_hypotheses": 19,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 2,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 44,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 70,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.5194252195799722,
+   "reward_raw": 0.45189994103457587,
+   "seed": 1008,
+   "spent": 25.0,
+   "started": "2026-11-15T05:15:57.179678Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 771561,
+   "tokens_out": 11444,
+   "trial": "diagnoselab-medium-1008__BqWXhBg"
+  },
+  {
+   "D": 0.8333333333333334,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 13,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 13,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 28,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 54,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.896551724137931,
+   "reward_raw": 0.78,
+   "seed": 1008,
+   "spent": 29.0,
+   "started": "2026-11-15T03:31:07.434608Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 318156,
+   "tokens_out": 4067,
+   "trial": "diagnoselab-medium-1008__J7mD9zA"
+  },
+  {
+   "D": 0.8333333333333334,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 16,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 18,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 42,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 74,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.8352272727272726,
+   "reward_raw": 0.735,
+   "seed": 1009,
+   "spent": 38.0,
+   "started": "2026-11-15T03:31:29.149117Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 543377,
+   "tokens_out": 5814,
+   "trial": "diagnoselab-medium-1009__5uwBbRk"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00026666666666666717,
+    "distinct_hypotheses": 7,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 40,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 62,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9886363636363635,
+   "reward_raw": 0.87,
+   "seed": 1009,
+   "spent": 26.0,
+   "started": "2026-11-15T05:16:27.834227Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 423628,
+   "tokens_out": 5136,
+   "trial": "diagnoselab-medium-1009__hvPBVJA"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0004333333333333341,
+    "distinct_hypotheses": 8,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 18,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 32,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 63,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9659090909090908,
+   "reward_raw": 0.8500000000000001,
+   "seed": 1009,
+   "spent": 30.0,
+   "started": "2026-11-15T04:23:20.319429Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 475159,
+   "tokens_out": 4700,
+   "trial": "diagnoselab-medium-1009__zyKMsVk"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009666666666666683,
+    "distinct_hypotheses": 9,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 35,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 67,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.9060773480662984,
+   "reward_raw": 0.8200000000000001,
+   "seed": 1010,
+   "spent": 36.0,
+   "started": "2026-11-15T03:32:10.709683Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 623773,
+   "tokens_out": 5542,
+   "trial": "diagnoselab-medium-1010__U9Arcye"
+  },
+  {
+   "D": 0.0,
+   "S": 0.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.6402666666666667,
+    "distinct_hypotheses": 19,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 42,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 72,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.0,
+   "reward_raw": 0.0,
+   "seed": 1010,
+   "spent": 32.0,
+   "started": "2026-11-15T04:24:27.064508Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 574525,
+   "tokens_out": 13331,
+   "trial": "diagnoselab-medium-1010__eYNbBF6"
+  },
+  {
+   "D": 0.0,
+   "S": 0.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.6273333333333333,
+    "distinct_hypotheses": 9,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 30,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 60,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.0,
+   "reward_raw": 0.0,
+   "seed": 1010,
+   "spent": 32.0,
+   "started": "2026-11-15T05:16:40.907091Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 453976,
+   "tokens_out": 4024,
+   "trial": "diagnoselab-medium-1010__yGhd8DB"
+  },
+  {
+   "D": 0.8333333333333334,
+   "S": 0.85,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 3,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": true,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 15,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 48,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.7857142857142857,
+   "reward_raw": 0.6875,
+   "seed": 1011,
+   "spent": 37.0,
+   "started": "2026-11-15T03:33:48.409688Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 353491,
+   "tokens_out": 3582,
+   "trial": "diagnoselab-medium-1011__L5PSdPs"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.001100000000000002,
+    "distinct_hypotheses": 7,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 26,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 59,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9314285714285715,
+   "reward_raw": 0.8150000000000001,
+   "seed": 1011,
+   "spent": 37.0,
+   "started": "2026-11-15T04:25:14.091862Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 287631,
+   "tokens_out": 3617,
+   "trial": "diagnoselab-medium-1011__v7kA5wp"
+  },
+  {
+   "D": 0.5,
+   "S": 0.55,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 4,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 31,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 69,
+   "normalized": 1.0,
+   "rejected": 2,
+   "reward": 0.47714285714285715,
+   "reward_raw": 0.4175,
+   "seed": 1011,
+   "spent": 40.0,
+   "started": "2026-11-15T05:16:43.839459Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 534076,
+   "tokens_out": 5816,
+   "trial": "diagnoselab-medium-1011__vbrUume"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.002766666666666666,
+    "distinct_hypotheses": 2,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 25,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 59,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9261363636363635,
+   "reward_raw": 0.8150000000000001,
+   "seed": 1012,
+   "spent": 37.0,
+   "started": "2026-11-15T03:35:01.453390Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 442082,
+   "tokens_out": 3828,
+   "trial": "diagnoselab-medium-1012__D4XP5Jg"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0009666666666666683,
+    "distinct_hypotheses": 10,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 21,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 52,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9659090909090908,
+   "reward_raw": 0.8500000000000001,
+   "seed": 1012,
+   "spent": 30.0,
+   "started": "2026-11-15T04:26:00.723484Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 284306,
+   "tokens_out": 3872,
+   "trial": "diagnoselab-medium-1012__KdRVdKD"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0003000000000000005,
+    "distinct_hypotheses": 6,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 18,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 34,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 70,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.9090909090909091,
+   "reward_raw": 0.8,
+   "seed": 1012,
+   "spent": 40.0,
+   "started": "2026-11-15T05:18:02.617939Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 524696,
+   "tokens_out": 7432,
+   "trial": "diagnoselab-medium-1012__vEEJZkM"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 14,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 29,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 63,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9709302325581395,
+   "reward_raw": 0.8350000000000001,
+   "seed": 1013,
+   "spent": 33.0,
+   "started": "2026-11-15T03:35:05.126766Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 380956,
+   "tokens_out": 5881,
+   "trial": "diagnoselab-medium-1013__GhmJdFj"
+  },
+  {
+   "D": 0.0,
+   "S": 0.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.56102,
+    "distinct_hypotheses": 20,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 5,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 47,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 81,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.0,
+   "reward_raw": 0.0,
+   "seed": 1013,
+   "spent": 40.0,
+   "started": "2026-11-15T05:20:27.460910Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 1548673,
+   "tokens_out": 14004,
+   "trial": "diagnoselab-medium-1013__NWBDwrC"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 17,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 62,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 93,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9593023255813953,
+   "reward_raw": 0.8250000000000001,
+   "seed": 1013,
+   "spent": 35.0,
+   "started": "2026-11-15T04:26:56.987268Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 561012,
+   "tokens_out": 6676,
+   "trial": "diagnoselab-medium-1013__iAejJnL"
+  },
+  {
+   "D": 0.0,
+   "S": 0.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 0,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": true
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 1,
+    "simulate_calls": 3,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 34,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.0,
+   "reward_raw": 0.0,
+   "seed": 1014,
+   "spent": 31.0,
+   "started": "2026-11-15T05:21:32.113085Z",
+   "submitted": 0.0,
+   "tier": "medium",
+   "tokens_in": 89776,
+   "tokens_out": 1557,
+   "trial": "diagnoselab-medium-1014__EkQYYVS"
+  },
+  {
+   "D": 0.8333333333333334,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0003000000000000005,
+    "distinct_hypotheses": 4,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 19,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 20,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 52,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.8651685393258427,
+   "reward_raw": 0.77,
+   "seed": 1014,
+   "spent": 31.0,
+   "started": "2026-11-15T04:27:51.017393Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 218082,
+   "tokens_out": 2754,
+   "trial": "diagnoselab-medium-1014__GnBZbS6"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0011333333333333354,
+    "distinct_hypotheses": 5,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 19,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 49,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9494382022471911,
+   "reward_raw": 0.8450000000000001,
+   "seed": 1014,
+   "spent": 31.0,
+   "started": "2026-11-15T03:35:46.820625Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 295975,
+   "tokens_out": 4497,
+   "trial": "diagnoselab-medium-1014__VUmoghn"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0016666666666666696,
+    "distinct_hypotheses": 6,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 27,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 49,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9886363636363635,
+   "reward_raw": 0.87,
+   "seed": 1015,
+   "spent": 26.0,
+   "started": "2026-11-15T03:37:18.787581Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 358426,
+   "tokens_out": 3879,
+   "trial": "diagnoselab-medium-1015__E5DA2mZ"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 4,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 34,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 71,
+   "normalized": 1.0,
+   "rejected": 1,
+   "reward": 0.9090909090909091,
+   "reward_raw": 0.8,
+   "seed": 1015,
+   "spent": 40.0,
+   "started": "2026-11-15T04:28:40.897159Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 585264,
+   "tokens_out": 9456,
+   "trial": "diagnoselab-medium-1015__Nmw6Meb"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 5,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 21,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 26,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 61,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9261363636363635,
+   "reward_raw": 0.8150000000000001,
+   "seed": 1015,
+   "spent": 37.0,
+   "started": "2026-11-15T05:22:27.228363Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 484639,
+   "tokens_out": 4433,
+   "trial": "diagnoselab-medium-1015__fcr4iSy"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0001000000000000002,
+    "distinct_hypotheses": 5,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 19,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 49,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9378531073446328,
+   "reward_raw": 0.8300000000000001,
+   "seed": 1016,
+   "spent": 34.0,
+   "started": "2026-11-15T04:28:43.260276Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 388230,
+   "tokens_out": 6547,
+   "trial": "diagnoselab-medium-1016__9LtW9Lw"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0003000000000000005,
+    "distinct_hypotheses": 4,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 9,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 40,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9378531073446328,
+   "reward_raw": 0.8300000000000001,
+   "seed": 1016,
+   "spent": 34.0,
+   "started": "2026-11-15T03:37:22.512557Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 266885,
+   "tokens_out": 2896,
+   "trial": "diagnoselab-medium-1016__anzCCtF"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0005666666666666677,
+    "distinct_hypotheses": 10,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 18,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 26,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 57,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9265536723163842,
+   "reward_raw": 0.8200000000000001,
+   "seed": 1016,
+   "spent": 36.0,
+   "started": "2026-11-15T05:22:31.246905Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 214710,
+   "tokens_out": 3262,
+   "trial": "diagnoselab-medium-1016__v7dwTzR"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 2,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 18,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 53,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9261363636363635,
+   "reward_raw": 0.8150000000000001,
+   "seed": 1017,
+   "spent": 37.0,
+   "started": "2026-11-15T04:30:11.715129Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 459684,
+   "tokens_out": 4615,
+   "trial": "diagnoselab-medium-1017__KBHuGsj"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00016666666666666696,
+    "distinct_hypotheses": 2,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 19,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 52,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9318181818181818,
+   "reward_raw": 0.8200000000000001,
+   "seed": 1017,
+   "spent": 36.0,
+   "started": "2026-11-15T05:22:31.590765Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 477766,
+   "tokens_out": 4869,
+   "trial": "diagnoselab-medium-1017__uog2rrR"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 6.666666666666679e-05,
+    "distinct_hypotheses": 2,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 22,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 20,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 53,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9431818181818181,
+   "reward_raw": 0.8300000000000001,
+   "seed": 1017,
+   "spent": 34.0,
+   "started": "2026-11-15T03:38:04.586278Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 439138,
+   "tokens_out": 3964,
+   "trial": "diagnoselab-medium-1017__ybYetgb"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00046666666666666753,
+    "distinct_hypotheses": 11,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 17,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 48,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 79,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9476744186046511,
+   "reward_raw": 0.8150000000000001,
+   "seed": 1018,
+   "spent": 37.0,
+   "started": "2026-11-15T05:24:07.863894Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 552600,
+   "tokens_out": 13251,
+   "trial": "diagnoselab-medium-1018__9JwdBqC"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0026999999999999997,
+    "distinct_hypotheses": 16,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 17,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 59,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 91,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9302325581395349,
+   "reward_raw": 0.8,
+   "seed": 1018,
+   "spent": 40.0,
+   "started": "2026-11-15T04:30:22.665347Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 565813,
+   "tokens_out": 7659,
+   "trial": "diagnoselab-medium-1018__BYyzsSE"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 15,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 17,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 75,
+    "used": {
+     "isolate_branch": true,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 105,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.936046511627907,
+   "reward_raw": 0.805,
+   "seed": 1018,
+   "spent": 39.0,
+   "started": "2026-11-15T03:39:56.400366Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 619510,
+   "tokens_out": 8712,
+   "trial": "diagnoselab-medium-1018__UFyEiwV"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.0003000000000000005,
+    "distinct_hypotheses": 3,
+    "distinct_points": 4,
+    "experiments": 3,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 28,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 58,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9438202247191012,
+   "reward_raw": 0.8400000000000001,
+   "seed": 1019,
+   "spent": 32.0,
+   "started": "2026-11-15T04:30:55.415907Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 353129,
+   "tokens_out": 4459,
+   "trial": "diagnoselab-medium-1019__9Yygfet"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": 0.00026666666666666717,
+    "distinct_hypotheses": 8,
+    "distinct_points": 3,
+    "experiments": 2,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": true,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 3,
+    "reads_before_first_experiment": 16,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 23,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": false
+    }
+   },
+   "n_calls": 51,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9662921348314608,
+   "reward_raw": 0.8600000000000001,
+   "seed": 1019,
+   "spent": 28.0,
+   "started": "2026-11-15T03:39:57.560423Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 233520,
+   "tokens_out": 3361,
+   "trial": "diagnoselab-medium-1019__SqeCeN3"
+  },
+  {
+   "D": 1.0,
+   "S": 1.0,
+   "exception": null,
+   "metrics": {
+    "brier": null,
+    "distinct_hypotheses": 9,
+    "distinct_points": 5,
+    "experiments": 4,
+    "flags": {
+     "anchoring": false,
+     "budget_myopia": false,
+     "no_disambiguate": false,
+     "trusts_liar": false
+    },
+    "n_confidence": 0,
+    "reads_before_first_experiment": 0,
+    "sensor_faults": 1,
+    "sensor_faults_missed": 0,
+    "simulate_calls": 49,
+    "used": {
+     "isolate_branch": false,
+     "pump_off_static": true,
+     "speed_step": true,
+     "valve_step": true
+    }
+   },
+   "n_calls": 81,
+   "normalized": 1.0,
+   "rejected": 0,
+   "reward": 0.9213483146067416,
+   "reward_raw": 0.8200000000000001,
+   "seed": 1019,
+   "spent": 36.0,
+   "started": "2026-11-15T05:24:25.132691Z",
+   "submitted": 1.0,
+   "tier": "medium",
+   "tokens_in": 841953,
+   "tokens_out": 11352,
+   "trial": "diagnoselab-medium-1019__bGJXYTZ"
+  }
+ ]
+}

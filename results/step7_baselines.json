@@ -1,0 +1,3782 @@
+[
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1015,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "easy",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1015,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "medium",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1020,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "noop",
+  "tier": "hard",
+  "seed": 1021,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1015,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "easy",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1015,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "medium",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1020,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "stop_early",
+  "tier": "hard",
+  "seed": 1021,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1015,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "easy",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1015,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "medium",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1020,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "everything_faulty",
+  "tier": "hard",
+  "seed": 1021,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1015,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "easy",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1015,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "medium",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1020,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "blanket_repair",
+  "tier": "hard",
+  "seed": 1021,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1000,
+  "reward_raw": 0.24499999999999997,
+  "D": 0.0,
+  "score_norm": 0.27071823204419887,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1015,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "easy",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1015,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "medium",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1012,
+  "reward_raw": 0.007387065438988342,
+  "D": 0.0,
+  "score_norm": 0.00834696659772694,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1018,
+  "reward_raw": 0.32321887262189675,
+  "D": 0.3,
+  "score_norm": 0.3758358983975543,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1020,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "random_guess",
+  "tier": "hard",
+  "seed": 1021,
+  "reward_raw": 0.017631929566793703,
+  "D": 0.0,
+  "score_norm": 0.020502243682318257,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1003,
+  "reward_raw": 0.2975,
+  "D": 0.0,
+  "score_norm": 0.3459302325581395,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1009,
+  "reward_raw": 0.5891666666666666,
+  "D": 0.5,
+  "score_norm": 0.6582867783985101,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1015,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1016,
+  "reward_raw": 0.5891666666666666,
+  "D": 0.5,
+  "score_norm": 0.6546296296296296,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "easy",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1003,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1004,
+  "reward_raw": 0.13231709294609925,
+  "D": 0.0,
+  "score_norm": 0.14784032731407737,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1012,
+  "reward_raw": 0.2373501698712869,
+  "D": 0.0,
+  "score_norm": 0.26971610212646235,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1015,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1017,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "medium",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1001,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1002,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1003,
+  "reward_raw": 0.12575099495885267,
+  "D": 0.0,
+  "score_norm": 0.14371542281011734,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1005,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1006,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1007,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1008,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1011,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1012,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1014,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1017,
+  "reward_raw": 0.016025366654974598,
+  "D": 0.0,
+  "score_norm": 0.018210643926107495,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1018,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1020,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "prior_guess",
+  "tier": "hard",
+  "seed": 1021,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1000,
+  "reward_raw": 0.93,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1001,
+  "reward_raw": 0.92,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1002,
+  "reward_raw": 0.925,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1003,
+  "reward_raw": 0.9450000000000001,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1004,
+  "reward_raw": 0.9400000000000001,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1005,
+  "reward_raw": 0.93,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1006,
+  "reward_raw": 0.925,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1007,
+  "reward_raw": 0.9500000000000001,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1008,
+  "reward_raw": 0.915,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1009,
+  "reward_raw": 0.93,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1010,
+  "reward_raw": 0.935,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1011,
+  "reward_raw": 0.935,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1012,
+  "reward_raw": 0.92,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1013,
+  "reward_raw": 0.93,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1014,
+  "reward_raw": 0.9400000000000001,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1015,
+  "reward_raw": 0.935,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1016,
+  "reward_raw": 0.935,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1017,
+  "reward_raw": 0.9450000000000001,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1018,
+  "reward_raw": 0.925,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "easy",
+  "seed": 1019,
+  "reward_raw": 0.9400000000000001,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1000,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1001,
+  "reward_raw": 0.7477777777777777,
+  "D": 0.6666666666666666,
+  "score_norm": 0.8401997503121097,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1002,
+  "reward_raw": 0.6059279104532147,
+  "D": 0.6666666666666666,
+  "score_norm": 0.7045673377362961,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1003,
+  "reward_raw": 0.7477777777777777,
+  "D": 0.6666666666666666,
+  "score_norm": 0.8401997503121097,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1004,
+  "reward_raw": 0.6116666666666666,
+  "D": 0.5,
+  "score_norm": 0.6834264432029794,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1005,
+  "reward_raw": 0.9,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1006,
+  "reward_raw": 0.2868689899533106,
+  "D": 0.16666666666666666,
+  "score_norm": 0.3335685929689658,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1007,
+  "reward_raw": 0.7433333333333332,
+  "D": 0.6666666666666666,
+  "score_norm": 0.8259259259259257,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1008,
+  "reward_raw": 0.3518999410345758,
+  "D": 0.3333333333333333,
+  "score_norm": 0.40448269084433996,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1009,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1010,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1011,
+  "reward_raw": 0.5541666666666666,
+  "D": 0.5,
+  "score_norm": 0.6333333333333332,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1012,
+  "reward_raw": 0.7477777777777777,
+  "D": 0.6666666666666666,
+  "score_norm": 0.8497474747474745,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1013,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1014,
+  "reward_raw": 0.7433333333333332,
+  "D": 0.6666666666666666,
+  "score_norm": 0.8352059925093631,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1015,
+  "reward_raw": 0.08805939525277422,
+  "D": 0.0,
+  "score_norm": 0.10006749460542523,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1016,
+  "reward_raw": 0.91,
+  "D": 1.0,
+  "score_norm": 1.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1017,
+  "reward_raw": 0.7299999999999999,
+  "D": 0.6666666666666666,
+  "score_norm": 0.8295454545454543,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1018,
+  "reward_raw": 0.308066960118223,
+  "D": 0.3333333333333333,
+  "score_norm": 0.35821739548630577,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "medium",
+  "seed": 1019,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1000,
+  "reward_raw": 0.14952113542897993,
+  "D": 0.0,
+  "score_norm": 0.1738617853825348,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1001,
+  "reward_raw": 0.1963204647299436,
+  "D": 0.2,
+  "score_norm": 0.22827961015109718,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1002,
+  "reward_raw": 0.44889513558080496,
+  "D": 0.4,
+  "score_norm": 0.5219710878846568,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1003,
+  "reward_raw": 0.6966666666666667,
+  "D": 0.6,
+  "score_norm": 0.7961904761904762,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1004,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1005,
+  "reward_raw": 0.4325,
+  "D": 0.3,
+  "score_norm": 0.5029069767441859,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1006,
+  "reward_raw": 0.3270832795046331,
+  "D": 0.3,
+  "score_norm": 0.37595779253406103,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1007,
+  "reward_raw": 0.745,
+  "D": 0.7,
+  "score_norm": 0.8662790697674417,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1008,
+  "reward_raw": 0.7949999999999999,
+  "D": 0.8,
+  "score_norm": 0.9190751445086704,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1009,
+  "reward_raw": 0.176263780561855,
+  "D": 0.1,
+  "score_norm": 0.1969427715774916,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1010,
+  "reward_raw": 0.12817308307104466,
+  "D": 0.0,
+  "score_norm": 0.14482834245315782,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1011,
+  "reward_raw": 0.7749999999999999,
+  "D": 0.8,
+  "score_norm": 0.880681818181818,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1012,
+  "reward_raw": 0.6033333333333333,
+  "D": 0.5,
+  "score_norm": 0.6817325800376647,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1013,
+  "reward_raw": 0.6733333333333333,
+  "D": 0.6,
+  "score_norm": 0.765151515151515,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1014,
+  "reward_raw": 0.34377503058836245,
+  "D": 0.3,
+  "score_norm": 0.39973840766088653,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1016,
+  "reward_raw": 0.0,
+  "D": 0.0,
+  "score_norm": 0.0,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1017,
+  "reward_raw": 0.3259849603596995,
+  "D": 0.3,
+  "score_norm": 0.3704374549542039,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1018,
+  "reward_raw": 0.19281323370658687,
+  "D": 0.1,
+  "score_norm": 0.22420143454254285,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1020,
+  "reward_raw": 0.47154641688603577,
+  "D": 0.5,
+  "score_norm": 0.5483097870767857,
+  "normalized": 1.0
+ },
+ {
+  "policy": "lazy_heuristic",
+  "tier": "hard",
+  "seed": 1021,
+  "reward_raw": 0.7136857256996778,
+  "D": 0.8,
+  "score_norm": 0.829867122906602,
+  "normalized": 1.0
+ }
+]

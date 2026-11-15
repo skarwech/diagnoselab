@@ -84,7 +84,7 @@ score_norm = min(R / R_oracle(seed, tier), 1)
 
 The uncapped ratio is kept in the raw logs, and any seed where it exceeds 1 is flagged.
 
-- **Oracle cache (Step 5).** `R_oracle` comes from `diagnoselab/scoring/oracle_scores.json` (`{"tier:seed": R}`), generated in the Linux image by `make oracle-cache` for dev seeds 0–199 of every tier. A macOS run reproduces all 600 entries exactly (same call sequence and reward), and Harbor's sim container recomputes the same value (F20).
+- **Oracle cache (Step 5).** `R_oracle` comes from `diagnoselab/scoring/oracle_scores.json` (`{"tier:seed": R}`), generated in the Linux image for dev seeds 0–199 and test seeds 1000–1039 of every tier (test seeds added at Step 7, after the freeze). A macOS run reproduces all 600 entries exactly (same call sequence and reward), and Harbor's sim container recomputes the same value (F20).
 - **Configuration hash.** `diagnoselab/config_hash.py` fingerprints every source file that can change a score (the simulator with all its dials, the reward, the episode server, the tools, the oracle). `oracle_scores.meta.json` records the hash the cache was built under, and finalize normalises only when it equals the running code's hash; `make install-oracle-cache` refuses a cache from other code.
 - **Floor.** A seed is normalised only when its `R_oracle` ≥ 0.5 (F17's bound). Below it, the oracle is no reference (10 of 600 dev seeds) and `score_norm` is left out. Such seeds do not ship (see Shipped seeds).
 - **When normalised:** finalize sets `reward = score_norm` and adds `reward_raw`, `r_oracle`, `ratio_uncapped`, `config_id` and `normalized = 1`.

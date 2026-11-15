@@ -1,5 +1,5 @@
 {
  "config_hash": "dc9bbc81fc21d020c3ccf8799db12ce861a8769237b23ed54c7e4b3a16ad8217",
- "entries": 600,
+ "entries": 720,
  "generated_by": "make oracle-cache (python:3.12-slim, numpy 2.5.4)"
 }

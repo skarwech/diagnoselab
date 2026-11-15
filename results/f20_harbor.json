@@ -1,52 +1,12 @@
 {
- "job": "2026-11-15__04-21-20",
- "trials": 15,
+ "job": "2026-11-15__04-45-05",
+ "trials": 60,
  "errored": 0,
  "all_match": true,
  "rows": [
   {
-   "trial": "diagnoselab-easy-50__p5WaL32",
-   "key": "easy:50",
-   "reward": 1.0,
-   "reward_raw": 0.895,
-   "cached": 0.895,
-   "normalized": 1.0,
-   "config_id": 242561440676897.0,
-   "match": true
-  },
-  {
-   "trial": "diagnoselab-easy-51__aTHMeBQ",
-   "key": "easy:51",
-   "reward": 1.0,
-   "reward_raw": 0.9,
-   "cached": 0.9,
-   "normalized": 1.0,
-   "config_id": 242561440676897.0,
-   "match": true
-  },
-  {
-   "trial": "diagnoselab-easy-52__RK2JeLJ",
-   "key": "easy:52",
-   "reward": 1.0,
-   "reward_raw": 0.895,
-   "cached": 0.895,
-   "normalized": 1.0,
-   "config_id": 242561440676897.0,
-   "match": true
-  },
-  {
-   "trial": "diagnoselab-easy-53__x99nkEB",
-   "key": "easy:53",
-   "reward": 1.0,
-   "reward_raw": 0.89,
-   "cached": 0.89,
-   "normalized": 1.0,
-   "config_id": 242561440676897.0,
-   "match": true
-  },
-  {
-   "trial": "diagnoselab-easy-54__8m4GPNb",
-   "key": "easy:54",
+   "trial": "diagnoselab-easy-1000__pomnrjN",
+   "key": "easy:1000",
    "reward": 1.0,
    "reward_raw": 0.905,
    "cached": 0.905,
@@ -55,58 +15,8 @@
    "match": true
   },
   {
-   "trial": "diagnoselab-hard-50__63TSJG2",
-   "key": "hard:50",
-   "reward": 1.0,
-   "reward_raw": 0.875,
-   "cached": 0.875,
-   "normalized": 1.0,
-   "config_id": 242561440676897.0,
-   "match": true
-  },
-  {
-   "trial": "diagnoselab-hard-51__h8w6bn2",
-   "key": "hard:51",
-   "reward": 1.0,
-   "reward_raw": 0.875,
-   "cached": 0.875,
-   "normalized": 1.0,
-   "config_id": 242561440676897.0,
-   "match": true
-  },
-  {
-   "trial": "diagnoselab-hard-52__zQGnxhe",
-   "key": "hard:52",
-   "reward": 1.0,
-   "reward_raw": 0.8600000000000001,
-   "cached": 0.8600000000000001,
-   "normalized": 1.0,
-   "config_id": 242561440676897.0,
-   "match": true
-  },
-  {
-   "trial": "diagnoselab-hard-53__Tnuy3TU",
-   "key": "hard:53",
-   "reward": 1.0,
-   "reward_raw": 0.8600000000000001,
-   "cached": 0.8600000000000001,
-   "normalized": 1.0,
-   "config_id": 242561440676897.0,
-   "match": true
-  },
-  {
-   "trial": "diagnoselab-hard-54__MpzyhdU",
-   "key": "hard:54",
-   "reward": 1.0,
-   "reward_raw": 0.885,
-   "cached": 0.885,
-   "normalized": 1.0,
-   "config_id": 242561440676897.0,
-   "match": true
-  },
-  {
-   "trial": "diagnoselab-medium-50__tC2psng",
-   "key": "medium:50",
+   "trial": "diagnoselab-easy-1001__SRtveLV",
+   "key": "easy:1001",
    "reward": 1.0,
    "reward_raw": 0.89,
    "cached": 0.89,
@@ -115,28 +25,8 @@
    "match": true
   },
   {
-   "trial": "diagnoselab-medium-51__6cwyF47",
-   "key": "medium:51",
-   "reward": 1.0,
-   "reward_raw": 0.89,
-   "cached": 0.89,
-   "normalized": 1.0,
-   "config_id": 242561440676897.0,
-   "match": true
-  },
-  {
-   "trial": "diagnoselab-medium-52__kJmkhwV",
-   "key": "medium:52",
-   "reward": 1.0,
-   "reward_raw": 0.885,
-   "cached": 0.885,
-   "normalized": 1.0,
-   "config_id": 242561440676897.0,
-   "match": true
-  },
-  {
-   "trial": "diagnoselab-medium-53__92Q9mk6",
-   "key": "medium:53",
+   "trial": "diagnoselab-easy-1002__FqqBrk3",
+   "key": "easy:1002",
    "reward": 1.0,
    "reward_raw": 0.895,
    "cached": 0.895,
@@ -145,11 +35,571 @@
    "match": true
   },
   {
-   "trial": "diagnoselab-medium-54__33g6EvZ",
-   "key": "medium:54",
+   "trial": "diagnoselab-easy-1003__hT8Aq3h",
+   "key": "easy:1003",
    "reward": 1.0,
    "reward_raw": 0.8600000000000001,
    "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1004__XTiSkkk",
+   "key": "easy:1004",
+   "reward": 1.0,
+   "reward_raw": 0.895,
+   "cached": 0.895,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1005__rA3RACP",
+   "key": "easy:1005",
+   "reward": 1.0,
+   "reward_raw": 0.9,
+   "cached": 0.9,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1006__Pq6nEp4",
+   "key": "easy:1006",
+   "reward": 1.0,
+   "reward_raw": 0.9,
+   "cached": 0.9,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1007__wtd4WQo",
+   "key": "easy:1007",
+   "reward": 1.0,
+   "reward_raw": 0.9,
+   "cached": 0.9,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1008__YP3jQQ8",
+   "key": "easy:1008",
+   "reward": 1.0,
+   "reward_raw": 0.875,
+   "cached": 0.875,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1009__QrKN9ES",
+   "key": "easy:1009",
+   "reward": 1.0,
+   "reward_raw": 0.895,
+   "cached": 0.895,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1010__tU3LzuF",
+   "key": "easy:1010",
+   "reward": 1.0,
+   "reward_raw": 0.89,
+   "cached": 0.89,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1011__qwdL7RZ",
+   "key": "easy:1011",
+   "reward": 1.0,
+   "reward_raw": 0.905,
+   "cached": 0.905,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1012__SzTKSaq",
+   "key": "easy:1012",
+   "reward": 1.0,
+   "reward_raw": 0.895,
+   "cached": 0.895,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1013__352Ccpt",
+   "key": "easy:1013",
+   "reward": 1.0,
+   "reward_raw": 0.905,
+   "cached": 0.905,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1014__JWpfhkQ",
+   "key": "easy:1014",
+   "reward": 1.0,
+   "reward_raw": 0.9,
+   "cached": 0.9,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1015__ZRyPbiS",
+   "key": "easy:1015",
+   "reward": 1.0,
+   "reward_raw": 0.9,
+   "cached": 0.9,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1016__SjZGqxC",
+   "key": "easy:1016",
+   "reward": 1.0,
+   "reward_raw": 0.9,
+   "cached": 0.9,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1017__oCPDevi",
+   "key": "easy:1017",
+   "reward": 1.0,
+   "reward_raw": 0.9,
+   "cached": 0.9,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1018__r9B6wky",
+   "key": "easy:1018",
+   "reward": 1.0,
+   "reward_raw": 0.89,
+   "cached": 0.89,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-easy-1019__sJhBXW9",
+   "key": "easy:1019",
+   "reward": 1.0,
+   "reward_raw": 0.9,
+   "cached": 0.9,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1000__mnXjzdP",
+   "key": "hard:1000",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1001__pxMivwK",
+   "key": "hard:1001",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1002__6527sa3",
+   "key": "hard:1002",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1003__HqvCEzA",
+   "key": "hard:1003",
+   "reward": 1.0,
+   "reward_raw": 0.875,
+   "cached": 0.875,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1004__v4KdoAE",
+   "key": "hard:1004",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1005__6mrf34t",
+   "key": "hard:1005",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1006__7NHd6XK",
+   "key": "hard:1006",
+   "reward": 1.0,
+   "reward_raw": 0.87,
+   "cached": 0.87,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1007__hing9LR",
+   "key": "hard:1007",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1008__bdAXzsm",
+   "key": "hard:1008",
+   "reward": 1.0,
+   "reward_raw": 0.865,
+   "cached": 0.865,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1009__pjfXiQi",
+   "key": "hard:1009",
+   "reward": 1.0,
+   "reward_raw": 0.895,
+   "cached": 0.895,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1010__RwCVSWh",
+   "key": "hard:1010",
+   "reward": 1.0,
+   "reward_raw": 0.885,
+   "cached": 0.885,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1011__NYqAkB6",
+   "key": "hard:1011",
+   "reward": 1.0,
+   "reward_raw": 0.8800000000000001,
+   "cached": 0.8800000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1012__Qd2hjtP",
+   "key": "hard:1012",
+   "reward": 1.0,
+   "reward_raw": 0.885,
+   "cached": 0.885,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1013__pzTPFss",
+   "key": "hard:1013",
+   "reward": 1.0,
+   "reward_raw": 0.8800000000000001,
+   "cached": 0.8800000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1014__HyB4tZY",
+   "key": "hard:1014",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1016__4oyWbuP",
+   "key": "hard:1016",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1017__PLcTbE2",
+   "key": "hard:1017",
+   "reward": 1.0,
+   "reward_raw": 0.8800000000000001,
+   "cached": 0.8800000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1018__PP7Mhhc",
+   "key": "hard:1018",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1020__wYW9h8k",
+   "key": "hard:1020",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-hard-1021__HBWLEAq",
+   "key": "hard:1021",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1000__YTFfF66",
+   "key": "medium:1000",
+   "reward": 1.0,
+   "reward_raw": 0.87,
+   "cached": 0.87,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1001__2iz7FR7",
+   "key": "medium:1001",
+   "reward": 1.0,
+   "reward_raw": 0.89,
+   "cached": 0.89,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1002__Np9HQZA",
+   "key": "medium:1002",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1003__vH6Pnct",
+   "key": "medium:1003",
+   "reward": 1.0,
+   "reward_raw": 0.89,
+   "cached": 0.89,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1004__jgJNK5n",
+   "key": "medium:1004",
+   "reward": 1.0,
+   "reward_raw": 0.895,
+   "cached": 0.895,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1005__7A7HgQ2",
+   "key": "medium:1005",
+   "reward": 1.0,
+   "reward_raw": 0.875,
+   "cached": 0.875,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1006__pobmgau",
+   "key": "medium:1006",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1007__a6ERm4o",
+   "key": "medium:1007",
+   "reward": 1.0,
+   "reward_raw": 0.9,
+   "cached": 0.9,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1008__bUn5UK5",
+   "key": "medium:1008",
+   "reward": 1.0,
+   "reward_raw": 0.87,
+   "cached": 0.87,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1009__jXSzeZY",
+   "key": "medium:1009",
+   "reward": 1.0,
+   "reward_raw": 0.8800000000000001,
+   "cached": 0.8800000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1010__zp6RWpp",
+   "key": "medium:1010",
+   "reward": 1.0,
+   "reward_raw": 0.905,
+   "cached": 0.905,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1011__V4CN8xC",
+   "key": "medium:1011",
+   "reward": 1.0,
+   "reward_raw": 0.875,
+   "cached": 0.875,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1012__TrRcKHX",
+   "key": "medium:1012",
+   "reward": 1.0,
+   "reward_raw": 0.8800000000000001,
+   "cached": 0.8800000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1013__8fVtsRj",
+   "key": "medium:1013",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1014__moHVhhE",
+   "key": "medium:1014",
+   "reward": 1.0,
+   "reward_raw": 0.89,
+   "cached": 0.89,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1015__zbKwdUh",
+   "key": "medium:1015",
+   "reward": 1.0,
+   "reward_raw": 0.8800000000000001,
+   "cached": 0.8800000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1016__5XJi48D",
+   "key": "medium:1016",
+   "reward": 1.0,
+   "reward_raw": 0.885,
+   "cached": 0.885,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1017__iXPDtTs",
+   "key": "medium:1017",
+   "reward": 1.0,
+   "reward_raw": 0.8800000000000001,
+   "cached": 0.8800000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1018__yQFifNp",
+   "key": "medium:1018",
+   "reward": 1.0,
+   "reward_raw": 0.8600000000000001,
+   "cached": 0.8600000000000001,
+   "normalized": 1.0,
+   "config_id": 242561440676897.0,
+   "match": true
+  },
+  {
+   "trial": "diagnoselab-medium-1019__yvEJeuf",
+   "key": "medium:1019",
+   "reward": 1.0,
+   "reward_raw": 0.89,
+   "cached": 0.89,
    "normalized": 1.0,
    "config_id": 242561440676897.0,
    "match": true

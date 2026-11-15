@@ -50,9 +50,10 @@ def main() -> None:
     ap.add_argument("--tier", default=",".join(TIERS))
     ap.add_argument("--seeds", default="50-99")
     ap.add_argument("--per-tier", type=int)
+    ap.add_argument("--test", action="store_true", help="allow test seeds (1000+): only once the configuration is frozen")
     a = ap.parse_args()
-    if any(s >= 1000 for s in parse_seeds(a.seeds)):
-        raise SystemExit("test seeds (1000+) are reported once after the configuration is frozen, not generated here")
+    if any(s >= 1000 for s in parse_seeds(a.seeds)) and not a.test:
+        raise SystemExit("test seeds (1000+) are reported once after the configuration is frozen: pass --test")
     a.out.mkdir(parents=True, exist_ok=True)
     for tier in a.tier.split(","):
         seeds = accepted(tier, parse_seeds(a.seeds), a.per_tier)

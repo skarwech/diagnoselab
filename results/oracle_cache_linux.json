@@ -1201,6 +1201,246 @@
 "spent": 21.0,
 "calls_hash": "d3960bd3be9cc57f610c284483545ae34a8f280294f24c3cd982e649d54c0eca"
 },
+"easy:1000": {
+"reward": 0.905,
+"D": 1.0,
+"spent": 19.0,
+"calls_hash": "084d4637a9f9522cd26cb5789ada75bd568148a2f874d25ac97e411e0872e183"
+},
+"easy:1001": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "62a7f5513eaa4e9a7f68a8537ff995af414f9d1823d2850a6dd0d7bcd03616b6"
+},
+"easy:1002": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "84bf1b6a5eb931de150ae7ac721b49dd7f1f169ab7abe228a8fa25c5256bbbda"
+},
+"easy:1003": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "2d5aed6959dae8bb43436993e2134482d8dd0eb812580122961c01a875950dcd"
+},
+"easy:1004": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "ed97286299515617662b9abf39041a52a79378b096838909f2d52336598f5604"
+},
+"easy:1005": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "6ab20f97a1385abef909f3397bf3e9790e3b2cbb52551d5a2797c3de247bd752"
+},
+"easy:1006": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "be89a115827e5c47c5a381132eb6a4238928b6208c3aa1ac38cace9876511845"
+},
+"easy:1007": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "38518458ff0a33be01f2f429f2809e1b2252db0839ae0123d123c5ebd58fd2f2"
+},
+"easy:1008": {
+"reward": 0.875,
+"D": 1.0,
+"spent": 25.0,
+"calls_hash": "bd8f61bb32077e75243fe208b3ff37d757d605a1d69a1e6c0557eccdbd38ffcb"
+},
+"easy:1009": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "1941d244fe92f1b4f9f8be467cd2c0ff6385f2d09d61e96c11fe421cbc254237"
+},
+"easy:1010": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "f6ee931fe5f38af68a990297dc1ab7b21888434be870ce62f7cfa1b58e388896"
+},
+"easy:1011": {
+"reward": 0.905,
+"D": 1.0,
+"spent": 19.0,
+"calls_hash": "ddeff32ac54ed138bd2e7b42bba24aafca6a63af37b309a4e7edc497c815e5ba"
+},
+"easy:1012": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "b5f684fc509e26a9adf666986469284390debaf2fe1ab3fd104c6d2d6d085a02"
+},
+"easy:1013": {
+"reward": 0.905,
+"D": 1.0,
+"spent": 19.0,
+"calls_hash": "65f415cb3ab25b1cee3ae7b6acde1696512a36b2e540cbe5592a831afe45a6b5"
+},
+"easy:1014": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "4846b08ccaa85790ccea4718bdc886cb157f442712891831512370a1436c1e24"
+},
+"easy:1015": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "53b7a8386a145c822cc84f143db1767b7275495ae0ed1a760d3f69d706b95fe3"
+},
+"easy:1016": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "69ce04d043f7425ab2c2b2f369d5f3d0dbabe9a7e98737e7c4d9b5d9b03113e2"
+},
+"easy:1017": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "af21320c50128a51c0f8644d809450433ee2ce31ddc613264e7023d71d8594a8"
+},
+"easy:1018": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "f494ec821dd49b65bb278014f15e76a09d9f47ca0c98858f74ab415a4b9c660f"
+},
+"easy:1019": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "c5aee220ac1acabdd4e665966968de652481beb4097e146065b14f05b6859d84"
+},
+"easy:1020": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "dfce92f0392b2b171c53ae254811a6c3c68bad05ee9963c43e28363073873828"
+},
+"easy:1021": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "23dfc836432ad7ffeda6911b5d0da18854ff47a0aefc70bc269a4dde0964f42d"
+},
+"easy:1022": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "e806e76b021c97bb5323982703bbd9cdc4700e377e9f9d59dc954b63bc6b3de8"
+},
+"easy:1023": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "a4a76bca07f70b243a7470a9b3f86f87430f44335910a19a072d62af281d94e2"
+},
+"easy:1024": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "8b28f5a42aeedadeff2c6f9d3d034c3f79273bdfc30a2cbc8da53b9ddb627c3b"
+},
+"easy:1025": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "cab93a096b6443523a0aa1b2f81c1149b52053ca63fc683b11913a56ea719f6a"
+},
+"easy:1026": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "09846c882ee65af00ed69f8b7012f7082a0f8435877df08d2a13352bd7d18afc"
+},
+"easy:1027": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "f9a449d1d583c4e3e8135a62e0c69e7be321c9b2cdff73efa8bea62f816e9c7e"
+},
+"easy:1028": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "dedada576282c860e7f274d9a187c9c931a09b6ef4385f1fd4455000784d465a"
+},
+"easy:1029": {
+"reward": 0.8800000000000001,
+"D": 1.0,
+"spent": 24.0,
+"calls_hash": "4953540dd92cf1f21d477b6da3708e190371c04f5c15c5180cf5b1f42ed7092b"
+},
+"easy:1030": {
+"reward": 0.905,
+"D": 1.0,
+"spent": 19.0,
+"calls_hash": "b158dc07cfff6df6ded55c8c6bfcd9d50565592028edcbaf6b61db61a4a2ac53"
+},
+"easy:1031": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "08906f6b088d107f9901e8b4e3c9a51d5d6880184f05491215dde434d3381ca0"
+},
+"easy:1032": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "07881fc9ac84ef9e4dfa11350efb9e319e446166c64d1cbae4cc2cfb5a1ccc74"
+},
+"easy:1033": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "faed216eb211427dd2dd06d74bd7d303049805c5d5d3a269979907a9ec9a9f82"
+},
+"easy:1034": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "1a630089278ba9d9edda8397e970753fa880ea6dc9a92bdbb9199eb942f756c3"
+},
+"easy:1035": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "b9b162e9efec107f0b5d3d278e4f74417cd8b43a042c978ec14cfe28c7b95244"
+},
+"easy:1036": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "5ef07baf6718a0eba9ae592d4ee6e95c78a686cee474a046058336fa11f89f39"
+},
+"easy:1037": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "b9734694afcc88dc35607a492480237fe1444960652675b76568d1daa6c94ad0"
+},
+"easy:1038": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "a4234e4a78ba1a3c44accc69ec29db6fd4a00f287927273def50054969ac580b"
+},
+"easy:1039": {
+"reward": 0.875,
+"D": 1.0,
+"spent": 25.0,
+"calls_hash": "569a397d367d3ea51044f6fd0522262caf2caf5fe1622f14f4fe5e8c7fde5fe5"
+},
 "medium:0": {
 "reward": 0.87,
 "D": 1.0,
@@ -2401,6 +2641,246 @@
 "spent": 24.0,
 "calls_hash": "da6a4d8c71ede131e87bd31e14baec3a27de5273399a08067f36abc4eaef5fbb"
 },
+"medium:1000": {
+"reward": 0.87,
+"D": 1.0,
+"spent": 26.0,
+"calls_hash": "cd46467b8e59af3cf25a1b179d5211b143f704e3f4a96113ab7a283cf6ae4a4a"
+},
+"medium:1001": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "fddf842518866bfbc19484b15fa5704004082fb999b94b169fc246571e7aa5d1"
+},
+"medium:1002": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "2a057c3c29333308c24d6a63970b96459695164e49dee523baeb4a242ef73295"
+},
+"medium:1003": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "cd8e2150cfdcb083d9db2dd58fe4fe0ff114607dc71263fb4e3e8191f35b17bf"
+},
+"medium:1004": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "5d7a31ab58f0c7b23645d9b9d581a4b7a9d78261e1b3a0235b159af55771b1d0"
+},
+"medium:1005": {
+"reward": 0.875,
+"D": 1.0,
+"spent": 25.0,
+"calls_hash": "17fec4daff4c9d323745f10d59e515189f137ed98a17d2496af4f489f960583b"
+},
+"medium:1006": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "65f7782794dabafd658aed1b5e26dcb34515534b1ec8313f0f7fd5620c1448af"
+},
+"medium:1007": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "b23c57006dbb8d0f4be16dd6e6ca7ce6371fbe098f64017d634c6f1dc6f98603"
+},
+"medium:1008": {
+"reward": 0.87,
+"D": 1.0,
+"spent": 26.0,
+"calls_hash": "c88a47f98c4dd44845e4d2607ffb1151c61542a59a8f31d954e2f2616c373839"
+},
+"medium:1009": {
+"reward": 0.8800000000000001,
+"D": 1.0,
+"spent": 24.0,
+"calls_hash": "8fe0499e51dfbbe1d0324937761b6a1b92a39ab918b52d33b135944a8f9f02ed"
+},
+"medium:1010": {
+"reward": 0.905,
+"D": 1.0,
+"spent": 19.0,
+"calls_hash": "dc41a69584cab2a44cccdfbecfbf16e38e25dca08e068192e1ff48f5d3695970"
+},
+"medium:1011": {
+"reward": 0.875,
+"D": 1.0,
+"spent": 25.0,
+"calls_hash": "d366bea95646377ea6a5b038f11afe86599374a6d2239a3bc4824c9ec9214052"
+},
+"medium:1012": {
+"reward": 0.8800000000000001,
+"D": 1.0,
+"spent": 24.0,
+"calls_hash": "1fe1f59ac871332895a6e764dd8f05e9ed473f98999422a9257a82535be23213"
+},
+"medium:1013": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "2da320ea3d18a3db7b3af6c87a91d2e4fa5c35e47a26bd0c21f284a7f4fda584"
+},
+"medium:1014": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "d3ae51c1d5783b73e119fe40dea3aabda1fc3c8dcc9a367d0a48c56bafee0ecf"
+},
+"medium:1015": {
+"reward": 0.8800000000000001,
+"D": 1.0,
+"spent": 24.0,
+"calls_hash": "5f0147b867dc75675fd64ba0a5e49f59a3d80d73bfbbbd9de329b3effcd66abc"
+},
+"medium:1016": {
+"reward": 0.885,
+"D": 1.0,
+"spent": 23.0,
+"calls_hash": "31f66bcf6f67ed1aee94cdcfc916de07b5fc66828e9f48ed3cb19e7fe0d5abc9"
+},
+"medium:1017": {
+"reward": 0.8800000000000001,
+"D": 1.0,
+"spent": 24.0,
+"calls_hash": "0a58c9a4915b554ba980985b554ce482dff6c4425ce88ab7bce8c5953bce10f1"
+},
+"medium:1018": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "2c6681f56847351a9bd8a4167ac9bd1a97f67a579099ceb6d4ba126f400a229a"
+},
+"medium:1019": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "a80ca69b105bb80b56d121cb0475dccaeeac21f2ed4726c177054c60b1a5db37"
+},
+"medium:1020": {
+"reward": 0.885,
+"D": 1.0,
+"spent": 23.0,
+"calls_hash": "a7cea166f41193cad25246eef67f1c145397096abbbb41deea6f05e18beb8ab5"
+},
+"medium:1021": {
+"reward": 0.875,
+"D": 1.0,
+"spent": 25.0,
+"calls_hash": "d1d9f217f2f5e85af7ce7edc0f5fa87b88681147e76350d0f06bf93f14ea045a"
+},
+"medium:1022": {
+"reward": 0.875,
+"D": 1.0,
+"spent": 25.0,
+"calls_hash": "9ee54c33cf2efb117cb410efd15a9ce0158ab5ff8b96db4e8db8e0e5ce54d85c"
+},
+"medium:1023": {
+"reward": 0.885,
+"D": 1.0,
+"spent": 23.0,
+"calls_hash": "9197dca53892e0810481a071eadd94cce9e468040c85e1604dfcb4107425ca5f"
+},
+"medium:1024": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "e506d4bf4bfedecadd84e4ddd861cfb2a6677638ce263b17f051bf86bb70ff8b"
+},
+"medium:1025": {
+"reward": 0.875,
+"D": 1.0,
+"spent": 25.0,
+"calls_hash": "aa88b704ce167ad9fe95e8e817e77953072ff403f98b5cd119f1f5e24815f305"
+},
+"medium:1026": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "07f1490015e5f884980bde22d9e689fc3d0eeab9d0243d7e5a2abd16f51c612b"
+},
+"medium:1027": {
+"reward": 0.875,
+"D": 1.0,
+"spent": 25.0,
+"calls_hash": "4dcec9bd307f648e339fcaecc1c9b821615dc10a2d2c223e43b1a97117892c8f"
+},
+"medium:1028": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "4d0b8a7df939b7fbf1ca3ed23ecd7deca84967f49321d9f498158dd9bfd6ed84"
+},
+"medium:1029": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "4aa7bf6850ec6de7dbaf4fd2888f2cdbbc2660d56ba239138296484b4d77e9d9"
+},
+"medium:1030": {
+"reward": 0.885,
+"D": 1.0,
+"spent": 23.0,
+"calls_hash": "1187823de8b9593c4b37336a3214babc8578cf3e8aaae37d8f196488ff11933e"
+},
+"medium:1031": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "56211ab9c2083ea49a11c9a4e09ea8b094a2902e82e284293ca7250c41641605"
+},
+"medium:1032": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "36930378acc98c79be55bfe708b8ecceebe412022cd9c37bc7d80277850352fb"
+},
+"medium:1033": {
+"reward": 0.8800000000000001,
+"D": 1.0,
+"spent": 24.0,
+"calls_hash": "099ae48add3fb09a74a4170363ea37128a5ff3908e3f4b3808c1619a44f50c1d"
+},
+"medium:1034": {
+"reward": 0.87,
+"D": 1.0,
+"spent": 26.0,
+"calls_hash": "f6daa2233a91f4c62d622d365843965e405a259f2db5e10f5ef9c77ee1e68b39"
+},
+"medium:1035": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "24f6d69da62fa017f69778392cc6e72caabbfcf2efa0bd78d12414b979e49c2c"
+},
+"medium:1036": {
+"reward": 0.885,
+"D": 1.0,
+"spent": 23.0,
+"calls_hash": "6579fdfddfc86994dacd151181a813071c96db99abf5cb6bef768a3a1b771f19"
+},
+"medium:1037": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "a8cd7c9fca494f72ac8a4026d417968d0ffe38a813ef49672d5546d974bd7764"
+},
+"medium:1038": {
+"reward": 0.875,
+"D": 1.0,
+"spent": 25.0,
+"calls_hash": "a117ad0f5d9f66f98391976ead291ae360a0b36ffc21859469354c3211e7c570"
+},
+"medium:1039": {
+"reward": 0.885,
+"D": 1.0,
+"spent": 23.0,
+"calls_hash": "3b38195413550fd5f8533c2b3a4a64b73047813e0d9fd20151ffaf46c7ff41d9"
+},
 "hard:0": {
 "reward": 0.8600000000000001,
 "D": 1.0,
@@ -3600,6 +4080,246 @@
 "D": 1.0,
 "spent": 28.0,
 "calls_hash": "46f0143436ed8da10c9ad1b29839aeeb543d9394d7e0ba077330621d04ce8229"
+},
+"hard:1000": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "b8fba44ac12d3779d0e9e7311b74a1338749da434b777fa0596dadb60672b763"
+},
+"hard:1001": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "3e165e617060cc4d5f4accfffc3b43154e4b6cff71e89da3386a2562a2b9ded7"
+},
+"hard:1002": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "6e38aa49a2e953674911bd9e5f4c7ab966a598d19dce7cd2e3823844e0f22b7e"
+},
+"hard:1003": {
+"reward": 0.875,
+"D": 1.0,
+"spent": 25.0,
+"calls_hash": "ab1c9087801c5a61499fedcb124f60f298ec288baf449394118dc683ba40f4c8"
+},
+"hard:1004": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "183887ff58e3e9b0d3f64fc5ecc0097814aa613ff0d0c50dca3e34ffcdc21fd6"
+},
+"hard:1005": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "95f763091355c51f93695581dc813917c1f94d1731603b39e8e33911517d526d"
+},
+"hard:1006": {
+"reward": 0.87,
+"D": 1.0,
+"spent": 26.0,
+"calls_hash": "77951a9d93b433eb2e7cd9ad6b59d3542d11d13606464620b4a436132b59a6f2"
+},
+"hard:1007": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "ce271c6b423252b8d9c3dc61e57b9382dcbc867b227b29c0392958bc0f7cada8"
+},
+"hard:1008": {
+"reward": 0.865,
+"D": 1.0,
+"spent": 27.0,
+"calls_hash": "1c504785091e4ab15c48db28f479d04bdb715d7915c0f7bd43806aaa83518a54"
+},
+"hard:1009": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "44c1bb557b900869ca3f5448561f3384d5ec38664d0b9f9dc7c477a5fc0da7ef"
+},
+"hard:1010": {
+"reward": 0.885,
+"D": 1.0,
+"spent": 23.0,
+"calls_hash": "199fae927ae3c4cf10a153a8f185cb37f541db06dc309b41e44c7f248a0c8cb2"
+},
+"hard:1011": {
+"reward": 0.8800000000000001,
+"D": 1.0,
+"spent": 24.0,
+"calls_hash": "e7bc703306e85bfbf8880df7c56d258e2e22d32b2f7a04b9fdfc527f9a55ad82"
+},
+"hard:1012": {
+"reward": 0.885,
+"D": 1.0,
+"spent": 23.0,
+"calls_hash": "87554840e9ecfad49ddb879134ea19a7070ba28be46c0989caf862bd691aef29"
+},
+"hard:1013": {
+"reward": 0.8800000000000001,
+"D": 1.0,
+"spent": 24.0,
+"calls_hash": "7aa5d5826c9e9a26a2567c8872ca6ab3dfa37a31a912cc3b0c8757083a77e03a"
+},
+"hard:1014": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "a0fb820e8e9d6b38b4f5199e4078219b32f519bd32b08af97233b03b844514bc"
+},
+"hard:1015": {
+"reward": 0.45293957139677415,
+"D": 0.5,
+"spent": 28.0,
+"calls_hash": "d67224e99322e252dc33fb326dc6e93587729df4ce095d07be2082cb8a712494"
+},
+"hard:1016": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "06a031b0bd46b3f73797295d23b2bef633da1aa11e8ba4c591910066a1a572a9"
+},
+"hard:1017": {
+"reward": 0.8800000000000001,
+"D": 1.0,
+"spent": 24.0,
+"calls_hash": "bcb5c99c554358157235508f4134d7fdf4724b6fe1589d772900f87d272671c3"
+},
+"hard:1018": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "2997d6520451a6425ccae109e4aaac7f0b45a9fabeef1238cfa9fd93949753cc"
+},
+"hard:1019": {
+"reward": 0.25,
+"D": 0.5,
+"spent": 25.0,
+"calls_hash": "6fc71ffb29d0a6578bfcc144df000c9d0c105f633ac70a9fa8d71d2081981870"
+},
+"hard:1020": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "f384e53cd28074473b2f2a2091a1bf06c20382d58b8be55bdc62b8bac59f8779"
+},
+"hard:1021": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "24da28ad7317f2ee9d0ef210a842c78b76baf8c3eee28cfcc942a896f33bf452"
+},
+"hard:1022": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "390e97e982384318cc68ab148e089d64547f031cbdcb1d5d72a7001b7fbe40ca"
+},
+"hard:1023": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "66aec8b7cd18bbedcd68636a2999b02197f1907f6db8670868ae7a0477dc789f"
+},
+"hard:1024": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "40ad2d48643e8cbf79b91f4159d006e8173441763804c2aa21653b77eeca4b73"
+},
+"hard:1025": {
+"reward": 0.885,
+"D": 1.0,
+"spent": 23.0,
+"calls_hash": "d10a475719027f32fed2a0237a4868b23bf540f476a50eacbf12ec89279ed0fc"
+},
+"hard:1026": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "bb67f0a2217018fbef42861548bbff47671fafc1b7ceed0e4c3c1fb63fd48a89"
+},
+"hard:1027": {
+"reward": 0.8800000000000001,
+"D": 1.0,
+"spent": 24.0,
+"calls_hash": "d7aa6c73f676a9abe4f6d5fcacd10dd0da4349b6bd7f4a19daaabc6427357a8c"
+},
+"hard:1028": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "fdec0fe0aa9913d0ea7c677922187d7d8ed5b58c1dbde6379cfdac93130f72e9"
+},
+"hard:1029": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "ef46bb8a2b68ac767e2f502851c6bd2f9eb7ae274c907babb3ce6de44e4d762d"
+},
+"hard:1030": {
+"reward": 0.3634247570974669,
+"D": 0.4,
+"spent": 28.0,
+"calls_hash": "fea1f80ba17a7c8c4e3e50c8fbc3e1b714ecf162d9aaff7823715d4bdb11a994"
+},
+"hard:1031": {
+"reward": 0.87,
+"D": 1.0,
+"spent": 26.0,
+"calls_hash": "cb3a2d1615ec964238c7222b6b1ab0a0dd88b1143cd28446d258310e5ec4057b"
+},
+"hard:1032": {
+"reward": 0.89,
+"D": 1.0,
+"spent": 22.0,
+"calls_hash": "94dd67e91193a1c87824e576190c3ef10585220413b2a142c50661771eaa6189"
+},
+"hard:1033": {
+"reward": 0.8150000000000001,
+"D": 0.9,
+"spent": 28.0,
+"calls_hash": "88a43d698b601b761958af03a7b73cde996caf03fbca46cb3687c24e2cd0a78c"
+},
+"hard:1034": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "e7702b2d672d4df9d29cf3e8b1000e8549ec7a5267443b4b6feedc55abba136f"
+},
+"hard:1035": {
+"reward": 0.8800000000000001,
+"D": 1.0,
+"spent": 24.0,
+"calls_hash": "5760660dad8da736eb3a0446e169bd139ff98d4ab7a7c05d9ba3baba21caca5d"
+},
+"hard:1036": {
+"reward": 0.8600000000000001,
+"D": 1.0,
+"spent": 28.0,
+"calls_hash": "f8bfc1baee5ee6d169c8beeae8729e210adb30da0bdaf99e75b785b7b8960665"
+},
+"hard:1037": {
+"reward": 0.885,
+"D": 1.0,
+"spent": 23.0,
+"calls_hash": "87b4bf39a8b8793da63862d8e5648c7dfa1ba5686fc0013f814aa0625cea9c55"
+},
+"hard:1038": {
+"reward": 0.895,
+"D": 1.0,
+"spent": 21.0,
+"calls_hash": "f8f967f347aa38907b53a7b25b8da8d346bd18eca94661b5853243c5efdda2cd"
+},
+"hard:1039": {
+"reward": 0.9,
+"D": 1.0,
+"spent": 20.0,
+"calls_hash": "028692aefba75f35f402a90bf67ceabf4fdfc8d339235a8be5e1c422b7ec70d7"
 }
 }
 }

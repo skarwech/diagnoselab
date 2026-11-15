@@ -1,0 +1,33 @@
+{
+ "anchoring": {
+  "agreement": 0.9,
+  "kappa": -0.05263157894736725,
+  "auto_pos": 1,
+  "manual_pos": 1,
+  "disagree": [
+   "E09",
+   "E17"
+  ]
+ },
+ "no_disambiguate": {
+  "agreement": 1.0,
+  "kappa": null,
+  "auto_pos": 0,
+  "manual_pos": 0,
+  "disagree": []
+ },
+ "budget_myopia": {
+  "agreement": 1.0,
+  "kappa": 1.0,
+  "auto_pos": 12,
+  "manual_pos": 12,
+  "disagree": []
+ },
+ "trusts_liar": {
+  "agreement": 1.0,
+  "kappa": null,
+  "auto_pos": 0,
+  "manual_pos": 0,
+  "disagree": []
+ }
+}

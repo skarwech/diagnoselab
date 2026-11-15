@@ -271,9 +271,9 @@ def test_find_stuck_does_not_mutate_input() -> None:
 
 # --- 6. cache ----------------------------------------------------------------------------------
 def test_cache_keys_and_values() -> None:
-    """scoring_spec 4: {"tier:seed": R} for dev seeds 0-199 of every tier, finite R in [0, 1]."""
+    """scoring_spec 4: {"tier:seed": R} for dev seeds 0-199 and test seeds 1000-1039 of every tier, finite R in [0, 1]."""
     cache = json.loads((ROOT / "diagnoselab" / "scoring" / "oracle_scores.json").read_text())
-    assert set(cache) == {f"{t}:{s}" for t in TIERS for s in range(200)}
+    assert set(cache) == {f"{t}:{s}" for t in TIERS for s in (*range(200), *range(1000, 1040))}
     for key, value in cache.items():
         assert isinstance(value, (int, float)) and not isinstance(value, bool), key
         assert math.isfinite(value) and 0.0 <= value <= 1.0, (key, value)
@@ -282,7 +282,8 @@ def test_cache_keys_and_values() -> None:
 
 def test_cache_below_floor_count() -> None:
     """scoring_spec 4: 10 of 600 dev seeds fall below the floor."""
-    assert sum(v < NORM_FLOOR for v in oracle_scores().values()) == 10
+    dev = {k: v for k, v in oracle_scores().items() if int(k.split(":")[1]) < 1000}
+    assert sum(v < NORM_FLOOR for v in dev.values()) == 10
 
 
 @pytest.mark.parametrize("seed,tier", CASES + [(94, "medium"), (143, "hard")])
@@ -357,8 +358,8 @@ def test_finalize_perfect_agent_capped(tmp_path: Path) -> None:
 
 
 def test_finalize_uncached_seed_raw(tmp_path: Path) -> None:
-    """Seeds 1000+ are not cached: reward stays raw R."""
-    seed, tier = 1000, "easy"
+    """Seeds outside the cache (here 1100) are not normalised: reward stays raw R."""
+    seed, tier = 1100, "easy"
     assert f"{tier}:{seed}" not in oracle_scores()
     i = make_instance(seed, tier)
     state = tmp_path / "state"
