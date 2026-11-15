@@ -5,6 +5,11 @@ description = "DiagnoseLab: hidden-fault diagnosis under a probe budget (RL envi
 requires-python = ">=3.12,<3.14"
 dependencies = ["mcp==2.3.0", "numpy==2.5.4"]
 
+[project.optional-dependencies]
+demo = [
+    "streamlit>=1.67.0",
+]
+
 [dependency-groups]
 dev = ["pytest==9.2.0", "harbor==0.25.0", "scipy==1.18.1", "matplotlib==3.11.2"]
 

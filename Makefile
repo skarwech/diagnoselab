@@ -2,7 +2,10 @@ TASK := harbor_task
 SIM  := $(TASK)/environment/sim
 HARBOR := uv run harbor
 
-.PHONY: sync test lint skeleton view validate-sim hashes-linux isolation validate-server validate-scoring oracle-cache validate-oracle install-oracle-cache pilot
+.PHONY: sync test lint skeleton view validate-sim hashes-linux isolation validate-server validate-scoring oracle-cache validate-oracle install-oracle-cache pilot demo
+
+demo:  ## interactive demo: watch the oracle, play an episode, browse results (http://localhost:8501)
+	uv run --extra demo streamlit run demo/app.py
 
 PILOT_TASKS ?= tasks/pilot
 
