@@ -18,24 +18,24 @@
    ],
    "server_alive": true,
    "p95_ms": {
-    "get_topology": 2.8144163465185557,
-    "read_manual": 2.3951920033141505,
-    "budget_status": 2.214299994375324,
-    "simulate": 2.957678848906653,
-    "read_sensor": 54.1070501509239,
-    "run_experiment": 53.75055000040447
+    "get_topology": 3.7018937589891716,
+    "read_manual": 2.651020849589258,
+    "budget_status": 2.2732556550181466,
+    "simulate": 3.3562562450242694,
+    "read_sensor": 53.249333302665036,
+    "run_experiment": 52.69752679596422
    }
   }
  },
  "F6_timing": {
   "calls_per_arm": 150,
-  "p_unpadded": 1.9663640555962246e-50,
-  "p_padded": 0.3388655786397482,
+  "p_unpadded": 1.0347124606282945e-18,
+  "p_padded": 0.8406996051628485,
   "median_ms": {
-   "A": 52.06714599989937,
-   "B": 52.06802099928609,
-   "A_unpadded": 0.31929150281939656,
-   "B_unpadded": 0.594500499573769
+   "A": 51.11127099371515,
+   "B": 51.11989550641738,
+   "A_unpadded": 0.9616250026738271,
+   "B_unpadded": 1.7026244968292303
   }
  },
  "F7_F8": {
@@ -49,7 +49,7 @@
  },
  "F9_F11_F12_F13": {
   "sequences": 100000,
-  "sequence_seconds": 103.97627975000069,
+  "sequence_seconds": 101.67105162500229,
   "ledger_exact": 1.0,
   "property_violations": {
    "over_budget": 0,

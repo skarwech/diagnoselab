@@ -1,0 +1,10 @@
+<p class="mut">The configuration is frozen at <b>B = 40</b> (your decision after the probes), configuration hash
+<code>dc9bbc81fc21</code>. Every Step 2-5 validation was rerun on the frozen code, the oracle cache rebuilt for dev seeds 0-199
+in the Linux image (macOS matches on all 600; all 600 equal the Step 5 cache), and the tests pass (534 passed, 19 skipped,
+1 known expected failure). The B = 26 column is the probe, kept for the record.</p>
+<div class="wrap"><table><thead><tr><th>Step</th><th>Frozen, B = 40</th><th>Probe, B = 26</th><th>Difference</th></tr></thead><tbody>
+<tr><td>2 Simulator (F1-F5)</td><td>28 pass, 1 fail, 1 n/t</td><td>27 pass, 2 fail, 1 n/t</td><td>At B = 26 the certifier discards 35% of hard draws.</td></tr>
+<tr><td>3 Server (F6-F14)</td><td>21 pass, 3 fail, 2 n/t</td><td>21 pass, 3 fail, 2 n/t</td><td>None (budget-independent).</td></tr>
+<tr><td>4 Scoring (F15-F18)</td><td>11 pass, 2 fail, 4 n/t</td><td>11 pass, 2 fail, 4 n/t</td><td>None. The MCP cross-check, stale since Step 5 normalisation, was fixed (18 of 18 identical).</td></tr>
+<tr><td>5 Oracle (F19, F5, F17, F18, F20)</td><td>17 pass, 5 fail</td><td>15 pass, 7 fail</td><td>At B = 26: oracle medium D 0.87 on the F19 seeds, F5 hard 66.5%, information efficiency 33% / 73% / 93%, no valve or isolation steps. F20 passes in both (15 of 15 Harbor trials equal the cache).</td></tr>
+</tbody></table></div>

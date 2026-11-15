@@ -24,7 +24,7 @@ from diagnoselab.sim.model import Fault, Instance
 
 TIERS = ("easy", "medium", "hard")
 CASES = [(seed, tier) for tier in TIERS for seed in range(4)]  # dev seeds
-BUDGET = 40
+from diagnoselab.sim.experiments import BUDGET  # B
 TOL = 1e-6  # plan decision 8: scoring rounds to 1e-6
 KEYS = {"reward", "D", "S", "efficiency", "spent", "submitted", "n_true", "matched_credit", "false_positives",
         "unneeded_repairs", "restoration"}
@@ -106,17 +106,17 @@ def test_efficiency_zero_when_d_below_gate(d: float) -> None:
 
 
 @pytest.mark.parametrize("d, spent, expected", [
-    (0.55, 0, 0.5), (0.7, 0, 1.0), (1.0, 0, 1.0), (1.0, 20, 0.5), (0.85, 10, 0.75), (1.0, 40, 0.0),
-    (0.7, 30, 0.25), (0.475, 8, 0.2),
+    (0.55, 0, 0.5), (0.7, 0, 1.0), (1.0, 0, 1.0), (1.0, BUDGET / 2, 0.5), (0.85, BUDGET / 4, 0.75), (1.0, BUDGET, 0.0),
+    (0.7, 0.75 * BUDGET, 0.25), (0.475, 0.2 * BUDGET, 0.2),
 ])
 def test_efficiency_formula(d: float, spent: int, expected: float) -> None:
-    """F17 / scoring_spec section 4: efficiency = g(D) * (1 - spent/40)."""
+    """F17 / scoring_spec section 4: efficiency = g(D) * (1 - spent/B)."""
     assert efficiency(d, spent) == pytest.approx(expected, abs=TOL)
 
 
 @pytest.mark.parametrize("d, s, spent, expected", [
-    (0.0, 0.0, 0, 0.0), (1.0, 1.0, 0, 1.0), (1.0, 1.0, 40, 0.8), (0.0, 1.0, 0, 0.35), (0.5, 0.0, 0, 0.225 + 0.2 / 3),
-    (0.3, 0.6, 10, 0.135 + 0.21), (0.85, 0.5, 20, 0.3825 + 0.175 + 0.1),
+    (0.0, 0.0, 0, 0.0), (1.0, 1.0, 0, 1.0), (1.0, 1.0, BUDGET, 0.8), (0.0, 1.0, 0, 0.35), (0.5, 0.0, 0, 0.225 + 0.2 / 3),
+    (0.3, 0.6, 10, 0.135 + 0.21), (0.85, 0.5, BUDGET / 2, 0.3825 + 0.175 + 0.1),
 ])
 def test_total_reward_formula(d: float, s: float, spent: int, expected: float) -> None:
     """F17 / scoring_spec section 4: R = 0.45 D + 0.35 S + 0.20 efficiency."""

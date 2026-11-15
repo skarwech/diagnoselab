@@ -59,7 +59,7 @@ def _impact_at(spec: PlantSpec, comp: str, typ: str, m: float) -> float:
 
 @lru_cache(maxsize=512)
 def eligible_pairs(spec: PlantSpec) -> tuple[tuple[str, str], ...]:
-    """Physical pairs that degrade the KPI by >= 5% alone at their maximum range magnitude."""
+    """Physical pairs that degrade the KPI by >= MIN_IMPACT alone at their maximum range magnitude."""
     return tuple(p for p in physical_pairs(spec) if _impact_at(spec, *p, MAGNITUDE_RANGES[p[1]][1]) >= MIN_IMPACT)
 
 

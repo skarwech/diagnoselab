@@ -1,0 +1,19 @@
+{
+ "provenance": "Measured during Step 6 with diagnoselab.eval.run_oracle on held-out dev seeds 50-99 (50 per tier), under the code of each probe configuration (since reverted, so not recomputable from the final tree). Values copied from the run outputs.",
+ "spend_cap_curve_B40": [
+  {"cap": 28, "easy": 1.000, "medium": 0.980, "hard": 0.994},
+  {"cap": 24, "easy": 1.000, "medium": 0.970, "hard": 0.988},
+  {"cap": 20, "easy": 1.000, "medium": 0.950, "hard": 0.928},
+  {"cap": 18, "easy": 1.000, "medium": 0.917, "hard": 0.868},
+  {"cap": 16, "easy": 0.980, "medium": 0.887, "hard": 0.856}
+ ],
+ "configs": {
+  "B40": {"label": "B = 40 (Step 5)", "oracle_cap": 28, "oracle_D": {"easy": 1.000, "medium": 0.980, "hard": 0.994}},
+  "B26": {"label": "B = 26", "oracle_cap": 18, "oracle_D": {"easy": 1.000, "medium": 0.917, "hard": 0.876}},
+  "B26_subtle": {"label": "B = 26 + subtle faults (2% floor, lowest third)", "oracle_cap": 20, "oracle_D": {"easy": 0.930, "medium": 0.933, "hard": 0.878},
+                 "lazy_raw_D": {"easy": 0.810, "medium": 0.530, "hard": 0.428}},
+  "B26_meters": {"label": "B = 26 + half the flow meters", "oracle_cap": 21, "oracle_D": {"easy": 0.960, "medium": 0.903, "hard": 0.854},
+                 "lazy_raw_D": {"easy": 0.890, "medium": 0.487, "hard": 0.298}}
+ },
+ "D_targets": {"easy": 0.9, "medium": 0.9, "hard": 0.8}
+}

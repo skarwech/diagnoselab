@@ -281,7 +281,7 @@ from diagnoselab.sim.certifier import certify
 | `apply_drift` | `(spec, faults, drift) -> tuple[Fault, ...]` | Returns the post-drift fault set. |
 | `drift_fires` | `(spent_before: float, cost: float, budget: float = 40) -> bool` | The pure trigger of section 4. |
 | `MAGNITUDE_RANGES`, `PHYSICAL_MAX` | `dict[type, (lo, hi)]`, `dict[type, float]` | Ranges and drift caps from the section 4 table. |
-| `certify` | `(spec, faults, budget: int = 40) -> CertResult` | `CertResult(accepted: bool, crb_rel: dict[str, float], coherence: dict[str, float], reasons: tuple[str, ...], spend: dict[str, int], separation: dict[str, float])`. `crb_rel` and `coherence` are keyed by `"component:type"`; `spend` is the greedy allocation (probe label to repeat count). |
+| `certify` | `(spec, faults, budget: int = BUDGET) -> CertResult` | `CertResult(accepted: bool, crb_rel: dict[str, float], coherence: dict[str, float], reasons: tuple[str, ...], spend: dict[str, int], separation: dict[str, float])`. `crb_rel` and `coherence` are keyed by `"component:type"`; `spend` is the greedy allocation (probe label to repeat count). |
 
 ## 10. Certifier (F5)
 

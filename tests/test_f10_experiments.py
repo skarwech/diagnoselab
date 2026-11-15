@@ -76,7 +76,7 @@ def test_experiment_cost_sensors_values_and_revert(case: tuple[int, str]) -> Non
         exp = expected(instance, want, 1, kind, args)
         assert all(abs(r["readings"][sid] - exp[sid]) <= TOL for sid in want), kind
         assert ep.true_readings({"experiment": "nominal"}) == truth, kind
-        for k, sid in enumerate(sensors, start=2):
+        for k, sid in enumerate(sensors[: BUDGET - 1 - cost], start=2):  # as many reads as the budget allows
             value = ep.call("read_sensor", {"sensor_id": sid})["value"]
             assert abs(value - expected(instance, [sid], k)[sid]) <= TOL, (kind, sid, "plant did not revert")
 

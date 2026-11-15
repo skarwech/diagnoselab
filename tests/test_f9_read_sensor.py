@@ -86,22 +86,26 @@ def test_stuck_and_biased_sensors_per_f3() -> None:
 
 def test_budget_refusal_has_no_partial_effect() -> None:
     """F9 'refusal when the budget is insufficient, with no partial effect': an unaffordable call is E_BUDGET,
-    leaves state_hash and the ledger unchanged and takes no noise index; reads past B = 40 are E_BUDGET too."""
+    leaves state_hash and the ledger unchanged and takes no noise index; reads past B are E_BUDGET too."""
     instance = inst(1, "easy")
     sid = instance.spec.sensors[0].id
     ep = running(instance)
-    for _ in range(4):
+    n_static = (BUDGET - 4) // 8  # then a speed step leaves fewer than 8 units
+    for _ in range(n_static):
         ep.call("run_experiment", {"type": "pump_off_static", "args": {}})
     ep.call("run_experiment", {"type": "speed_step", "args": {"s": 0.9}})
+    spent = 8 * n_static + 4
     before = ep.state_hash()
     with pytest.raises(ToolRejected) as e:
         ep.call("run_experiment", {"type": "pump_off_static", "args": {}})
     assert e.value.code == "E_BUDGET" and ep.state_hash() == before
     line = ep.trace[-1]
-    assert (line["ok"], line["code"], line["cost"], line["spent"], line["budget_left"]) == (False, "E_BUDGET", 0, 36, 4)
+    assert (line["ok"], line["code"], line["cost"], line["spent"], line["budget_left"]) == (
+        False, "E_BUDGET", 0, spent, BUDGET - spent)
     r = ep.call("read_sensor", {"sensor_id": sid})
-    assert abs(r["value"] - expected(instance, [sid], 5)[sid]) <= TOL, "refused call consumed a noise index"
-    assert [ep.call("read_sensor", {"sensor_id": sid})["budget_left"] for _ in range(3)] == [2, 1, 0]
+    assert abs(r["value"] - expected(instance, [sid], n_static + 1)[sid]) <= TOL, "refused call consumed a noise index"
+    left = BUDGET - spent - 1
+    assert [ep.call("read_sensor", {"sensor_id": sid})["budget_left"] for _ in range(left)] == list(range(left - 1, -1, -1))
     before = ep.state_hash()
     with pytest.raises(ToolRejected) as e:
         ep.call("read_sensor", {"sensor_id": sid})

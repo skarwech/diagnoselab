@@ -48,7 +48,7 @@ The oracle is the reference run, and doubles as the fairness proof that the task
    - Each fit has a soft allowance of 35 `simulate` calls for optional work.
 3. **Stop rule inputs.** For each element: its swap margin against the best rival and its relative sd. Candidates whose drop is in [9, 25) count as ambiguous. An element is unresolved if its margin is < 25 or its relative sd is > 0.15.
 4. **Focus phase.** Probes are chosen by D-optimal gain per cost over the unresolved elements, their competitors and ambiguous candidates only, including local probes that touch them.
-5. **Stop** when nothing is unresolved, when the spend would exceed 70% of the budget `get_topology` reports (28 of 40), when no probe gains ≥ 0.05 nats per unit, or when `simulate` runs down to the reserve (10 + (support + 2) per operating point in use).
+5. **Stop** when nothing is unresolved, when the spend would exceed 70% of the budget `get_topology` reports (28 of 40; B = 26 was probed in Step 6 and rejected), when no probe gains ≥ 0.05 nats per unit, or when `simulate` runs down to the reserve (10 + (support + 2) per operating point in use).
 6. **Final polish** (no allowance, every improvement committed at once):
    - Borderline elements (linear margin < 50) are refit against their 2 leading rivals.
    - One-for-two pair search when the fit is poor (SSR z > 1.5) or ambiguous candidates remain: pairs among an element's 6 leading rivals are scored by two-column least squares, and a pair that beats the element by ≥ 9 gets a real refit. This fixes the common local minimum of one leak standing in for a neighbouring leak plus a fouled pipe.

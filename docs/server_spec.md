@@ -27,7 +27,7 @@ This file is the contract for the episode core, the MCP binding, the manual and 
 - In `SUBMITTED` and `FINALIZED` every call, including one to an unknown tool, is rejected with `E_EPISODE_OVER`.
 
 **Budget**
-- B = 40.
+- B = 40, set once in `diagnoselab/sim/experiments.py`.
 - Costs: `read_sensor` 1, `speed_step` 4, `valve_step` 4, `isolate_branch` 6, `pump_off_static` 8.
 - `read_manual`, `get_topology`, `simulate`, `budget_status` and `submit` cost 0.
 - A costed call that would exceed the remaining budget is rejected with `E_BUDGET` before anything happens.

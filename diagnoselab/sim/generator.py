@@ -23,6 +23,7 @@ SIZES = {
     "hard": {"junctions": (10, 12), "pumps": (2, 2), "outlets": (3, 4), "chords": (1, 2)},
 }
 VALVES = (2, 4)
+FT_PROB = 0.5  # chance a link carries a flow meter (0.25 probed in Step 6, rejected)
 TANK_HEAD = 50.0
 MIN_SPEED = 0.7  # lowest speed_step; must match experiments.SPEED_RANGE[0]
 STRUCTURE, FAULTS, NOISE, DRIFT = 0, 1, 2, 3
@@ -209,7 +210,7 @@ def generate_plant(seed: int, tier: str) -> PlantSpec:
 def _sensors(rng, junctions, links, design_q, power, vib) -> tuple[Sensor, ...]:
     pt = [j.id for j in junctions if j.side == "suction" or any(ln.kind == "pump" and ln.to == j.id for ln in links)]
     pt += [j.id for j in junctions if j.id not in pt and rng.random() < 0.6]
-    ft = [ln.id for ln in links if rng.random() < 0.5]
+    ft = [ln.id for ln in links if rng.random() < FT_PROB]
     touching: dict[str, list[Link]] = {}
     for ln in links:
         for n in (ln.frm, ln.to):

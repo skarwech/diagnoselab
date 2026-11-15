@@ -222,8 +222,11 @@ def mcp_crosscheck(seeds: tuple[int, ...] = (0, 1), policies: tuple[str, ...] = 
                 finally:
                     proc.kill()
                 inproc = run_inprocess(BASELINES[name], make_instance(seed, tier), seed)
-                rows.append({"tier": tier, "seed": seed, "policy": name, "mcp": via_mcp["reward"],
-                             "inprocess": inproc["reward"], "identical": via_mcp == inproc})
+                # finalize adds the Step 5 normalisation keys and may replace `reward` by score_norm:
+                # compare the raw score object (every key score_episode produces, with reward_raw for reward)
+                raw = {**{k: via_mcp[k] for k in inproc if k != "reward"}, "reward": via_mcp["reward_raw"]}
+                rows.append({"tier": tier, "seed": seed, "policy": name, "mcp": via_mcp["reward_raw"],
+                             "inprocess": inproc["reward"], "identical": raw == inproc})
     return {"rows": rows, "all_identical": all(r["identical"] for r in rows)}
 
 

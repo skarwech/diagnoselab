@@ -31,7 +31,7 @@ Call `read_manual` with `topic` set to one of the keys below to read that sectio
 - Sensor faults are `sensor_bias` and `sensor_stuck`, on any sensor.
 
 **Resources.**
-- Budget B = 26 units. `read_sensor` costs 1. `run_experiment` costs 4, 4, 6 or 8 depending on the experiment. `read_manual`, `get_topology`, `simulate`, `budget_status` and `submit` are free.
+- Budget B = 40 units. `read_sensor` costs 1. `run_experiment` costs 4, 4, 6 or 8 depending on the experiment. `read_manual`, `get_topology`, `simulate`, `budget_status` and `submit` are free.
 - Caps: 150 tool calls (every tool except `simulate` counts, rejected calls included), 300 `simulate` calls, and 30 minutes of wall clock from your first call. Hitting the call cap or the time cap ends the episode with no diagnosis, which scores 0.
 - `simulate` is a free digital twin. It solves exactly the plant equations (topic `physics`) for any faults you propose, at any setpoint, without noise. It knows nothing about the real faults.
 
@@ -77,7 +77,7 @@ A rejected call changes nothing, with three exceptions: it counts toward the 150
 | `links` | `{"id", "kind", "frm", "to", ...}`. Pipes carry `r`. Valves carry `r0`, the resistance at full opening. Pumps carry `a`, `b`, `q_bep`, `eta_max`, `v0`. Positive flow runs `frm -> to`; a pump's `frm` is its suction junction |
 | `sensors` | `{"id", "kind", "target", "unit", "sigma"}` |
 | `branches` | `{"id", "entry", "links", "junctions"}` (topic `experiments`) |
-| `budget`, `costs` | 26, and the cost of each costed call |
+| `budget`, `costs` | 40, and the cost of each costed call |
 | `speed_range`, `theta_range` | `[0.7, 1.2]` and `[0.1, 1.0]`; an experiment may not reproduce the nominal setpoint, so `s` must differ from 1 by at least 0.05 and `theta` must be at most 0.95 |
 
 **`simulate`** takes `{"overrides": [...], "setpoint": {...}, "sensors": [...]}`.
@@ -312,7 +312,7 @@ A repair on a component that is not faulty is unneeded and is penalised (topic `
 Scoring runs server-side, after the episode, against the hidden truth. You never see the score.
 
 ```
-R    = 0.45 * D + 0.35 * S + 0.20 * g(D) * (1 - spent / B)        B = 26
+R    = 0.45 * D + 0.35 * S + 0.20 * g(D) * (1 - spent / B)        B = 40
 g(D) = clip((D - 0.4) / 0.3, 0, 1)
 ```
 
